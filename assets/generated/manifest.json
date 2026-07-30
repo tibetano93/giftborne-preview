@@ -1,0 +1,21 @@
+{
+  "atlasVersion": 1,
+  "maxTextureDimension": 2048,
+  "textures": [
+    { "id": "aetherion", "file": "aetherion.png" },
+    { "id": "celestial-vault-arena", "file": "celestial-vault-arena.png" },
+    {
+      "id": "celestial-vault-sunlit-v2",
+      "file": "celestial-vault-sunlit-v2.png"
+    },
+    { "id": "relic-birthday-cake", "file": "relic-birthday-cake.png" },
+    { "id": "relic-duck", "file": "relic-duck.png" },
+    { "id": "relic-heart-gift-box", "file": "relic-heart-gift-box.png" },
+    { "id": "relic-sovereign", "file": "relic-sovereign.png" },
+    { "id": "skill-aether-burst", "file": "skill-aether-burst.png" },
+    { "id": "skill-astral-step", "file": "skill-astral-step.png" },
+    { "id": "skill-giftbound-shield", "file": "skill-giftbound-shield.png" },
+    { "id": "skill-relic-slash", "file": "skill-relic-slash.png" },
+    { "id": "skill-starfall-lance", "file": "skill-starfall-lance.png" }
+  ]
+}

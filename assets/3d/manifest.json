@@ -1,0 +1,96 @@
+{
+  "format": "glTF 2.0 binary",
+  "actorPayloadBudgetBytes": 1500000,
+  "models": [
+    {
+      "id": "giftborne-universal-humanoid-v1",
+      "file": "giftborne-humanoid-rig.glb",
+      "bytes": 551400,
+      "sha256": "44c7117d33fc142ff6f1b2ad919b98e3b91d6d66c5943a80e39aaaf55ed5f31d",
+      "sourceUrl": "https://quaternius.com/packs/modularcharacteroutfitsfantasy.html",
+      "license": "CC0-1.0",
+      "role": "mobile skinned outfit and humanoid rig foundation"
+    },
+    {
+      "id": "giftborne-combat-clips-v1",
+      "file": "giftborne-combat-clips.glb",
+      "bytes": 174312,
+      "sha256": "0c174c7af974c37f1a6c56d1b14afb2a852ae6aee25d1d381c86469664959c8f",
+      "sourceUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
+      "license": "CC0-1.0",
+      "role": "trimmed eleven-clip deterministic combat animation set"
+    }
+  ],
+  "materials": [
+    {
+      "id": "aetherion-armor-v1",
+      "file": "materials/aetherion-armor-v1.webp",
+      "bytes": 75952,
+      "sha256": "5869c726921f016b35f594e3f8675144293f0bb433d40192e9ddc59a998540ac",
+      "width": 512,
+      "height": 512,
+      "role": "original Aetherion armor detail atlas",
+      "actorPayload": true
+    },
+    {
+      "id": "sovereign-armor-v1",
+      "file": "materials/sovereign-armor-v1.webp",
+      "bytes": 77932,
+      "sha256": "e5e1514d45af25242a79055a4f9eaafbaa4349345cf16de8d4e01e82ab4787dd",
+      "width": 512,
+      "height": 512,
+      "role": "original Relic Sovereign armor detail atlas",
+      "actorPayload": true
+    },
+    {
+      "id": "celestial-vault-floor-v1",
+      "file": "materials/celestial-vault-floor-v1.webp",
+      "bytes": 235120,
+      "sha256": "a0d6c27371ffa37ecfb0cb685fed9faf0e0db3d1680eedcc4e25e1c616681a51",
+      "width": 1024,
+      "height": 1024,
+      "role": "original Celestial Vault arena floor",
+      "actorPayload": false
+    },
+    {
+      "id": "celestial-vault-floor-sunlit-v2",
+      "file": "materials/celestial-vault-floor-sunlit-v2.webp",
+      "bytes": 230974,
+      "sha256": "0320c966e4be8c4cf9705814a6bf468c690dfe68c38f0fe155c348027fb187c5",
+      "width": 1024,
+      "height": 1024,
+      "role": "original sunlit Celestial Vault arena floor",
+      "actorPayload": false
+    },
+    {
+      "id": "skyreach-frontier-daybreak-v3",
+      "file": "materials/skyreach-frontier-daybreak-v3.webp",
+      "bytes": 276466,
+      "sha256": "492b4ea8ca11375d26421cd9408fed38f89f5c7b21abc8d46eaf1c1ab873e24d",
+      "width": 1600,
+      "height": 900,
+      "role": "original bright Skyreach Frontier world panorama",
+      "actorPayload": false
+    },
+    {
+      "id": "skyreach-frontier-floor-v3",
+      "file": "materials/skyreach-frontier-floor-v3.webp",
+      "bytes": 278264,
+      "sha256": "e44a0d3e8ffbedea68a0e68b8a041736196618773e95a2941c45924189ae590c",
+      "width": 1024,
+      "height": 1024,
+      "role": "original garden-stone Skyreach Frontier combat floor",
+      "actorPayload": false
+    },
+    {
+      "id": "celestial-seal-v4",
+      "file": "materials/celestial-seal-v4.webp",
+      "bytes": 90466,
+      "sha256": "d25f1191d6004c227cc74429f121f0181220107dfd727b176f81fb2e354337de",
+      "width": 512,
+      "height": 512,
+      "role": "original additive celestial cast and impact seal",
+      "actorPayload": false
+    }
+  ]
+}
