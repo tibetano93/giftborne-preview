@@ -1,45 +1,117 @@
 {
   "format": "glTF 2.0 binary",
   "actorPayloadBudgetBytes": 1500000,
+  "vfxAtlasBudgetBytes": 640000,
   "models": [
     {
-      "id": "giftborne-universal-humanoid-v1",
-      "file": "giftborne-humanoid-rig.glb",
-      "bytes": 551400,
-      "sha256": "44c7117d33fc142ff6f1b2ad919b98e3b91d6d66c5943a80e39aaaf55ed5f31d",
+      "id": "giftborne-aetherion-v4",
+      "file": "aetherion-authored-v4.glb",
+      "bytes": 186276,
+      "sha256": "7692054b2f3538f1c9b38e41b8c356ac7a7052b0c443557cfee4dad836d31c91",
       "sourceUrl": "https://quaternius.com/packs/modularcharacteroutfitsfantasy.html",
-      "license": "CC0-1.0",
-      "role": "mobile skinned outfit and humanoid rig foundation"
+      "license": "CC0-1.0 + Giftborne-original",
+      "role": "Aetherion hidden skinned motion underlayer with original profiled surfaces, curved armor, authored UV islands, cape and relic blade",
+      "signature": "GB_AETHERION_SIGNATURE"
     },
     {
-      "id": "giftborne-combat-clips-v1",
-      "file": "giftborne-combat-clips.glb",
-      "bytes": 174312,
-      "sha256": "0c174c7af974c37f1a6c56d1b14afb2a852ae6aee25d1d381c86469664959c8f",
+      "id": "giftborne-relic-sovereign-v4",
+      "file": "relic-sovereign-authored-v4.glb",
+      "bytes": 180164,
+      "sha256": "4a965e87552b6f93efba0c9401bf64beedfa23b423b92d35a36581dcda5b28c0",
+      "sourceUrl": "https://quaternius.com/packs/modularcharacteroutfitsfantasy.html",
+      "license": "CC0-1.0 + Giftborne-original",
+      "role": "Relic Sovereign hidden skinned motion underlayer with original profiled vessel, convex regalia, authored UV islands, crown, orrery and crescent staff",
+      "signature": "GB_SOVEREIGN_SIGNATURE"
+    },
+    {
+      "id": "giftborne-vault-sentinel-v3",
+      "file": "vault-sentinel-authored-v3.glb",
+      "bytes": 42472,
+      "sha256": "e45091cea98499ef71da432d47d7350c74cc91eb21d38f75a8a717556fbc3167",
+      "sourceUrl": "Giftborne Blender source",
+      "license": "Giftborne-original",
+      "role": "original animated Vault Sentinel with profiled shield, luminous mask, armor and pennant-spear construct",
+      "signature": "GB_SENTINEL_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aether-wisp-v3",
+      "file": "aether-wisp-authored-v3.glb",
+      "bytes": 28912,
+      "sha256": "b70397d516c83c842b92a6d0825e85bdfd3a40596b4047a2c5b4a7d49a6c5f90",
+      "sourceUrl": "Giftborne Blender source",
+      "license": "Giftborne-original",
+      "role": "original animated Aether Wisp with lathed core, profiled petals, orbit and trailing-light form",
+      "signature": "GB_WISP_SIGNATURE"
+    },
+    {
+      "id": "giftborne-authored-motion-v2",
+      "file": "giftborne-authored-motion-v2.glb",
+      "bytes": 431932,
+      "sha256": "116f41ed6380d615d7f4fb5a2137de85651c7db180aa1e903a10acc79d64299e",
       "sourceUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
-      "license": "CC0-1.0",
-      "role": "trimmed eleven-clip deterministic combat animation set"
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "twenty-one actor-specific in-place Aetherion and Sovereign motion clips"
     }
   ],
   "materials": [
     {
-      "id": "aetherion-armor-v1",
-      "file": "materials/aetherion-armor-v1.webp",
-      "bytes": 75952,
-      "sha256": "5869c726921f016b35f594e3f8675144293f0bb433d40192e9ddc59a998540ac",
+      "id": "aetherion-star-metal-v2",
+      "file": "materials/aetherion-star-metal-v2.webp",
+      "bytes": 68434,
+      "sha256": "3abcb325a3c56918e014e46b8d154f34c8ab381546053cef357e18339b3bc292",
       "width": 512,
       "height": 512,
-      "role": "original Aetherion armor detail atlas",
+      "role": "original warm ivory Aetherion star-metal color material",
       "actorPayload": true
     },
     {
-      "id": "sovereign-armor-v1",
-      "file": "materials/sovereign-armor-v1.webp",
-      "bytes": 77932,
-      "sha256": "e5e1514d45af25242a79055a4f9eaafbaa4349345cf16de8d4e01e82ab4787dd",
+      "id": "aetherion-star-metal-normal-v1",
+      "file": "materials/aetherion-star-metal-normal-v1.webp",
+      "bytes": 170958,
+      "sha256": "7ceb4faadb1f16a66b8b646de2d4c7045ebcd66b758aab022eadf4bdec5d8940",
+      "width": 256,
+      "height": 256,
+      "role": "derived tangent-space normal detail for Aetherion star-metal",
+      "actorPayload": true
+    },
+    {
+      "id": "aetherion-star-metal-roughness-v1",
+      "file": "materials/aetherion-star-metal-roughness-v1.webp",
+      "bytes": 33584,
+      "sha256": "c17acbf9c01ff8611f42ad23d14229f6932e1fb233b536a7d73813483d351f39",
+      "width": 256,
+      "height": 256,
+      "role": "derived bounded roughness response for Aetherion star-metal",
+      "actorPayload": true
+    },
+    {
+      "id": "sovereign-moon-regalia-v3",
+      "file": "materials/sovereign-moon-regalia-v3.webp",
+      "bytes": 62486,
+      "sha256": "174669142a1ae3dda07b0a8615e43db62752b26589ac7e24fb6ce8fae0d118a7",
       "width": 512,
       "height": 512,
-      "role": "original Relic Sovereign armor detail atlas",
+      "role": "original pearl, rose-gold and lavender Sovereign regalia color material",
+      "actorPayload": true
+    },
+    {
+      "id": "sovereign-moon-regalia-normal-v1",
+      "file": "materials/sovereign-moon-regalia-normal-v1.webp",
+      "bytes": 154076,
+      "sha256": "c6d2e011de1b8577d81f8dd5d827bd19a80046de0365ede60c996590094b2fcc",
+      "width": 256,
+      "height": 256,
+      "role": "derived tangent-space normal detail for Sovereign moon regalia",
+      "actorPayload": true
+    },
+    {
+      "id": "sovereign-moon-regalia-roughness-v1",
+      "file": "materials/sovereign-moon-regalia-roughness-v1.webp",
+      "bytes": 31668,
+      "sha256": "e3c5b1327f19beaa1b6f7b2595261e42dbf259db621dac8b86c7ba65391e5bbc",
+      "width": 256,
+      "height": 256,
+      "role": "derived bounded roughness response for Sovereign moon regalia",
       "actorPayload": true
     },
     {
@@ -90,6 +162,16 @@
       "width": 512,
       "height": 512,
       "role": "original additive celestial cast and impact seal",
+      "actorPayload": false
+    },
+    {
+      "id": "combat-vfx-atlas-v1",
+      "file": "materials/combat-vfx-atlas-v1.webp",
+      "bytes": 564412,
+      "sha256": "13ce3cdc6c0e3a6a07b7e0c3f5c292c856e61fd22ec5bb3877bfed7ba879f10e",
+      "width": 1024,
+      "height": 1024,
+      "role": "original nine-cell alpha atlas for player skills, impacts and phase pulse",
       "actorPayload": false
     }
   ]

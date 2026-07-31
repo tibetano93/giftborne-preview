@@ -1,0 +1,309 @@
+{
+  "id": "giftborne-sample-audio-v5",
+  "budgetBytes": 8000000,
+  "totalBytes": 4537204,
+  "spriteDurationSeconds": 6.3,
+  "foleySpriteDurationSeconds": 4.15,
+  "creatureSpriteDurationSeconds": 16.04,
+  "aetherionSpriteDurationSeconds": 6.69,
+  "adaptiveScoreDurationSeconds": 73.776,
+  "files": [
+    {
+      "id": "celestial-wind-aac-v1",
+      "file": "celestial-wind-v1.m4a",
+      "bytes": 49976,
+      "sha256": "50873bf430e0d572df4439c438bdac59f776f3681b289dd96ebb385433fc1d12",
+      "codec": "AAC-LC",
+      "role": "looping celestial ambience fallback"
+    },
+    {
+      "id": "celestial-wind-opus-v1",
+      "file": "celestial-wind-v1.webm",
+      "bytes": 44193,
+      "sha256": "1bdf090909b173bd600c4ac0c528dffdd2801140fe86dd797e1c01dda117b339",
+      "codec": "Opus",
+      "role": "looping celestial ambience"
+    },
+    {
+      "id": "combat-battle-aac-v1",
+      "file": "combat-battle-v1.m4a",
+      "bytes": 1054294,
+      "sha256": "acaf2672e7bd71c6723171b6f4cedccba20e4b9b3d7b20b8a1cf2afcfb13ffe1",
+      "codec": "AAC-LC",
+      "role": "boss-combat music fallback"
+    },
+    {
+      "id": "combat-battle-opus-v1",
+      "file": "combat-battle-v1.webm",
+      "bytes": 1106530,
+      "sha256": "efd2693c4899aa29e15e35277549db4103321d45b75b8f11d09f9de9c91f79c8",
+      "codec": "Opus",
+      "role": "boss-combat music"
+    },
+    {
+      "id": "combat-ascension-aac-v1",
+      "file": "combat-ascension-v1.m4a",
+      "bytes": 309031,
+      "sha256": "bcc9015129dcdfed71da091fb87cc8d3dc66d07bbdc747546756f0984366d206",
+      "codec": "AAC-LC",
+      "role": "synchronized Phase 2 combat intensity overlay fallback"
+    },
+    {
+      "id": "combat-ascension-opus-v1",
+      "file": "combat-ascension-v1.webm",
+      "bytes": 318242,
+      "sha256": "929925fb2608c1250249214f5079bd55a910df804fedb3979ffac5c984920ed8",
+      "codec": "Opus",
+      "role": "synchronized Phase 2 combat intensity overlay"
+    },
+    {
+      "id": "giftborne-foley-aac-v1",
+      "file": "giftborne-foley-v1.m4a",
+      "bytes": 61534,
+      "sha256": "af73f382619684ae1639c9fc514456c26fd8941777f86a6121aefb8dc4b8a270",
+      "codec": "AAC-LC",
+      "role": "locomotion and creature foley cue atlas fallback"
+    },
+    {
+      "id": "giftborne-foley-opus-v1",
+      "file": "giftborne-foley-v1.webm",
+      "bytes": 38964,
+      "sha256": "36ed4cb4358a4a4d3b5890ea26e45190077bd8d7e12e1cc11956766be049af7d",
+      "codec": "Opus",
+      "role": "locomotion and creature foley cue atlas"
+    },
+    {
+      "id": "giftborne-creatures-aac-v1",
+      "file": "giftborne-creatures-v1.m4a",
+      "bytes": 135703,
+      "sha256": "1a0ebc1261a7409c4b8a091c821b1ea8d247ca4bdf9e87c2165b8664db97f7bb",
+      "codec": "AAC-LC",
+      "role": "actor-specific creature voice cue atlas fallback"
+    },
+    {
+      "id": "giftborne-creatures-opus-v1",
+      "file": "giftborne-creatures-v1.webm",
+      "bytes": 101746,
+      "sha256": "bb4ffd73925ddbe76efe3762dec9bfa527326f8ee24450e66e9c5651255b6140",
+      "codec": "Opus",
+      "role": "actor-specific creature voice cue atlas"
+    },
+    {
+      "id": "giftborne-aetherion-aac-v1",
+      "file": "giftborne-aetherion-v1.m4a",
+      "bytes": 56400,
+      "sha256": "f959ae6daa1a445bddb0173415c4092ca0b9ae640d29ca6aba0cd2f4f4d72fc2",
+      "codec": "AAC-LC",
+      "role": "Aetherion effort and hurt voice cue atlas fallback"
+    },
+    {
+      "id": "giftborne-aetherion-opus-v1",
+      "file": "giftborne-aetherion-v1.webm",
+      "bytes": 42718,
+      "sha256": "02e25f4f9e844ab28ee81ca990b1ed10e65b6e4699670fc1044d253a1f34d486",
+      "codec": "Opus",
+      "role": "Aetherion effort and hurt voice cue atlas"
+    },
+    {
+      "id": "giftborne-sfx-aac-v1",
+      "file": "giftborne-sfx-v1.m4a",
+      "bytes": 103036,
+      "sha256": "24de64567677648953bd6d94a94fe3dcbb53f3b3a209a7bde7dbbcfacf2e5d90",
+      "codec": "AAC-LC",
+      "role": "sample cue atlas fallback"
+    },
+    {
+      "id": "giftborne-sfx-opus-v1",
+      "file": "giftborne-sfx-v1.webm",
+      "bytes": 99244,
+      "sha256": "e358612a2edc8234e2cedab344b41b360ab712e49673094dc91a948863b57794",
+      "codec": "Opus",
+      "role": "sample cue atlas"
+    },
+    {
+      "id": "heavenly-loop-aac-v1",
+      "file": "heavenly-loop-v1.m4a",
+      "bytes": 411309,
+      "sha256": "5402361c729d03319188caa4ae8b13e5447c1ead3cd7646aafa3831471b920d4",
+      "codec": "AAC-LC",
+      "role": "hub and buildcraft music fallback"
+    },
+    {
+      "id": "heavenly-loop-opus-v1",
+      "file": "heavenly-loop-v1.webm",
+      "bytes": 604284,
+      "sha256": "d93648c947da539b19aa4673d9d30a9f9116b9541075227454b1a4c54076e2e7",
+      "codec": "Opus",
+      "role": "hub and buildcraft music"
+    }
+  ],
+  "cues": [
+    { "id": "ui-select", "offset": 0, "duration": 0.38 },
+    { "id": "ui-confirm", "offset": 0.43, "duration": 0.54 },
+    { "id": "ui-back", "offset": 1.02, "duration": 0.09 },
+    { "id": "weapon-swing-a", "offset": 1.16, "duration": 0.6 },
+    { "id": "weapon-swing-b", "offset": 1.81, "duration": 0.57 },
+    { "id": "impact-light", "offset": 2.43, "duration": 0.25 },
+    { "id": "impact-heavy", "offset": 2.73, "duration": 0.36 },
+    { "id": "crystal-impact", "offset": 3.14, "duration": 0.43 },
+    { "id": "celestial-bell", "offset": 3.62, "duration": 1.74 },
+    { "id": "sovereign-voice", "offset": 5.41, "duration": 0.83 }
+  ],
+  "foleyCues": [
+    { "id": "footstep-stone-a", "offset": 0, "duration": 0.24 },
+    { "id": "footstep-stone-b", "offset": 0.29, "duration": 0.31 },
+    { "id": "footstep-stone-c", "offset": 0.65, "duration": 0.25 },
+    { "id": "cloth-rustle-a", "offset": 0.95, "duration": 0.52 },
+    { "id": "cloth-rustle-b", "offset": 1.52, "duration": 0.44 },
+    { "id": "armor-jingle-a", "offset": 2.01, "duration": 0.26 },
+    { "id": "armor-jingle-b", "offset": 2.32, "duration": 0.4 },
+    { "id": "sovereign-glide-a", "offset": 2.77, "duration": 0.62 },
+    { "id": "sovereign-glide-b", "offset": 3.44, "duration": 0.64 }
+  ],
+  "creatureCues": [
+    { "id": "sovereign-attack-a", "offset": 0, "duration": 0.9 },
+    { "id": "sovereign-attack-b", "offset": 0.9, "duration": 0.9 },
+    { "id": "sovereign-cast-a", "offset": 1.8, "duration": 1.4 },
+    { "id": "sovereign-cast-b", "offset": 3.2, "duration": 0.75 },
+    { "id": "sovereign-hit-a", "offset": 3.95, "duration": 0.34 },
+    { "id": "sovereign-hit-b", "offset": 4.29, "duration": 0.4 },
+    { "id": "sovereign-phase", "offset": 4.69, "duration": 1.75 },
+    { "id": "sovereign-death", "offset": 6.44, "duration": 2.65 },
+    { "id": "sentinel-attack-a", "offset": 9.09, "duration": 0.72 },
+    { "id": "sentinel-attack-b", "offset": 9.81, "duration": 0.84 },
+    { "id": "sentinel-hit-a", "offset": 10.65, "duration": 0.32 },
+    { "id": "sentinel-hit-b", "offset": 10.97, "duration": 0.38 },
+    { "id": "sentinel-death", "offset": 11.35, "duration": 0.7 },
+    { "id": "wisp-cast-a", "offset": 12.05, "duration": 0.7 },
+    { "id": "wisp-cast-b", "offset": 12.75, "duration": 0.78 },
+    { "id": "wisp-hit-a", "offset": 13.53, "duration": 0.3 },
+    { "id": "wisp-hit-b", "offset": 13.83, "duration": 0.46 },
+    { "id": "wisp-death", "offset": 14.29, "duration": 1.75 }
+  ],
+  "aetherionCues": [
+    { "id": "aetherion-effort-a", "offset": 0, "duration": 0.46 },
+    { "id": "aetherion-effort-b", "offset": 0.46, "duration": 0.4 },
+    { "id": "aetherion-cast-a", "offset": 0.86, "duration": 0.78 },
+    { "id": "aetherion-cast-b", "offset": 1.64, "duration": 0.94 },
+    { "id": "aetherion-hurt-a", "offset": 2.58, "duration": 0.42 },
+    { "id": "aetherion-hurt-b", "offset": 3, "duration": 0.64 },
+    { "id": "aetherion-death", "offset": 3.64, "duration": 3.05 }
+  ],
+  "sources": [
+    {
+      "id": "haeldb-male-grunt-yelling",
+      "sourceUrl": "https://opengameart.org/content/male-gruntyelling-sounds",
+      "license": "CC0-1.0",
+      "clips": [
+        "3grunt3.wav",
+        "3grunt5.wav",
+        "3yell5.wav",
+        "3yell14.wav",
+        "3grunt1.wav",
+        "3grunt2.wav",
+        "3yell16.wav"
+      ]
+    },
+    {
+      "id": "kenney-interface-sounds",
+      "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+      "license": "CC0-1.0",
+      "clips": ["select_004.ogg", "confirmation_002.ogg", "back_003.ogg"]
+    },
+    {
+      "id": "kenney-rpg-audio",
+      "sourceUrl": "https://www.kenney.nl/assets/rpg-audio",
+      "license": "CC0-1.0",
+      "clips": [
+        "knifeSlice.ogg",
+        "knifeSlice2.ogg",
+        "footstep00.ogg",
+        "footstep04.ogg",
+        "footstep07.ogg",
+        "cloth1.ogg",
+        "cloth3.ogg",
+        "beltHandle1.ogg",
+        "metalClick.ogg",
+        "clothBelt.ogg",
+        "clothBelt2.ogg"
+      ]
+    },
+    {
+      "id": "kenney-impact-sounds",
+      "sourceUrl": "https://www.kenney.nl/assets/impact-sounds",
+      "license": "CC0-1.0",
+      "clips": [
+        "impactMetal_light_001.ogg",
+        "impactMetal_heavy_001.ogg",
+        "impactGlass_heavy_001.ogg",
+        "impactBell_heavy_001.ogg"
+      ]
+    },
+    {
+      "id": "rubberduck-creature-sfx",
+      "sourceUrl": "https://opengameart.org/content/80-cc0-creature-sfx",
+      "license": "CC0-1.0",
+      "clips": [
+        "monster_06.ogg",
+        "alien_01.ogg",
+        "alien_03.ogg",
+        "weird_04.ogg",
+        "weird_05.ogg"
+      ]
+    },
+    {
+      "id": "ogrebane-monster-sfx-pack",
+      "sourceUrl": "https://opengameart.org/content/monster-sound-effects-pack",
+      "license": "CC0-1.0",
+      "clips": [
+        "monster-2.wav",
+        "monster-4.wav",
+        "monster-6.wav",
+        "monster-8.wav",
+        "monster-10.wav"
+      ]
+    },
+    {
+      "id": "ogrebane-monster-sounds-volume-1",
+      "sourceUrl": "https://opengameart.org/content/monster-sound-pack-volume-1",
+      "license": "CC0-1.0",
+      "clips": [
+        "Monster-1.wav",
+        "Monster-2.wav",
+        "Monster-3.wav",
+        "Monster-4.wav",
+        "Monster-5.wav"
+      ]
+    },
+    {
+      "id": "trazzz123-deep-monster-roar",
+      "sourceUrl": "https://opengameart.org/content/cc0-deep-monster-roar",
+      "license": "CC0-1.0",
+      "clips": ["monster_roar.wav"]
+    },
+    {
+      "id": "ogrebane-ghost",
+      "sourceUrl": "https://opengameart.org/content/ghost",
+      "license": "CC0-1.0",
+      "clips": ["ghost.wav"]
+    },
+    {
+      "id": "sketchman3-wind-whoosh",
+      "sourceUrl": "https://opengameart.org/content/wind-whoosh-loop",
+      "license": "CC0-1.0",
+      "clips": ["wind woosh loop.ogg"]
+    },
+    {
+      "id": "isaiah658-heavenly-loop",
+      "sourceUrl": "https://opengameart.org/content/heavenly-loop",
+      "license": "CC0-1.0",
+      "clips": ["Heavenly Loop.ogg"]
+    },
+    {
+      "id": "haruta-lets-battle",
+      "sourceUrl": "https://opengameart.org/content/lets-battle-0",
+      "license": "CC0-1.0",
+      "clips": ["lets_battle.mp3"]
+    }
+  ]
+}
