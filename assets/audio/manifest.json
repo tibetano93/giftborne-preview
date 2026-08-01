@@ -1,13 +1,13 @@
 {
-  "id": "giftborne-sample-audio-v6",
+  "id": "giftborne-sample-audio-v7",
   "budgetBytes": 8000000,
-  "totalBytes": 5822360,
+  "totalBytes": 6604759,
   "spriteDurationSeconds": 6.3,
-  "combatSpriteDurationSeconds": 2.28,
+  "combatSpriteDurationSeconds": 15.57,
   "foleySpriteDurationSeconds": 4.15,
   "creatureSpriteDurationSeconds": 16.04,
   "aetherionSpriteDurationSeconds": 6.69,
-  "adaptiveScoreDurationSeconds": 108,
+  "adaptiveScoreDurationSeconds": 120,
   "files": [
     {
       "id": "celestial-wind-aac-v1",
@@ -26,52 +26,52 @@
       "role": "looping celestial ambience"
     },
     {
-      "id": "combat-battle-aac-v2",
-      "file": "combat-battle-v2.m4a",
-      "bytes": 1327833,
-      "sha256": "d9e67ab16ff41c012743a84f7344b4db741a2867f983c291bfacfe3b1af03faf",
+      "id": "combat-battle-aac-v3",
+      "file": "combat-battle-v3.m4a",
+      "bytes": 1475094,
+      "sha256": "286ccffa2dd25e01cca901c17b83853bb88d7de82d5939ec0dcd1afb828a205d",
       "codec": "AAC-LC",
       "role": "epic orchestral boss-combat music fallback"
     },
     {
-      "id": "combat-battle-opus-v2",
-      "file": "combat-battle-v2.webm",
-      "bytes": 1335176,
-      "sha256": "ac010149012d495a5093dad2299e741e8133182de2dbbd27ef54a47442f441ac",
+      "id": "combat-battle-opus-v3",
+      "file": "combat-battle-v3.webm",
+      "bytes": 1483471,
+      "sha256": "dc819eae1826bbfb67c8d37116c79f290f3bfa162fd9892e2e9499da40a4f87f",
       "codec": "Opus",
       "role": "epic orchestral boss-combat music"
     },
     {
-      "id": "combat-ascension-aac-v2",
-      "file": "combat-ascension-v2.m4a",
-      "bytes": 677098,
-      "sha256": "146afd11e00f8e2898521a0ca63deecf9175b36eec867f4430df734b58c90a44",
+      "id": "combat-ascension-aac-v3",
+      "file": "combat-ascension-v3.m4a",
+      "bytes": 753584,
+      "sha256": "342867714a9ce3b191d3a1b181337fafdb2921247fab622e2fcf911aae67fcbe",
       "codec": "AAC-LC",
       "role": "synchronized Phase 2 combat intensity overlay fallback"
     },
     {
-      "id": "combat-ascension-opus-v2",
-      "file": "combat-ascension-v2.webm",
-      "bytes": 681654,
-      "sha256": "d3cfe6fd536a52760b290eb45caeb94e700db018bfb1e17a725f922c670b0d56",
+      "id": "combat-ascension-opus-v3",
+      "file": "combat-ascension-v3.webm",
+      "bytes": 757349,
+      "sha256": "5e4073e62ef417829c0c1f8dfb6186ce166a23bcb768510b370b86c771e50101",
       "codec": "Opus",
       "role": "synchronized Phase 2 combat intensity overlay"
     },
     {
-      "id": "giftborne-combat-aac-v2",
-      "file": "giftborne-combat-v2.m4a",
-      "bytes": 22574,
-      "sha256": "d5508dfd05e92490c83baab51db9a07162b260644782d90014619e14a5b6e686",
+      "id": "giftborne-combat-aac-v3",
+      "file": "giftborne-combat-v3.m4a",
+      "bytes": 193171,
+      "sha256": "824cd2e08d3d3faf2bb71d29556da9334ac2682f87994c29ea9671ce9b102e90",
       "codec": "AAC-LC",
-      "role": "layered recorded weapon and impact atlas fallback"
+      "role": "cinematic skill, weapon, impact and boss-signature atlas fallback"
     },
     {
-      "id": "giftborne-combat-opus-v2",
-      "file": "giftborne-combat-v2.webm",
-      "bytes": 28918,
-      "sha256": "5765c967b43419d8b1ebc4c2f235047d35f76a7849b174efc355d687bd786527",
+      "id": "giftborne-combat-opus-v3",
+      "file": "giftborne-combat-v3.webm",
+      "bytes": 192983,
+      "sha256": "832960f8e20021273d74e0bb59ea59ca84d3f424e6b2388755e95339a17fe4cc",
       "codec": "Opus",
-      "role": "layered recorded weapon and impact atlas"
+      "role": "cinematic skill, weapon, impact and boss-signature atlas"
     },
     {
       "id": "giftborne-foley-aac-v1",
@@ -167,10 +167,15 @@
     { "id": "sovereign-voice", "offset": 5.41, "duration": 0.83 }
   ],
   "combatCues": [
-    { "id": "weapon-swing-a", "offset": 0, "duration": 0.42 },
-    { "id": "weapon-swing-b", "offset": 0.5, "duration": 0.44 },
-    { "id": "impact-light", "offset": 1.02, "duration": 0.46 },
-    { "id": "impact-heavy", "offset": 1.56, "duration": 0.72 }
+    { "id": "weapon-swing-a", "offset": 0, "duration": 0.82 },
+    { "id": "weapon-swing-b", "offset": 0.9, "duration": 0.86 },
+    { "id": "impact-light", "offset": 1.84, "duration": 0.95 },
+    { "id": "impact-heavy", "offset": 2.87, "duration": 1.45 },
+    { "id": "aether-burst", "offset": 4.4, "duration": 2.15 },
+    { "id": "giftbound-shield", "offset": 6.63, "duration": 2.15 },
+    { "id": "starfall-lance", "offset": 8.86, "duration": 2.25 },
+    { "id": "astral-step", "offset": 11.19, "duration": 1.15 },
+    { "id": "sovereign-signature", "offset": 12.42, "duration": 3.15 }
   ],
   "foleyCues": [
     { "id": "footstep-stone-a", "offset": 0, "duration": 0.24 },
@@ -323,22 +328,63 @@
       "clips": ["Heavenly Loop.ogg"]
     },
     {
-      "id": "artisticdude-swishes",
-      "sourceUrl": "https://opengameart.org/content/swishes-sound-pack",
-      "license": "CC0-1.0",
-      "clips": ["swish-3.wav", "swish-7.wav", "swish-9.wav"]
+      "id": "pixabay-artmylife-epic-action-battle-521432",
+      "sourceUrl": "https://pixabay.com/music/adventure-epic-action-battle-521432/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "contentIdRegistered": true,
+      "clips": ["artmylife-epic-action-battle-521432.mp3"]
     },
     {
-      "id": "bmaczero-metal-impact-sounds",
-      "sourceUrl": "https://opengameart.org/content/metal-impact-sounds",
-      "license": "CC0-1.0",
-      "clips": ["thud2.wav", "bong1.wav"]
+      "id": "pixabay-daviddumais-sword-slash-185432",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-sword-slash-and-swing-185432/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["daviddumaisaudio-sword-slash-and-swing-185432.mp3"]
     },
     {
-      "id": "emma-ma-determined-pursuit",
-      "sourceUrl": "https://opengameart.org/content/determined-pursuit-epic-orchestra-loop",
-      "license": "CC0-1.0",
-      "clips": ["determined_pursuit_loop.wav"]
+      "id": "pixabay-dragon-studio-armor-impact-393843",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-armor-impact-from-sword-393843/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-armor-impact-from-sword-393843.mp3"]
+    },
+    {
+      "id": "pixabay-rescopic-elemental-magic-228342",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-elemental-magic-spell-impact-outgoing-228342/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": [
+        "rescopicsound-elemental-magic-spell-impact-outgoing-228342.mp3"
+      ]
+    },
+    {
+      "id": "pixabay-dragon-studio-epic-spell-478364",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-epic-spell-impact-478364/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-epic-spell-impact-478364.mp3"]
+    },
+    {
+      "id": "pixabay-dragon-studio-epic-roar-364481",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-epic-dragon-roar-364481/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-epic-dragon-roar-364481.mp3"]
+    },
+    {
+      "id": "pixabay-universfield-cinematic-impact-352465",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-cinematic-impact-boom-05-352465/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["universfield-cinematic-impact-boom-05-352465.mp3"]
+    },
+    {
+      "id": "pixabay-dragon-studio-sword-slice-393845",
+      "sourceUrl": "https://pixabay.com/sound-effects/sword-slice-2-393845/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-sword-slice-2-393845.mp3"]
     }
   ]
 }
