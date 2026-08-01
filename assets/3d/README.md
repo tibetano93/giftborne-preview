@@ -8,11 +8,16 @@ committed motion builder retimes and layers that source into 21 actor-specific
 semantic clips: ten for Aetherion and eleven for the Relic Sovereign.
 
 The authored combat identities replace the visible shared Ranger surface.
-`aetherion-authored-v4.glb` and `relic-sovereign-authored-v4.glb` preserve its
-audited skeleton only as a hidden motion underlayer. Their complete visible
-silhouettes, armor, regalia, weapons and emissive geometry are original
-Giftborne work. The v4 central bodies use asymmetric profiled shells and convex
-armor plates rather than flat primitive faces. Every visible hero/boss
+`aetherion-authored-v5.glb` and `relic-sovereign-authored-v5.glb` preserve only
+the audited skeleton; the source body is removed from both shipped GLBs. Their
+complete visible silhouettes, armor, regalia, weapons and emissive geometry
+are original Giftborne work. The v5 principals each batch 41 authored pieces
+into core and detail shells. Hard armor stays rigid while compact original
+elbow and knee bridges use two-bone weights to remove the disconnected puppet
+read. Aetherion adds adult proportions, closed gauntlets and boots, a split
+cape and refined relic blade; the Sovereign adds a tapered split vessel,
+faceted mask, clawed gauntlets, asymmetric orbit rings and crescent staff.
+Every visible hero/boss
 primitive carries deterministic normalized `TEXCOORD_0` islands so the
 external 512 px armor atlases are coherently sampled at runtime; energy
 materials stay untextured for controlled emission.
@@ -43,8 +48,8 @@ prints immutable sizes and SHA-256 digests. The intermediate shared rig remains 
 `scripts/source-assets` as an authoring input and is no longer shipped in the
 Mini App public bundle.
 
-At runtime, the imported Ranger mesh is always hidden. The skeleton drives the
-original rigid armor shells through actor-prefixed in-place clips while combat
+At runtime, there is no imported Ranger mesh to hide. The skeleton drives the
+original rigid armor and blended joint bridges through actor-prefixed in-place clips while combat
 timing remains owned by the deterministic simulation. Aetherion has distinct
 idle, run, two-hit combo, three casts, step, stagger and death motion. The
 Sovereign has distinct hover, glide, charge, fan, cast, Starfall, channel,
@@ -53,7 +58,9 @@ stagger, ascension and death motion. Aetherion samples the versioned
 matching `sovereign-moon-regalia` set. Only the primary ivory/pearl armor groups
 sample these maps so secondary colors remain readable at mobile scale. Missing
 color or surface maps fail back independently to the existing colored PBR
-materials without hiding either actor. This M0 slice is still subject to Founder
+materials without hiding either actor. Each principal declares exact core,
+detail and total visible-triangle counts under a 12,000-triangle ceiling. The
+complete actor payload is 1,328,026 / 1,500,000 bytes. This M0 slice is still subject to Founder
 acceptance on physical iPhone and Android hardware; it is not a claim of final
 campaign character art.
 
@@ -99,6 +106,11 @@ color files. Both data-map types use lossless WebP so RGB directions and scalar
 response survive transport; the six-map principal surface payload is 521,206
 bytes and the complete actor payload remains under its 1.5 MB gate. Low-tier
 combat requests only the two color maps; balanced/high add normal and roughness.
+
+The approved v5 character turnaround references are pinned at
+`scripts/source-assets/principal-identity-v5.json` with their complete built-in
+ImageGen prompts, source PNG digests and compact 1200x800 WebP derivatives.
+They are modeling references only and are never loaded by the Mini App.
 
 `materials/celestial-seal-v4.webp` is an original shared effect texture
 generated for this pass. Its black field is intentional: the renderer uses it
