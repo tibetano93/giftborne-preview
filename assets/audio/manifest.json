@@ -1,12 +1,13 @@
 {
-  "id": "giftborne-sample-audio-v5",
+  "id": "giftborne-sample-audio-v6",
   "budgetBytes": 8000000,
-  "totalBytes": 4537204,
+  "totalBytes": 5822360,
   "spriteDurationSeconds": 6.3,
+  "combatSpriteDurationSeconds": 2.28,
   "foleySpriteDurationSeconds": 4.15,
   "creatureSpriteDurationSeconds": 16.04,
   "aetherionSpriteDurationSeconds": 6.69,
-  "adaptiveScoreDurationSeconds": 73.776,
+  "adaptiveScoreDurationSeconds": 108,
   "files": [
     {
       "id": "celestial-wind-aac-v1",
@@ -25,36 +26,52 @@
       "role": "looping celestial ambience"
     },
     {
-      "id": "combat-battle-aac-v1",
-      "file": "combat-battle-v1.m4a",
-      "bytes": 1054294,
-      "sha256": "acaf2672e7bd71c6723171b6f4cedccba20e4b9b3d7b20b8a1cf2afcfb13ffe1",
+      "id": "combat-battle-aac-v2",
+      "file": "combat-battle-v2.m4a",
+      "bytes": 1327833,
+      "sha256": "d9e67ab16ff41c012743a84f7344b4db741a2867f983c291bfacfe3b1af03faf",
       "codec": "AAC-LC",
-      "role": "boss-combat music fallback"
+      "role": "epic orchestral boss-combat music fallback"
     },
     {
-      "id": "combat-battle-opus-v1",
-      "file": "combat-battle-v1.webm",
-      "bytes": 1106530,
-      "sha256": "efd2693c4899aa29e15e35277549db4103321d45b75b8f11d09f9de9c91f79c8",
+      "id": "combat-battle-opus-v2",
+      "file": "combat-battle-v2.webm",
+      "bytes": 1335176,
+      "sha256": "ac010149012d495a5093dad2299e741e8133182de2dbbd27ef54a47442f441ac",
       "codec": "Opus",
-      "role": "boss-combat music"
+      "role": "epic orchestral boss-combat music"
     },
     {
-      "id": "combat-ascension-aac-v1",
-      "file": "combat-ascension-v1.m4a",
-      "bytes": 309031,
-      "sha256": "bcc9015129dcdfed71da091fb87cc8d3dc66d07bbdc747546756f0984366d206",
+      "id": "combat-ascension-aac-v2",
+      "file": "combat-ascension-v2.m4a",
+      "bytes": 677098,
+      "sha256": "146afd11e00f8e2898521a0ca63deecf9175b36eec867f4430df734b58c90a44",
       "codec": "AAC-LC",
       "role": "synchronized Phase 2 combat intensity overlay fallback"
     },
     {
-      "id": "combat-ascension-opus-v1",
-      "file": "combat-ascension-v1.webm",
-      "bytes": 318242,
-      "sha256": "929925fb2608c1250249214f5079bd55a910df804fedb3979ffac5c984920ed8",
+      "id": "combat-ascension-opus-v2",
+      "file": "combat-ascension-v2.webm",
+      "bytes": 681654,
+      "sha256": "d3cfe6fd536a52760b290eb45caeb94e700db018bfb1e17a725f922c670b0d56",
       "codec": "Opus",
       "role": "synchronized Phase 2 combat intensity overlay"
+    },
+    {
+      "id": "giftborne-combat-aac-v2",
+      "file": "giftborne-combat-v2.m4a",
+      "bytes": 22574,
+      "sha256": "d5508dfd05e92490c83baab51db9a07162b260644782d90014619e14a5b6e686",
+      "codec": "AAC-LC",
+      "role": "layered recorded weapon and impact atlas fallback"
+    },
+    {
+      "id": "giftborne-combat-opus-v2",
+      "file": "giftborne-combat-v2.webm",
+      "bytes": 28918,
+      "sha256": "5765c967b43419d8b1ebc4c2f235047d35f76a7849b174efc355d687bd786527",
+      "codec": "Opus",
+      "role": "layered recorded weapon and impact atlas"
     },
     {
       "id": "giftborne-foley-aac-v1",
@@ -148,6 +165,12 @@
     { "id": "crystal-impact", "offset": 3.14, "duration": 0.43 },
     { "id": "celestial-bell", "offset": 3.62, "duration": 1.74 },
     { "id": "sovereign-voice", "offset": 5.41, "duration": 0.83 }
+  ],
+  "combatCues": [
+    { "id": "weapon-swing-a", "offset": 0, "duration": 0.42 },
+    { "id": "weapon-swing-b", "offset": 0.5, "duration": 0.44 },
+    { "id": "impact-light", "offset": 1.02, "duration": 0.46 },
+    { "id": "impact-heavy", "offset": 1.56, "duration": 0.72 }
   ],
   "foleyCues": [
     { "id": "footstep-stone-a", "offset": 0, "duration": 0.24 },
@@ -300,10 +323,22 @@
       "clips": ["Heavenly Loop.ogg"]
     },
     {
-      "id": "haruta-lets-battle",
-      "sourceUrl": "https://opengameart.org/content/lets-battle-0",
+      "id": "artisticdude-swishes",
+      "sourceUrl": "https://opengameart.org/content/swishes-sound-pack",
       "license": "CC0-1.0",
-      "clips": ["lets_battle.mp3"]
+      "clips": ["swish-3.wav", "swish-7.wav", "swish-9.wav"]
+    },
+    {
+      "id": "bmaczero-metal-impact-sounds",
+      "sourceUrl": "https://opengameart.org/content/metal-impact-sounds",
+      "license": "CC0-1.0",
+      "clips": ["thud2.wav", "bong1.wav"]
+    },
+    {
+      "id": "emma-ma-determined-pursuit",
+      "sourceUrl": "https://opengameart.org/content/determined-pursuit-epic-orchestra-loop",
+      "license": "CC0-1.0",
+      "clips": ["determined_pursuit_loop.wav"]
     }
   ]
 }
