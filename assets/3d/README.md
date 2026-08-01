@@ -7,22 +7,20 @@ Quaternius Universal Animation Library. Both foundations are CC0. Giftborne's
 committed motion builder retimes and layers that source into 21 actor-specific
 semantic clips: ten for Aetherion and eleven for the Relic Sovereign.
 
-The authored combat identities replace the visible shared Ranger surface.
-`aetherion-authored-v5.glb` and `relic-sovereign-authored-v5.glb` preserve only
-the audited skeleton; the source body is removed from both shipped GLBs. Their
-complete visible silhouettes, armor, regalia, weapons and emissive geometry
-are original Giftborne work. The v5 principals each batch 41 authored pieces
-into core and detail shells. Hard armor stays rigid while compact original
-elbow and knee bridges use two-bone weights to remove the disconnected puppet
-read. Aetherion adds adult proportions, closed gauntlets and boots, a split
-cape and refined relic blade; the Sovereign adds a tapered split vessel,
-faceted mask, clawed gauntlets, asymmetric orbit rings and crescent staff.
-Every visible hero/boss
-primitive carries deterministic normalized `TEXCOORD_0` islands so the
-external 512 px armor atlases are coherently sampled at runtime; energy
-materials stay untextured for controlled emission.
-`vault-sentinel-authored-v3.glb` and
-`aether-wisp-authored-v3.glb` are fully original profiled Giftborne meshes.
+The v6 principal actors use a compact, aggressively decimated subset of the
+audited CC0 Ranger anatomy and outfit as a deformation foundation. Source
+materials and textures are removed; original Giftborne faceplates, regalia,
+weapons, capes, partial orbits and emissive accents establish the visible
+identity. This replaces the disconnected primitive shells from v5 with real
+hands, boots, clothing folds and adult joint proportions while keeping exactly
+two skinned render shells per actor. `aetherion-authored-v6.glb` adds a
+celestial faceplate, split cape and relic blade; `relic-sovereign-authored-v6.glb`
+adds a nonhuman mask, draped vessel, asymmetric partial orbits and crescent
+staff. Every hero/boss primitive carries deterministic normalized `TEXCOORD_0`
+islands so the external 512 px armor atlases are coherently sampled at runtime;
+energy materials stay untextured for controlled emission.
+`vault-sentinel-authored-v4.glb` and
+`aether-wisp-authored-v4.glb` are fully original profiled Giftborne meshes.
 Each carries five compact transform clips for locomotion, attack/cast, hit and
 death. Their reproducible geometry source is `scripts/build-authored-actors.py`.
 
@@ -48,9 +46,11 @@ prints immutable sizes and SHA-256 digests. The intermediate shared rig remains 
 `scripts/source-assets` as an authoring input and is no longer shipped in the
 Mini App public bundle.
 
-At runtime, there is no imported Ranger mesh to hide. The skeleton drives the
-original rigid armor and blended joint bridges through actor-prefixed in-place clips while combat
-timing remains owned by the deterministic simulation. Aetherion has distinct
+At runtime the audited Ranger subset is already stripped, decimated, recolored
+and batched into the Giftborne core shell; no hidden duplicate body is loaded.
+The shared skeleton drives that anatomy and the original signature layers
+through actor-prefixed in-place clips while combat timing remains owned by the
+deterministic simulation. Aetherion has distinct
 idle, run, two-hit combo, three casts, step, stagger and death motion. The
 Sovereign has distinct hover, glide, charge, fan, cast, Starfall, channel,
 stagger, ascension and death motion. Aetherion samples the versioned
@@ -60,7 +60,7 @@ sample these maps so secondary colors remain readable at mobile scale. Missing
 color or surface maps fail back independently to the existing colored PBR
 materials without hiding either actor. Each principal declares exact core,
 detail and total visible-triangle counts under a 12,000-triangle ceiling. The
-complete actor payload is 1,328,026 / 1,500,000 bytes. This M0 slice is still subject to Founder
+complete actor payload is 1,471,174 / 1,500,000 bytes. This M0 slice is still subject to Founder
 acceptance on physical iPhone and Android hardware; it is not a claim of final
 campaign character art.
 
@@ -101,9 +101,9 @@ The v2 principal-material recipe is pinned at
 `scripts/source-assets/principal-materials-v2.json`. Its two original color
 materials were generated with the built-in ImageGen workflow and compressed to
 512 px WebP. `scripts/build-principal-materials.mjs` deterministically derives
-the 256 px wrapped-Sobel normal and bounded roughness maps from those shipped
+the 248 px wrapped-Sobel normal and bounded roughness maps from those shipped
 color files. Both data-map types use lossless WebP so RGB directions and scalar
-response survive transport; the six-map principal surface payload is 521,206
+response survive transport; the six-map principal surface payload is 477,410
 bytes and the complete actor payload remains under its 1.5 MB gate. Low-tier
 combat requests only the two color maps; balanced/high add normal and roughness.
 
