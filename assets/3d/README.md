@@ -1,26 +1,31 @@
 # Giftborne mobile 3D assets
 
 The combat slice uses a deliberately small, real-time 3D actor pipeline.
-Aetherion's hidden humanoid rig is derived from the free CC0 Quaternius Modular
-Character Outfits foundation, and his source motion is trimmed from the CC0
-Quaternius Universal Animation Library. The Relic Sovereign has a separate
+Aetherion's motion skeleton and source clips are derived from the free CC0
+Quaternius libraries, while his visible anatomy comes from Blender's official
+CC0 Human Base Meshes bundle. The Relic Sovereign has a separate
 nonhuman mobile skeleton and eleven embedded encounter clips.
 
-`aetherion-authored-v7.glb` replaces the shared low-poly Ranger surface with a
-mobile derivative of the Blender Foundation's CC-BY 3.0 Sintel production
-model. The source rig, scripts and materials are excluded; Giftborne keeps the
-feature-quality face, hands, body and layered outfit, retargets them to the
-existing deterministic motion skeleton, reduces them to 10,395 visible
-triangles and adds an original relic heart and blade. The source archive and
-exact SHA-256 are pinned in
+`aetherion-authored-v8.glb` replaces the shared low-poly Ranger surface with a
+mobile derivative of Blender's CC0 realistic male Human Base Mesh. The source
+modifiers and materials are excluded; Giftborne keeps the complete face,
+paired source sclera, hands and connected anatomy, adds explicit iris and pupil
+geometry, and retargets them to the deterministic motion skeleton alongside an
+original fitted celestial cuirass, crown, cape, fauld, tabard and relic blade.
+The complete actor remains at 11,408 visible triangles and eleven draw groups. The
+source archive and exact
+SHA-256 are pinned in
 `scripts/source-assets/aetherion-production-foundation-v1.json`, and the
-required credit is preserved below. `relic-sovereign-authored-v7.glb` replaces
+required credit is preserved below. `relic-sovereign-authored-v8.glb` replaces
 the humanoid stand-in with a modified mobile derivative of the Blender
 Foundation's adult Scales dragon from Sintel. Source scripts, simulations,
 high-resolution sculpt data and materials are excluded. Giftborne rebuilds an
 82-bone mobile skeleton, limits skinning to four influences, reduces the actor
 to 11,938 visible triangles and authors its celestial materials plus eleven
-semantic motions. Every hero/boss primitive carries deterministic normalized
+semantic motions. Each boss clip now drives 19-22 varying channels across the
+spine, neck, jaw, all large, medium and small wing chains, hindquarters and tail
+instead of isolated root poses.
+Every hero/boss primitive carries deterministic normalized
 `TEXCOORD_0` islands so the external 512 px armor atlases are coherently sampled
 at runtime; energy materials stay untextured for controlled emission.
 `vault-sentinel-authored-v4.glb` and
@@ -35,7 +40,7 @@ optimizer:
 pnpm exec node scripts/build-authored-actors.mjs `
   --blender <path-to-blender.exe> `
   --source-rig scripts/source-assets/giftborne-humanoid-rig.glb `
-  --hero-foundation <path-to-extracted-sintel_model.blend> `
+  --hero-foundation <path-to-extracted-human_base_meshes_bundle.blend> `
   --boss-foundation <path-to-extracted-dragon_adult.blend> `
   --output-dir apps/miniapp/public/assets/3d
 
@@ -65,7 +70,7 @@ sample these maps so secondary colors remain readable at mobile scale. Missing
 color or surface maps fail back independently to the existing colored PBR
 materials without hiding either actor. Each principal declares exact core,
 detail and total visible-triangle counts under a 12,000-triangle ceiling. The
-complete actor payload is 1,448,210 / 1,500,000 bytes. This M0 slice is still subject to Founder
+complete actor payload is 1,493,746 / 1,500,000 bytes. This M0 slice is still subject to Founder
 acceptance on physical iPhone and Android hardware; it is not a claim of final
 campaign character art.
 
@@ -93,21 +98,21 @@ pins both source derivatives and every runtime output by byte count and SHA-256.
 
 Sources:
 
-- https://download.blender.org/durian/sprint/sintel_model.blend.zip
+- https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip
 - https://download.blender.org/durian/models/dragon_adult.blend.zip
 - https://creativecommons.org/licenses/by/3.0/
 - https://quaternius.com/packs/modularcharacteroutfitsfantasy.html
 - https://quaternius.com/packs/universalanimationlibrary.html
 - https://creativecommons.org/publicdomain/zero/1.0/
 
-Attribution: Aetherion v7 uses a modified mobile derivative of the Sintel
-model by Blender Foundation (`durian.blender.org`), licensed CC BY 3.0. The
-Giftborne name, materials, retarget, relic geometry and game presentation are
-original modifications and are not endorsed by Blender Foundation. The same
-credit, source link and license link are reachable from the in-app Settings
+Credit: Aetherion v8 uses a modified mobile derivative of the realistic male
+Human Base Mesh by Blender Studio and the Blender community, released under
+CC0. The Giftborne name, material zoning, retarget, armor, relic geometry and
+game presentation are original modifications and are not endorsed by Blender
+Foundation. The source and license links are reachable from the in-app Settings
 panel in every supported language.
 
-Attribution: Relic Sovereign v7 uses a modified mobile derivative of the adult
+Attribution: Relic Sovereign v8 uses a modified mobile derivative of the adult
 Scales dragon from Sintel by Blender Foundation, licensed CC BY 3.0. The
 Giftborne materials, reduced rig, animation, combat role and presentation are
 original modifications and are not endorsed by Blender Foundation. The exact
