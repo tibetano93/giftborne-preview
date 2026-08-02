@@ -1,13 +1,13 @@
 {
-  "id": "giftborne-sample-audio-v9",
+  "id": "giftborne-sample-audio-v10",
   "budgetBytes": 8000000,
-  "totalBytes": 4243271,
-  "spriteDurationSeconds": 1.34,
+  "totalBytes": 4528330,
+  "spriteDurationSeconds": 1.52,
   "combatSpriteDurationSeconds": 17.72,
   "foleySpriteDurationSeconds": 4.15,
   "creatureSpriteDurationSeconds": 18.4,
   "aetherionSpriteDurationSeconds": 6.69,
-  "adaptiveScoreDurationSeconds": 40,
+  "adaptiveScoreDurationSeconds": 45,
   "runtimeFiles": [
     {
       "id": "giftborne-sample-mixer-worklet-v1",
@@ -35,50 +35,50 @@
       "role": "looping celestial ambience"
     },
     {
-      "id": "combat-phase1-aac-v5",
-      "file": "combat-phase1-v5.m4a",
-      "bytes": 494709,
-      "sha256": "3aad0512dd158b04f1f77dea4f61efb6589e58bfe1830564c584a9e1ba885fd2",
+      "id": "combat-phase1-aac-v6",
+      "file": "combat-phase1-v6.m4a",
+      "bytes": 552818,
+      "sha256": "c3f6a38d9a862a31394f0bcb011a0fb44b7f96c507cc0737cb0f6e79c42eff46",
       "codec": "AAC-LC",
       "role": "orchestral boss-combat Phase 1 score fallback"
     },
     {
-      "id": "combat-phase1-opus-v5",
-      "file": "combat-phase1-v5.webm",
-      "bytes": 414929,
-      "sha256": "1679e81e45743f62aa738047b1fc280b7b74ec185927aadf92869756feafd732",
+      "id": "combat-phase1-opus-v6",
+      "file": "combat-phase1-v6.webm",
+      "bytes": 466709,
+      "sha256": "aaf6699a2396265f9c76a6e0186900a7f7fb62790636a846c1ec388e1e70e610",
       "codec": "Opus",
       "role": "orchestral boss-combat Phase 1 score"
     },
     {
-      "id": "combat-phase2-aac-v5",
-      "file": "combat-phase2-v5.m4a",
-      "bytes": 494891,
-      "sha256": "90902f0100f322fbdbd729d151fe7709b98273f5221e6d7dc7288c27eb29ab4f",
+      "id": "combat-phase2-aac-v6",
+      "file": "combat-phase2-v6.m4a",
+      "bytes": 552626,
+      "sha256": "1478c67a28085d796f38f0c677c2f82809c4cd07309f5f93fe8bee9dc5c69f4a",
       "codec": "AAC-LC",
       "role": "choir and full-orchestra Phase 2 score fallback"
     },
     {
-      "id": "combat-phase2-opus-v5",
-      "file": "combat-phase2-v5.webm",
-      "bytes": 414929,
-      "sha256": "89336db8a0b7ef33f914673b1a7c378a579aa2b02f3537d6cbefc06d6813b5cd",
+      "id": "combat-phase2-opus-v6",
+      "file": "combat-phase2-v6.webm",
+      "bytes": 466709,
+      "sha256": "b67b420eac00faf936b65582deb77250d70ea1ee93819cb7cd88a54bb0f1af36",
       "codec": "Opus",
       "role": "choir and full-orchestra Phase 2 score"
     },
     {
-      "id": "giftborne-combat-aac-v4",
-      "file": "giftborne-combat-v4.m4a",
-      "bytes": 163649,
-      "sha256": "81c69e6e095b58c18214b3f05580d6aef469f8faec9013c38a62c925d5cdf1db",
+      "id": "giftborne-combat-aac-v5",
+      "file": "giftborne-combat-v5.m4a",
+      "bytes": 221664,
+      "sha256": "f1583e327cb0849d421a095fd12dbdc066c6423e6eda5a567ada1f78abd8c940",
       "codec": "AAC-LC",
       "role": "cinematic skill, weapon, impact and boss-signature atlas fallback"
     },
     {
-      "id": "giftborne-combat-opus-v4",
-      "file": "giftborne-combat-v4.webm",
+      "id": "giftborne-combat-opus-v5",
+      "file": "giftborne-combat-v5.webm",
       "bytes": 219661,
-      "sha256": "94f26ffe2629ab73235538631906048bc6b5f9378b53ca01dbf3e8ff2ab46eb3",
+      "sha256": "c7202f5df1f8454727a47c3b2d0838e82a06b3c167b5f761f5831af8d9ab5edc",
       "codec": "Opus",
       "role": "cinematic skill, weapon, impact and boss-signature atlas"
     },
@@ -131,18 +131,18 @@
       "role": "Aetherion effort and hurt voice cue atlas"
     },
     {
-      "id": "giftborne-ui-aac-v3",
-      "file": "giftborne-ui-v3.m4a",
-      "bytes": 11104,
-      "sha256": "c420dec3b816edc820107a7571b6d69f2103ca635505ac853d46db651b686c02",
+      "id": "giftborne-ui-aac-v4",
+      "file": "giftborne-ui-v4.m4a",
+      "bytes": 17241,
+      "sha256": "9082cf604264017ebf625907aa5be30bc9173a02c09a1ed0bf3d190963eb7a06",
       "codec": "AAC-LC",
       "role": "recorded cinematic interface cue atlas fallback"
     },
     {
-      "id": "giftborne-ui-opus-v3",
-      "file": "giftborne-ui-v3.webm",
-      "bytes": 11838,
-      "sha256": "26a2c1e144ec64f85b87bc872c8c1ec4e5a8ce2af0d366ddca916cea39232e50",
+      "id": "giftborne-ui-opus-v4",
+      "file": "giftborne-ui-v4.webm",
+      "bytes": 13341,
+      "sha256": "497ac51e8e14276b49a8380a58f82f65acc2ce966cbca4005f5adc38fd4dc856",
       "codec": "Opus",
       "role": "recorded cinematic interface cue atlas"
     },
@@ -164,9 +164,9 @@
     }
   ],
   "cues": [
-    { "id": "ui-select", "offset": 0, "duration": 0.3 },
-    { "id": "ui-confirm", "offset": 0.3, "duration": 0.58 },
-    { "id": "ui-back", "offset": 0.88, "duration": 0.46 }
+    { "id": "ui-select", "offset": 0, "duration": 0.34 },
+    { "id": "ui-confirm", "offset": 0.34, "duration": 0.72 },
+    { "id": "ui-back", "offset": 1.06, "duration": 0.46 }
   ],
   "combatCues": [
     { "id": "weapon-swing-a", "offset": 0, "duration": 0.64 },
@@ -265,17 +265,15 @@
       "clips": ["hope_orchestral_battle_music_bpm165_0.ogg"]
     },
     {
-      "id": "pixabay-artmylife-epic-action-battle-521432",
-      "sourceUrl": "https://pixabay.com/music/adventure-epic-action-battle-521432/",
-      "license": "Pixabay-Content-License",
-      "licenseUrl": "https://pixabay.com/service/license-summary/",
-      "clips": ["artmylife-epic-action-battle-521432.mp3"]
-    },
-    {
-      "id": "kenney-interface-sounds",
-      "sourceUrl": "https://www.kenney.nl/assets/ui-audio",
-      "license": "CC0-1.0",
-      "clips": ["glass_002.ogg", "open_002.ogg", "close_003.ogg"]
+      "id": "matthew-pablo-colossal-boss-battle-theme",
+      "sourceUrl": "https://opengameart.org/content/colossal-boss-battle-theme",
+      "license": "CC-BY-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Blackmoor Colossus by Matthew Pablo, edited for Giftborne",
+      "clips": [
+        "Blackmoor Colossus Loop (No Vocals).wav",
+        "Blackmoor Colossus Loop.wav"
+      ]
     },
     {
       "id": "pixabay-daviddumais-sword-slash-185432",
@@ -322,34 +320,17 @@
       "clips": ["universfield-cinematic-impact-boom-05-352465.mp3"]
     },
     {
-      "id": "stillnorth-medieval-weapon-textures",
-      "sourceUrl": "https://opengameart.org/content/medieval-sound-effects-weapon-textures",
-      "license": "CC0-1.0",
-      "clips": ["Katana Swing.wav", "Crossbow Bolt Approach.wav"]
+      "id": "pixabay-dragon-studio-sword-slice-393845",
+      "sourceUrl": "https://pixabay.com/sound-effects/sword-slice-2-393845/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-sword-slice-2-393845.mp3"]
     },
     {
-      "id": "stillnorth-medieval-weapon-impacts",
-      "sourceUrl": "https://opengameart.org/content/medieval-sound-effects-weapon-impacts",
+      "id": "bmaczero-metal-impact-sounds",
+      "sourceUrl": "https://opengameart.org/content/metal-impact-sounds",
       "license": "CC0-1.0",
-      "clips": [
-        "Norse Sword Katana Blade on Blade.wav",
-        "Mace Axe Blade and Haft.wav",
-        "Axe Norse Sword Haft on Blade.wav"
-      ]
-    },
-    {
-      "id": "jaggedstone-magic-spell-sfx",
-      "sourceUrl": "https://opengameart.org/content/magic-spell-sfx",
-      "license": "CC0-1.0",
-      "clips": [
-        "magical_1.ogg",
-        "magical_2.ogg",
-        "magical_3.ogg",
-        "magical_4.ogg",
-        "magical_5.ogg",
-        "magical_6.ogg",
-        "magical_7.ogg"
-      ]
+      "clips": ["bong1.wav", "thud2.wav"]
     }
   ]
 }
