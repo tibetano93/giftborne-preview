@@ -18,17 +18,17 @@
       "signature": "GB_AETHERION_SIGNATURE"
     },
     {
-      "id": "giftborne-relic-sovereign-v6",
-      "file": "relic-sovereign-authored-v6.glb",
-      "bytes": 241636,
-      "sha256": "707bd17f1180b5e6ca2f8285b07cd84e2322d0af7a54c251bc7edcea0d8aa5e4",
-      "coreTriangles": 7654,
-      "detailTriangles": 2336,
-      "visibleTriangles": 9990,
+      "id": "giftborne-relic-sovereign-v7",
+      "file": "relic-sovereign-authored-v7.glb",
+      "bytes": 316476,
+      "sha256": "f9f797ac6d62726b9e8f549409de608f704f16a1a9d059d8ebd8b222f72698f0",
+      "coreTriangles": 7672,
+      "detailTriangles": 4266,
+      "visibleTriangles": 11938,
       "visibleTriangleBudget": 12000,
-      "sourceUrl": "https://quaternius.com/packs/modularcharacteroutfitsfantasy.html",
-      "license": "CC0-1.0 + Giftborne-original",
-      "role": "Relic Sovereign with a compact CC0 Ranger anatomy-and-outfit foundation, original nonhuman mask, draped regalia, partial orbits and crescent staff",
+      "sourceUrl": "https://download.blender.org/durian/models/dragon_adult.blend.zip",
+      "license": "CC-BY-3.0 + Giftborne-original",
+      "role": "Relic Sovereign rebuilt as the nonhuman adult Scales dragon foundation with an 82-bone mobile rig, Giftborne celestial materials and eleven embedded encounter motions",
       "signature": "GB_SOVEREIGN_SIGNATURE"
     },
     {
@@ -52,13 +52,13 @@
       "signature": "GB_WISP_SIGNATURE"
     },
     {
-      "id": "giftborne-authored-motion-v2",
-      "file": "giftborne-authored-motion-v2.glb",
-      "bytes": 431932,
-      "sha256": "116f41ed6380d615d7f4fb5a2137de85651c7db180aa1e903a10acc79d64299e",
+      "id": "giftborne-authored-motion-v3",
+      "file": "giftborne-authored-motion-v3.glb",
+      "bytes": 320124,
+      "sha256": "af74abcafd6ee17efc5a8ba1c059420ffd29170ff976b44a9b5fab387d8a22b7",
       "sourceUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
       "license": "CC0-1.0 + Giftborne-authored",
-      "role": "twenty-one actor-specific in-place Aetherion and Sovereign motion clips"
+      "role": "ten actor-specific in-place Aetherion motion clips; the dragon Sovereign owns its independent embedded motion set"
     }
   ],
   "materials": [

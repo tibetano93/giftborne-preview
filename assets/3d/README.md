@@ -1,11 +1,10 @@
 # Giftborne mobile 3D assets
 
-The combat slice uses a deliberately small, real-time 3D actor pipeline. The
-hidden humanoid rig is derived from the free Quaternius Modular Character
-Outfits - Fantasy Standard pack. The source motion is trimmed from the
-Quaternius Universal Animation Library. Both foundations are CC0. Giftborne's
-committed motion builder retimes and layers that source into 21 actor-specific
-semantic clips: ten for Aetherion and eleven for the Relic Sovereign.
+The combat slice uses a deliberately small, real-time 3D actor pipeline.
+Aetherion's hidden humanoid rig is derived from the free CC0 Quaternius Modular
+Character Outfits foundation, and his source motion is trimmed from the CC0
+Quaternius Universal Animation Library. The Relic Sovereign has a separate
+nonhuman mobile skeleton and eleven embedded encounter clips.
 
 `aetherion-authored-v7.glb` replaces the shared low-poly Ranger surface with a
 mobile derivative of the Blender Foundation's CC-BY 3.0 Sintel production
@@ -15,13 +14,15 @@ existing deterministic motion skeleton, reduces them to 10,395 visible
 triangles and adds an original relic heart and blade. The source archive and
 exact SHA-256 are pinned in
 `scripts/source-assets/aetherion-production-foundation-v1.json`, and the
-required credit is preserved below. `relic-sovereign-authored-v6.glb` still
-uses the audited CC0 Ranger deformation foundation beneath its original
-nonhuman mask, regalia, partial orbits and crescent staff; replacing that boss
-foundation is the next principal-model slice. Every hero/boss primitive carries
-deterministic normalized `TEXCOORD_0` islands so the external 512 px armor
-atlases are coherently sampled at runtime; energy materials stay untextured for
-controlled emission.
+required credit is preserved below. `relic-sovereign-authored-v7.glb` replaces
+the humanoid stand-in with a modified mobile derivative of the Blender
+Foundation's adult Scales dragon from Sintel. Source scripts, simulations,
+high-resolution sculpt data and materials are excluded. Giftborne rebuilds an
+82-bone mobile skeleton, limits skinning to four influences, reduces the actor
+to 11,938 visible triangles and authors its celestial materials plus eleven
+semantic motions. Every hero/boss primitive carries deterministic normalized
+`TEXCOORD_0` islands so the external 512 px armor atlases are coherently sampled
+at runtime; energy materials stay untextured for controlled emission.
 `vault-sentinel-authored-v4.glb` and
 `aether-wisp-authored-v4.glb` are fully original profiled Giftborne meshes.
 Each carries five compact transform clips for locomotion, attack/cast, hit and
@@ -35,11 +36,12 @@ pnpm exec node scripts/build-authored-actors.mjs `
   --blender <path-to-blender.exe> `
   --source-rig scripts/source-assets/giftborne-humanoid-rig.glb `
   --hero-foundation <path-to-extracted-sintel_model.blend> `
+  --boss-foundation <path-to-extracted-dragon_adult.blend> `
   --output-dir apps/miniapp/public/assets/3d
 
 pnpm exec node scripts/build-authored-motion.mjs `
   --source scripts/source-assets/giftborne-combat-clips-v1.glb `
-  --output apps/miniapp/public/assets/3d/giftborne-authored-motion-v2.glb
+  --output apps/miniapp/public/assets/3d/giftborne-authored-motion-v3.glb
 ```
 
 Blender 4.5.5 LTS creates deterministic smart-UV islands across each batched
@@ -51,10 +53,9 @@ prints immutable sizes and SHA-256 digests. The intermediate shared rig remains 
 Mini App public bundle.
 
 At runtime each licensed foundation is stripped, decimated, recolored and
-batched into the Giftborne core shell; no hidden duplicate body is loaded. The
-shared skeleton drives the production anatomy and original signature layers
-through actor-prefixed in-place clips while combat timing remains owned by the
-deterministic simulation. Aetherion has distinct
+batched into the Giftborne core shell; no hidden duplicate body is loaded.
+Independent actor skeletons drive the production anatomy while combat timing
+and world movement remain owned by the deterministic simulation. Aetherion has distinct
 idle, run, two-hit combo, three casts, step, stagger and death motion. The
 Sovereign has distinct hover, glide, charge, fan, cast, Starfall, channel,
 stagger, ascension and death motion. Aetherion samples the versioned
@@ -64,7 +65,7 @@ sample these maps so secondary colors remain readable at mobile scale. Missing
 color or surface maps fail back independently to the existing colored PBR
 materials without hiding either actor. Each principal declares exact core,
 detail and total visible-triangle counts under a 12,000-triangle ceiling. The
-complete actor payload is 1,485,178 / 1,500,000 bytes. This M0 slice is still subject to Founder
+complete actor payload is 1,448,210 / 1,500,000 bytes. This M0 slice is still subject to Founder
 acceptance on physical iPhone and Android hardware; it is not a claim of final
 campaign character art.
 
@@ -93,6 +94,7 @@ pins both source derivatives and every runtime output by byte count and SHA-256.
 Sources:
 
 - https://download.blender.org/durian/sprint/sintel_model.blend.zip
+- https://download.blender.org/durian/models/dragon_adult.blend.zip
 - https://creativecommons.org/licenses/by/3.0/
 - https://quaternius.com/packs/modularcharacteroutfitsfantasy.html
 - https://quaternius.com/packs/universalanimationlibrary.html
@@ -104,6 +106,14 @@ Giftborne name, materials, retarget, relic geometry and game presentation are
 original modifications and are not endorsed by Blender Foundation. The same
 credit, source link and license link are reachable from the in-app Settings
 panel in every supported language.
+
+Attribution: Relic Sovereign v7 uses a modified mobile derivative of the adult
+Scales dragon from Sintel by Blender Foundation, licensed CC BY 3.0. The
+Giftborne materials, reduced rig, animation, combat role and presentation are
+original modifications and are not endorsed by Blender Foundation. The exact
+source archive/file sizes and SHA-256 digests are pinned in
+`scripts/source-assets/sovereign-production-foundation-v1.json`; the same credit
+and links are reachable from Settings in EN, RU and ZH.
 
 The material atlases and arena floors were generated specifically for
 Giftborne with the built-in OpenAI ImageGen workflow. The sunlit v2 floor is
