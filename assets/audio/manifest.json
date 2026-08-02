@@ -1,13 +1,22 @@
 {
   "id": "giftborne-sample-audio-v9",
   "budgetBytes": 8000000,
-  "totalBytes": 7861176,
+  "totalBytes": 4243271,
   "spriteDurationSeconds": 1.34,
   "combatSpriteDurationSeconds": 17.72,
   "foleySpriteDurationSeconds": 4.15,
   "creatureSpriteDurationSeconds": 18.4,
   "aetherionSpriteDurationSeconds": 6.69,
-  "adaptiveScoreDurationSeconds": 120,
+  "adaptiveScoreDurationSeconds": 40,
+  "runtimeFiles": [
+    {
+      "id": "giftborne-sample-mixer-worklet-v1",
+      "file": "giftborne-sample-mixer-v1.js",
+      "bytes": 3821,
+      "sha256": "a1a2b034fd722e10b86352d4cb6de5364563580df544ec8333f5a73dd8fbafb6",
+      "role": "preloaded AudioWorklet mixer for SFX, Voice and UI cues"
+    }
+  ],
   "files": [
     {
       "id": "celestial-wind-aac-v1",
@@ -28,32 +37,32 @@
     {
       "id": "combat-phase1-aac-v5",
       "file": "combat-phase1-v5.m4a",
-      "bytes": 1475144,
-      "sha256": "4c1f6750011c88aff8d1872e6c356b8c7b95b89cd433057c2288d8ff518ec4be",
+      "bytes": 494709,
+      "sha256": "3aad0512dd158b04f1f77dea4f61efb6589e58bfe1830564c584a9e1ba885fd2",
       "codec": "AAC-LC",
       "role": "orchestral boss-combat Phase 1 score fallback"
     },
     {
       "id": "combat-phase1-opus-v5",
       "file": "combat-phase1-v5.webm",
-      "bytes": 1243431,
-      "sha256": "93d2795331cbc1fee380f374e95bfd593be5812ab8b7742db539c3886f945dd3",
+      "bytes": 414929,
+      "sha256": "1679e81e45743f62aa738047b1fc280b7b74ec185927aadf92869756feafd732",
       "codec": "Opus",
       "role": "orchestral boss-combat Phase 1 score"
     },
     {
       "id": "combat-phase2-aac-v5",
       "file": "combat-phase2-v5.m4a",
-      "bytes": 1475357,
-      "sha256": "484b3bbada47900df34243af02a3c3d53809587b0f1ee3d34e9f05b113945769",
+      "bytes": 494891,
+      "sha256": "90902f0100f322fbdbd729d151fe7709b98273f5221e6d7dc7288c27eb29ab4f",
       "codec": "AAC-LC",
       "role": "choir and full-orchestra Phase 2 score fallback"
     },
     {
       "id": "combat-phase2-opus-v5",
       "file": "combat-phase2-v5.webm",
-      "bytes": 1243431,
-      "sha256": "78935f0ef3f593831f6b00db3754fe48619ca05868030b868d6e96a3615160a2",
+      "bytes": 414929,
+      "sha256": "89336db8a0b7ef33f914673b1a7c378a579aa2b02f3537d6cbefc06d6813b5cd",
       "codec": "Opus",
       "role": "choir and full-orchestra Phase 2 score"
     },

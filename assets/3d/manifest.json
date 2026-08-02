@@ -1,6 +1,10 @@
 {
   "format": "glTF 2.0 binary",
-  "actorPayloadBudgetBytes": 1500000,
+  "actorPayloadBudgetsBytes": {
+    "low": 1500000,
+    "production": 1875000,
+    "adaptiveFallback": 2500000
+  },
   "vfxAtlasBudgetBytes": 640000,
   "models": [
     {
@@ -12,6 +16,7 @@
       "detailTriangles": 124,
       "visibleTriangles": 11408,
       "visibleTriangleBudget": 12000,
+      "actorPayloadTiers": ["low", "adaptiveFallback"],
       "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
       "license": "CC0-1.0 + Giftborne-original",
       "role": "Aetherion with a complete realistic male anatomy foundation, paired source sclera plus authored iris and pupil geometry, fitted celestial plate accents, relic heart and blade, mobile retarget and authored material islands",
@@ -26,9 +31,41 @@
       "detailTriangles": 4266,
       "visibleTriangles": 11938,
       "visibleTriangleBudget": 12000,
+      "actorPayloadTiers": ["low", "adaptiveFallback"],
       "sourceUrl": "https://download.blender.org/durian/models/dragon_adult.blend.zip",
       "license": "CC-BY-3.0 + Giftborne-original",
       "role": "Relic Sovereign built from the nonhuman adult Scales dragon foundation with an 82-bone mobile rig, Giftborne celestial materials and eleven full-chain spine, neck, jaw, wing and tail motions",
+      "signature": "GB_SOVEREIGN_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aetherion-v10",
+      "file": "aetherion-authored-v10.glb",
+      "bytes": 456296,
+      "sha256": "0b20b241dfee27a9e78292c20bab3ae8dcb10d365155306e61bbe5a29269620b",
+      "coreTriangles": 28089,
+      "detailTriangles": 104,
+      "visibleTriangles": 28193,
+      "visibleTriangleBudget": 29000,
+      "actorPayloadTiers": ["production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "role": "Aetherion production model combining realistic human anatomy with fitted articulated knight armor, a closed celestial faceplate, cape, relic heart and Light Sword on the shared mobile motion rig",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-relic-sovereign-v10",
+      "file": "relic-sovereign-authored-v10.glb",
+      "bytes": 689192,
+      "sha256": "acbd1b035680df5492e5c56609a650b7365de665674480f47af0189181d355cb",
+      "coreTriangles": 5546,
+      "detailTriangles": 0,
+      "visibleTriangles": 5546,
+      "visibleTriangleBudget": 6000,
+      "actorPayloadTiers": ["production", "adaptiveFallback"],
+      "sourceUrl": "https://opengameart.org/sites/default/files/forest-monster_0.7z",
+      "license": "CC0-1.0 + Giftborne-original",
+      "role": "Relic Sovereign production model retaining a weathered stone-and-bark colossus anatomy, original UV detail and eleven baked locomotion, attack, stagger, ascension and death clips",
       "signature": "GB_SOVEREIGN_SIGNATURE"
     },
     {
@@ -36,6 +73,7 @@
       "file": "vault-sentinel-authored-v4.glb",
       "bytes": 43420,
       "sha256": "2cdeed354e0f23e51c5f85b4ba4ac24082d9246d12dd833c66e732fea86aa3a2",
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
       "sourceUrl": "Giftborne Blender source",
       "license": "Giftborne-original",
       "role": "original animated Vault Sentinel with curved shield, restrained luminous mask, refined armor and pennant-spear construct",
@@ -46,6 +84,7 @@
       "file": "aether-wisp-authored-v4.glb",
       "bytes": 36912,
       "sha256": "6e918cb6c19e9b37b1d488fc920a9a17589220be94cf2159fb554cfa14870336",
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
       "sourceUrl": "Giftborne Blender source",
       "license": "Giftborne-original",
       "role": "original animated Aether Wisp with a restrained luminous core, curved petals, partial orbits and draped trailing-light form",
@@ -56,9 +95,10 @@
       "file": "giftborne-authored-motion-v3.glb",
       "bytes": 320124,
       "sha256": "af74abcafd6ee17efc5a8ba1c059420ffd29170ff976b44a9b5fab387d8a22b7",
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
       "sourceUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
       "license": "CC0-1.0 + Giftborne-authored",
-      "role": "ten actor-specific in-place Aetherion motion clips; the dragon Sovereign owns its independent embedded motion set"
+      "role": "ten actor-specific in-place Aetherion motion clips; the Grove Sovereign owns its independent embedded motion set"
     }
   ],
   "materials": [
@@ -100,7 +140,7 @@
       "width": 512,
       "height": 512,
       "role": "original pearl, rose-gold and lavender Sovereign regalia color material",
-      "actorPayload": true
+      "actorPayload": false
     },
     {
       "id": "sovereign-moon-regalia-normal-v1",
@@ -110,7 +150,7 @@
       "width": 248,
       "height": 248,
       "role": "derived tangent-space normal detail for Sovereign moon regalia",
-      "actorPayload": true
+      "actorPayload": false
     },
     {
       "id": "sovereign-moon-regalia-roughness-v1",
@@ -120,7 +160,7 @@
       "width": 248,
       "height": 248,
       "role": "derived bounded roughness response for Sovereign moon regalia",
-      "actorPayload": true
+      "actorPayload": false
     },
     {
       "id": "celestial-vault-floor-v1",
