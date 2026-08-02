@@ -4,17 +4,17 @@
   "vfxAtlasBudgetBytes": 640000,
   "models": [
     {
-      "id": "giftborne-aetherion-v6",
-      "file": "aetherion-authored-v6.glb",
-      "bytes": 239864,
-      "sha256": "e7f05d01fa0ca4c9e0eebeb677e383ea2d48d0ee9a754ee5fbb10f025bcb801d",
-      "coreTriangles": 8454,
+      "id": "giftborne-aetherion-v7",
+      "file": "aetherion-authored-v7.glb",
+      "bytes": 253868,
+      "sha256": "9d41e9e18fc5d4cbe7b7214533c92c58c897d734aefd3112e2e719d2c3736224",
+      "coreTriangles": 10151,
       "detailTriangles": 244,
-      "visibleTriangles": 8698,
+      "visibleTriangles": 10395,
       "visibleTriangleBudget": 12000,
-      "sourceUrl": "https://quaternius.com/packs/modularcharacteroutfitsfantasy.html",
-      "license": "CC0-1.0 + Giftborne-original",
-      "role": "Aetherion with a compact CC0 Ranger anatomy-and-outfit foundation, original celestial faceplate, split cape, relic blade and authored material islands",
+      "sourceUrl": "https://download.blender.org/durian/sprint/sintel_model.blend.zip",
+      "license": "CC-BY-3.0 + Giftborne-original",
+      "role": "Aetherion with a production Blender Foundation anatomy-and-outfit foundation, original relic heart and blade, mobile retarget and authored material islands",
       "signature": "GB_AETHERION_SIGNATURE"
     },
     {
