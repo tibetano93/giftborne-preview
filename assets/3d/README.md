@@ -26,8 +26,8 @@ semantic motions. Each boss clip now drives 19-22 varying channels across the
 spine, neck, jaw, all large, medium and small wing chains, hindquarters and tail
 instead of isolated root poses.
 
-Balanced and high quality use the production v15 Aetherion and v14 Sovereign
-while low quality keeps the v8 pair above. `aetherion-authored-v15.glb` retains the complete
+Balanced and high quality use the production v16 Aetherion and v14 Sovereign
+while low quality keeps the v8 pair above. `aetherion-authored-v16.glb` retains the complete
 Blender human anatomy and adds seven fitted armor meshes from crownjoshua's
 CC0 Rigged Knight foundation, retargeted to the compact Giftborne skeleton.
 Only the source armor geometry is used; its character, controls, scripts,
@@ -35,18 +35,19 @@ materials and animation are excluded. The closed source helmet is retained and
 reshaped as a celestial shell with an original asymmetric crest; shoulder and
 breastplate vertices are hardened without adding runtime topology. Source armor islands
 retain separate textured ivory plate, antique gold and dark articulated joints.
-Paired armor uses the matching anatomical side, symmetric pieces preserve X
-symmetry through decimation, and the dark under-suit is near-black blue rather
-than teal.
-The shaped short mantle, relic heart and narrower Light Sword complete the
-original presentation. The production hero contains 29,146 visible triangles
+Paired armor uses the matching anatomical side, Gauntlets use their measured
+40-degree drop instead of the shoulder angle, and symmetric pieces preserve X
+symmetry through decimation. The fitted under-suit uses neutral charcoal and
+leather extremities instead of cyan mannequin surfaces.
+The integrated aether-heart chest inlay, four-bone notched capelet and narrower
+Light Sword complete the original presentation. The production hero contains 29,472 visible triangles
 in one skinned shell across ten draw groups. `relic-sovereign-authored-v14.glb` instead derives from
 CDmir's CC0 Forest Monster: one connected 5,546-triangle skinned colossus with
 large grounded limbs, claws and embedded 512 px stone-and-bark base/normal
 maps plus a 120-triangle skinned detail shell for its compact fractured crown,
 luminous eyes and chest singularity. The oversized source tree and all legacy scene helpers are excluded. The
 actor pair is selected once before combat begins: low uses v8 while
-balanced/high use the v15/v14 production pair. If the high-tier renderer misses its preflight frame
+balanced/high use the v16/v14 production pair. If the high-tier renderer misses its preflight frame
 budget, adaptation reduces shadows, DPR and effect density while preserving
 the production principals; actor geometry is never swapped mid-encounter.
 Every principal primitive carries validated normalized `TEXCOORD_0` data.
@@ -98,9 +99,9 @@ its embedded graded celestial-stone base and normal textures with a grounded rou
 material response. Missing external hero maps fail back to colored PBR without
 hiding either actor. Each principal declares exact core, detail and total
 visible-triangle counts. The low actor payload is 1,204,746 / 1,500,000 bytes;
-the production payload is 1,775,226 / 1,875,000 bytes. A conservative
+the production payload is 1,773,230 / 1,875,000 bytes. A conservative
 validator ceiling for a deployment cache containing both the production and
-low principals is 2,391,106 / 2,500,000 bytes; the current high-tier
+low principals is 2,389,110 / 2,500,000 bytes; the current high-tier
 adaptation does not fetch or swap to the low pair. This M0
 slice is still subject to Founder acceptance on physical iPhone and Android
 hardware; it is not a claim of final campaign character art.
@@ -145,7 +146,7 @@ game presentation are original modifications and are not endorsed by Blender
 Foundation. The source and license links are reachable from the in-app Settings
 panel in every supported language.
 
-Credit: Aetherion v15 additionally uses modified fitted armor geometry from
+Credit: Aetherion v16 additionally uses modified fitted armor geometry from
 `Knight (Rigged - Mid Poly)` by crownjoshua, released under CC0. Giftborne does
 not ship its source character, Rigify controls, scripts, materials or
 animations. The exact source-file size and SHA-256 are pinned in
