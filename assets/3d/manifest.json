@@ -38,19 +38,19 @@
       "signature": "GB_SOVEREIGN_SIGNATURE"
     },
     {
-      "id": "giftborne-aetherion-v16",
-      "file": "aetherion-authored-v16.glb",
-      "bytes": 483068,
-      "sha256": "98433bddb882d8cc247f5aaeb857a0bffeebb70122e4e1aa5dff2a7754a393bf",
-      "coreTriangles": 29472,
+      "id": "giftborne-aetherion-v17",
+      "file": "aetherion-authored-v17.glb",
+      "bytes": 502484,
+      "sha256": "179e6c39cb3017ef70f3cc1b0849e8e199c7e351ee5617d3284f0934d458832f",
+      "coreTriangles": 31000,
       "detailTriangles": 0,
-      "visibleTriangles": 29472,
+      "visibleTriangles": 31000,
       "visibleTriangleBudget": 32000,
       "actorPayloadTiers": ["production", "adaptiveFallback"],
       "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
       "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
       "license": "CC0-1.0 foundations + Giftborne-original",
-      "role": "Aetherion production model combining complete realistic human anatomy, measured fitted gauntlets, charcoal leather extremities, correctly sided symmetric articulated knight armor, a closed celestial helmet with an original asymmetric crest, an integrated aether-heart chest inlay, hard star-metal material response, a four-bone notched capelet and Light Sword in one consolidated skinned shell",
+      "role": "Aetherion production model combining complete realistic human anatomy with adult tapered proportions, fitted symmetric knight armor, an original closed winged celestial helmet, layered chest and shoulder hierarchy, matte gold-edged twin mantle panels, articulated extremity accents and a narrower Light Sword in one consolidated skinned shell",
       "signature": "GB_AETHERION_SIGNATURE"
     },
     {
