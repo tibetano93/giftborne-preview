@@ -26,22 +26,26 @@ semantic motions. Each boss clip now drives 19-22 varying channels across the
 spine, neck, jaw, all large, medium and small wing chains, hindquarters and tail
 instead of isolated root poses.
 
-Balanced and high quality use the production v10 principals while low quality
-keeps the v8 pair above. `aetherion-authored-v10.glb` retains the complete
-Blender human anatomy and adds seven fitted armor meshes from crownjoshua's
+Balanced and high quality use the production v12 principals while low quality
+keeps the v8 pair above. `aetherion-authored-v12.glb` retains the complete
+Blender human anatomy and adds six fitted armor meshes from crownjoshua's
 CC0 Rigged Knight foundation, retargeted to the compact Giftborne skeleton.
 Only the source armor geometry is used; its character, controls, scripts,
-materials and animation are excluded. A closed celestial faceplate, emissive
-visor, cape, relic heart and Light Sword complete Aetherion's original
-presentation. The production hero contains 28,193 visible triangles across
-nine draw groups. `relic-sovereign-authored-v10.glb` instead derives from
-CDmir's CC0 Forest Monster: one connected 5,546-triangle skinned colossus with
+materials and animation are excluded. The coarse closed source helmet is
+removed; a smaller original circlet and cropped authored hair shell leave the
+complete human face readable. The higher-fidelity production proxy retains
+more eyelid, hand and facial planes than the low tier. Source armor islands now
+retain separate textured ivory plate, antique gold and dark articulated joints.
+Cape, relic heart and Light Sword complete the original presentation. The
+production hero contains 31,897 visible triangles
+across eleven material groups. `relic-sovereign-authored-v12.glb` instead derives from
+CDmir's CC0 Forest Monster: one connected 5,606-triangle skinned colossus with
 large grounded limbs, claws and embedded 512 px stone-and-bark base/normal
-maps. The oversized source tree and all legacy scene helpers are excluded. The
-production pair is selected before combat begins.
-If the high-tier renderer misses its preflight frame budget, the cached low
-pair replaces it before the player can start the simulation; actor geometry is
-never swapped mid-encounter.
+maps plus a compact original three-prong relic crown. The oversized source tree and all legacy scene helpers are excluded. The
+actor pair is selected once before combat begins: low uses v8 while
+balanced/high use v12. If the high-tier renderer misses its preflight frame
+budget, adaptation reduces shadows, DPR and effect density while preserving
+the production principals; actor geometry is never swapped mid-encounter.
 Every principal primitive carries validated normalized `TEXCOORD_0` data.
 Aetherion samples the external 512 px armor maps; the production Sovereign
 retains its audited embedded source UV detail and textures. Energy materials
@@ -49,9 +53,9 @@ stay untextured for controlled emission.
 `vault-sentinel-authored-v4.glb` and
 `aether-wisp-authored-v4.glb` are fully original profiled Giftborne meshes.
 Each carries five compact transform clips for locomotion, attack/cast, hit and
-death. Their reproducible geometry source is `scripts/build-authored-actors.py`.
+death. Their versioned geometry source is `scripts/build-authored-actors.py`.
 
-Rebuild these committed outputs with Blender 4.5.5 LTS and the workspace
+Rebuild these committed outputs with Blender 4.5.12 LTS and the workspace
 optimizer:
 
 ```powershell
@@ -68,11 +72,14 @@ pnpm exec node scripts/build-authored-motion.mjs `
   --output apps/miniapp/public/assets/3d/giftborne-authored-motion-v3.glb
 ```
 
-Blender 4.5.5 LTS creates deterministic smart-UV islands across each batched
+Blender 4.5.12 LTS creates bounded normalized smart-UV islands across each batched
 core and detail shell. The optimizer keeps those UVs
 through glTF pruning and Meshopt compression. Asset validation decodes the final
 GLBs and rejects incomplete, out-of-bounds or collapsed UV coverage. The build
-prints immutable sizes and SHA-256 digests. The intermediate shared rig remains in
+prints the result sizes and SHA-256 digests; the manifest pins the exact
+committed variants. Blender may reorder equivalent joined UV vertices between
+authoring runs, so a regenerated GLB requires a manifest update and the full
+asset validator rather than an assumed byte-identical hash. The intermediate shared rig remains in
 `scripts/source-assets` as an authoring input and is no longer shipped in the
 Mini App public bundle.
 
@@ -84,13 +91,14 @@ idle, run, two-hit combo, three casts, step, stagger and death motion. The
 Sovereign has distinct hover, glide, charge, fan, cast, Starfall, channel,
 stagger, ascension and death motion. Aetherion samples the versioned
 `aetherion-star-metal` color/normal/roughness set. The production Sovereign uses
-its embedded weathered-stone base and normal textures with a grounded rough
+its embedded graded celestial-stone base and normal textures with a grounded rough
 material response. Missing external hero maps fail back to colored PBR without
 hiding either actor. Each principal declares exact core, detail and total
 visible-triangle counts. The low actor payload is 1,261,134 / 1,500,000 bytes;
-the production payload is 1,790,742 / 1,875,000 bytes. A
-high-tier fallback that first transferred production assets and then fetched
-both low principals is capped at 2,406,622 / 2,500,000 bytes. This M0
+the production payload is 1,855,498 / 1,875,000 bytes. A conservative
+validator ceiling for a deployment cache containing both the production and
+low principals is 2,471,378 / 2,500,000 bytes; the current high-tier
+adaptation does not fetch or swap to the low pair. This M0
 slice is still subject to Founder acceptance on physical iPhone and Android
 hardware; it is not a claim of final campaign character art.
 
@@ -134,7 +142,7 @@ game presentation are original modifications and are not endorsed by Blender
 Foundation. The source and license links are reachable from the in-app Settings
 panel in every supported language.
 
-Credit: Aetherion v10 additionally uses modified fitted armor geometry from
+Credit: Aetherion v12 additionally uses modified fitted armor geometry from
 `Knight (Rigged - Mid Poly)` by crownjoshua, released under CC0. Giftborne does
 not ship its source character, Rigify controls, scripts, materials or
 animations. The exact source-file size and SHA-256 are pinned in
@@ -147,7 +155,7 @@ original modifications and are not endorsed by Blender Foundation. The credit
 and links remain reachable from Settings in EN, RU and ZH for the low-tier
 fallback.
 
-Credit: Relic Sovereign v10 uses a modified derivative of `Forest Monster` by
+Credit: Relic Sovereign v12 uses a modified derivative of `Forest Monster` by
 CDmir with TinyWorlds, released under CC0. Giftborne removes the tree canopy and
 legacy scene, retains the connected monster anatomy and UV detail, and authors
 the encounter role and semantic clip set. Exact archive/file sizes and SHA-256
@@ -166,7 +174,7 @@ materials were generated with the built-in ImageGen workflow and compressed to
 the 248 px wrapped-Sobel normal and bounded roughness maps from those shipped
 color files. Both data-map types use lossless WebP so RGB directions and scalar
 response survive transport. The Aetherion maps remain actor payload; the older
-Sovereign atlas is retained as provenance/fallback material but v10 uses the
+Sovereign atlas is retained as provenance/fallback material but v12 uses the
 Forest Monster's embedded textures. Low-tier combat remains under its 1.5 MB
 actor gate and balanced/high remain under the measured 1.875 MB gate.
 
