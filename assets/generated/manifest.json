@@ -12,10 +12,15 @@
     { "id": "relic-duck", "file": "relic-duck.png" },
     { "id": "relic-heart-gift-box", "file": "relic-heart-gift-box.png" },
     { "id": "relic-sovereign", "file": "relic-sovereign.png" },
+    { "id": "skill-aegis-wall", "file": "skill-aegis-wall.png" },
     { "id": "skill-aether-burst", "file": "skill-aether-burst.png" },
     { "id": "skill-astral-step", "file": "skill-astral-step.png" },
     { "id": "skill-giftbound-shield", "file": "skill-giftbound-shield.png" },
+    { "id": "skill-oath-interrupt", "file": "skill-oath-interrupt.png" },
     { "id": "skill-relic-slash", "file": "skill-relic-slash.png" },
-    { "id": "skill-starfall-lance", "file": "skill-starfall-lance.png" }
+    { "id": "skill-sovereign-taunt", "file": "skill-sovereign-taunt.png" },
+    { "id": "skill-starfall-lance", "file": "skill-starfall-lance.png" },
+    { "id": "skill-sunbreaker", "file": "skill-sunbreaker.png" },
+    { "id": "skill-vanguard-leap", "file": "skill-vanguard-leap.png" }
   ]
 }
