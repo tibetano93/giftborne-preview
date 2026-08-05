@@ -26,8 +26,9 @@ semantic motions. Each boss clip now drives 19-22 varying channels across the
 spine, neck, jaw, all large, medium and small wing chains, hindquarters and tail
 instead of isolated root poses.
 
-Balanced and high quality use the production v17 Aetherion and v14 Sovereign
-while low quality keeps the v8 pair above. `aetherion-authored-v17.glb` retains the complete
+Low, balanced, and high quality all use the production v17 Aetherion and v14
+Sovereign pair. The v8 actors above remain dormant validated cache artifacts
+and are never selected as a quality-tier substitute. `aetherion-authored-v17.glb` retains the complete
 Blender human anatomy and adds seven fitted armor meshes from crownjoshua's
 CC0 Rigged Knight foundation, retargeted to the compact Giftborne skeleton.
 Only the source armor geometry is used; its character, controls, scripts,
@@ -48,8 +49,8 @@ CDmir's CC0 Forest Monster: one connected 5,546-triangle skinned colossus with
 large grounded limbs, claws and embedded 512 px stone-and-bark base/normal
 maps plus a 120-triangle skinned detail shell for its compact fractured crown,
 luminous eyes and chest singularity. The oversized source tree and all legacy scene helpers are excluded. The
-actor pair is selected once before combat begins: low uses v8 while
-balanced/high use the v17/v14 production pair. If the high-tier renderer misses its preflight frame
+actor pair is selected once before combat begins: every tier uses the v17/v14
+production pair. If the high-tier renderer misses its preflight frame
 budget, adaptation reduces shadows, DPR and effect density while preserving
 the production principals; actor geometry is never swapped mid-encounter.
 Every principal primitive carries validated normalized `TEXCOORD_0` data.
