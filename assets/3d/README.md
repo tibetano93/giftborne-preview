@@ -61,6 +61,23 @@ stay untextured for controlled emission.
 `aether-wisp-authored-v4.glb` are fully original profiled Giftborne meshes.
 Each carries five compact transform clips for locomotion, attack/cast, hit and
 death. Their versioned geometry source is `scripts/build-authored-actors.py`.
+The v36 runtime keeps those GLBs byte-identical on Low, Balanced, and High but
+changes their combat-scale read: Sentinel uses a taller armored body profile
+and two merged, independently stepping lower-limb meshes; Wisp uses a narrower
+core plus one merged draped-veil mesh. No quality tier substitutes a different
+mob asset.
+
+The five-slot local party similarly adds no actor file. Warrior renders the
+complete seven-pass v17 surface. Each ally starts from the same 31,000-triangle
+authored v17 body, physically removes 948 Warrior-only relic-blade and four
+rigid back-mantle triangles, then deterministically retopologizes that common
+30,052-triangle remainder to one shared 8,000-triangle skinned body. The exact
+same UV, color-map, skin-weight, and topology contract runs on Low, Balanced,
+and High; each cloned skeleton then adds one bone-bound class kit. Stable ground
+contact shadows replace duplicate dynamic-skinned shadow passes for allies.
+The v17-derived topology avoids four puppet-like replacement bodies;
+focus, staff, longbow, and recurve geometry plus palette, proportions, and
+handedness preserve role identity.
 
 Rebuild these committed outputs with Blender 4.5.12 LTS and the workspace
 optimizer:
