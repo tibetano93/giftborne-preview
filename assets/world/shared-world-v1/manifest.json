@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "packId": "phase-e-shared-world-v1",
+  "kind": "shared-world",
+  "regionId": null,
+  "license": "Giftborne-original",
+  "generator": "OpenAI built-in imagegen",
+  "maxAtlasDimension": 2048,
+  "budgetBytes": 2097152,
+  "payloadBytes": 1227380,
+  "qualityPolicy": {
+    "singleAssetSet": true,
+    "variesOnly": ["dpr", "particles", "shadows", "decals"],
+    "profiles": {
+      "low": { "dpr": 1, "particles": 0.35, "shadows": false, "decals": 0.4 },
+      "balanced": {
+        "dpr": 1.5,
+        "particles": 0.7,
+        "shadows": true,
+        "decals": 0.75
+      },
+      "high": { "dpr": 2, "particles": 1, "shadows": true, "decals": 1 }
+    }
+  },
+  "requiredIdentityIds": [
+    "ambient-skyreach-gardener",
+    "ambient-skyreach-artisan",
+    "ambient-skyreach-steward",
+    "ambient-skyreach-courier",
+    "ambient-emberglass-apprentice",
+    "ambient-emberglass-merchant",
+    "ambient-emberglass-surveyor",
+    "ambient-emberglass-quartermaster",
+    "ambient-moonveil-lantern-keeper",
+    "ambient-moonveil-scribe",
+    "ambient-moonveil-moth-tender",
+    "ambient-moonveil-warden"
+  ],
+  "requiredSemanticIds": [
+    "ambient-emberglass-forge-hall",
+    "ambient-emberglass-smithy",
+    "ambient-emberglass-caravan-shelter",
+    "ambient-emberglass-market-stall"
+  ],
+  "requiredActorStates": ["idle"],
+  "atlases": [
+    {
+      "id": "phase-e-shared-world-ambient-v1",
+      "file": "shared-world-ambient-v1.webp",
+      "mediaType": "image/webp",
+      "bytes": 1227380,
+      "sha256": "f45dde98860614f762e3128139464a97c6ac782c530776b04de3ffe9a6c4ab5e",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "background": "transparent",
+      "encoding": "near-lossless"
+    }
+  ],
+  "frames": [
+    {
+      "id": "ambient-emberglass-forge-hall",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 5000,
+      "identityId": null,
+      "state": null,
+      "semantic": "ambient-emberglass-forge-hall"
+    },
+    {
+      "id": "ambient-emberglass-smithy",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 256,
+      "y": 0,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 5000,
+      "identityId": null,
+      "state": null,
+      "semantic": "ambient-emberglass-smithy"
+    },
+    {
+      "id": "ambient-emberglass-caravan-shelter",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 512,
+      "y": 0,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 5000,
+      "identityId": null,
+      "state": null,
+      "semantic": "ambient-emberglass-caravan-shelter"
+    },
+    {
+      "id": "ambient-emberglass-market-stall",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 768,
+      "y": 0,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 5000,
+      "identityId": null,
+      "state": null,
+      "semantic": "ambient-emberglass-market-stall"
+    },
+    {
+      "id": "ambient-skyreach-gardener-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 0,
+      "y": 384,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-skyreach-gardener",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-skyreach-artisan-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 256,
+      "y": 384,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-skyreach-artisan",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-skyreach-steward-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 512,
+      "y": 384,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-skyreach-steward",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-skyreach-courier-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 768,
+      "y": 384,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-skyreach-courier",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-emberglass-apprentice-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 0,
+      "y": 768,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-emberglass-apprentice",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-emberglass-merchant-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 256,
+      "y": 768,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-emberglass-merchant",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-emberglass-surveyor-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 512,
+      "y": 768,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-emberglass-surveyor",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-emberglass-quartermaster-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 768,
+      "y": 768,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-emberglass-quartermaster",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-moonveil-lantern-keeper-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 0,
+      "y": 1152,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-moonveil-lantern-keeper",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-moonveil-scribe-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 256,
+      "y": 1152,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-moonveil-scribe",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-moonveil-moth-tender-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 512,
+      "y": 1152,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-moonveil-moth-tender",
+      "state": "idle",
+      "semantic": null
+    },
+    {
+      "id": "ambient-moonveil-warden-idle-01",
+      "atlasId": "phase-e-shared-world-ambient-v1",
+      "x": 768,
+      "y": 1152,
+      "width": 256,
+      "height": 384,
+      "anchorXBp": 5000,
+      "anchorYBp": 9400,
+      "identityId": "ambient-moonveil-warden",
+      "state": "idle",
+      "semantic": null
+    }
+  ],
+  "animations": [
+    {
+      "actorId": "ambient-skyreach-gardener",
+      "state": "idle",
+      "frameIds": ["ambient-skyreach-gardener-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-skyreach-artisan",
+      "state": "idle",
+      "frameIds": ["ambient-skyreach-artisan-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-skyreach-steward",
+      "state": "idle",
+      "frameIds": ["ambient-skyreach-steward-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-skyreach-courier",
+      "state": "idle",
+      "frameIds": ["ambient-skyreach-courier-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-emberglass-apprentice",
+      "state": "idle",
+      "frameIds": ["ambient-emberglass-apprentice-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-emberglass-merchant",
+      "state": "idle",
+      "frameIds": ["ambient-emberglass-merchant-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-emberglass-surveyor",
+      "state": "idle",
+      "frameIds": ["ambient-emberglass-surveyor-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-emberglass-quartermaster",
+      "state": "idle",
+      "frameIds": ["ambient-emberglass-quartermaster-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-moonveil-lantern-keeper",
+      "state": "idle",
+      "frameIds": ["ambient-moonveil-lantern-keeper-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-moonveil-scribe",
+      "state": "idle",
+      "frameIds": ["ambient-moonveil-scribe-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-moonveil-moth-tender",
+      "state": "idle",
+      "frameIds": ["ambient-moonveil-moth-tender-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    },
+    {
+      "actorId": "ambient-moonveil-warden",
+      "state": "idle",
+      "frameIds": ["ambient-moonveil-warden-idle-01"],
+      "ticksPerFrame": 4,
+      "loop": true
+    }
+  ],
+  "identities": [
+    "ambient-skyreach-gardener",
+    "ambient-skyreach-artisan",
+    "ambient-skyreach-steward",
+    "ambient-skyreach-courier",
+    "ambient-emberglass-apprentice",
+    "ambient-emberglass-merchant",
+    "ambient-emberglass-surveyor",
+    "ambient-emberglass-quartermaster",
+    "ambient-moonveil-lantern-keeper",
+    "ambient-moonveil-scribe",
+    "ambient-moonveil-moth-tender",
+    "ambient-moonveil-warden"
+  ],
+  "manifestBytes": 9843,
+  "totalBytes": 1237223
+}
