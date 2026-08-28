@@ -1,0 +1,1 @@
+var e=`/giftborne-preview/v49/`,t=e.endsWith(`/`)?e:`${e}/`,n=e=>`${t}${e.replace(/^\/+/,``)}`;export{n as t};
