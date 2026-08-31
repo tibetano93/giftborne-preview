@@ -1,0 +1,336 @@
+{
+  "id": "giftborne-sample-audio-v10",
+  "budgetBytes": 8000000,
+  "totalBytes": 4528330,
+  "spriteDurationSeconds": 1.52,
+  "combatSpriteDurationSeconds": 17.72,
+  "foleySpriteDurationSeconds": 4.15,
+  "creatureSpriteDurationSeconds": 18.4,
+  "aetherionSpriteDurationSeconds": 6.69,
+  "adaptiveScoreDurationSeconds": 45,
+  "runtimeFiles": [
+    {
+      "id": "giftborne-sample-mixer-worklet-v1",
+      "file": "giftborne-sample-mixer-v1.js",
+      "bytes": 3821,
+      "sha256": "a1a2b034fd722e10b86352d4cb6de5364563580df544ec8333f5a73dd8fbafb6",
+      "role": "preloaded AudioWorklet mixer for SFX, Voice and UI cues"
+    }
+  ],
+  "files": [
+    {
+      "id": "celestial-wind-aac-v1",
+      "file": "celestial-wind-v1.m4a",
+      "bytes": 49976,
+      "sha256": "50873bf430e0d572df4439c438bdac59f776f3681b289dd96ebb385433fc1d12",
+      "codec": "AAC-LC",
+      "role": "looping celestial ambience fallback"
+    },
+    {
+      "id": "celestial-wind-opus-v1",
+      "file": "celestial-wind-v1.webm",
+      "bytes": 44193,
+      "sha256": "1bdf090909b173bd600c4ac0c528dffdd2801140fe86dd797e1c01dda117b339",
+      "codec": "Opus",
+      "role": "looping celestial ambience"
+    },
+    {
+      "id": "combat-phase1-aac-v6",
+      "file": "combat-phase1-v6.m4a",
+      "bytes": 552818,
+      "sha256": "c3f6a38d9a862a31394f0bcb011a0fb44b7f96c507cc0737cb0f6e79c42eff46",
+      "codec": "AAC-LC",
+      "role": "orchestral boss-combat Phase 1 score fallback"
+    },
+    {
+      "id": "combat-phase1-opus-v6",
+      "file": "combat-phase1-v6.webm",
+      "bytes": 466709,
+      "sha256": "aaf6699a2396265f9c76a6e0186900a7f7fb62790636a846c1ec388e1e70e610",
+      "codec": "Opus",
+      "role": "orchestral boss-combat Phase 1 score"
+    },
+    {
+      "id": "combat-phase2-aac-v6",
+      "file": "combat-phase2-v6.m4a",
+      "bytes": 552626,
+      "sha256": "1478c67a28085d796f38f0c677c2f82809c4cd07309f5f93fe8bee9dc5c69f4a",
+      "codec": "AAC-LC",
+      "role": "choir and full-orchestra Phase 2 score fallback"
+    },
+    {
+      "id": "combat-phase2-opus-v6",
+      "file": "combat-phase2-v6.webm",
+      "bytes": 466709,
+      "sha256": "b67b420eac00faf936b65582deb77250d70ea1ee93819cb7cd88a54bb0f1af36",
+      "codec": "Opus",
+      "role": "choir and full-orchestra Phase 2 score"
+    },
+    {
+      "id": "giftborne-combat-aac-v5",
+      "file": "giftborne-combat-v5.m4a",
+      "bytes": 221664,
+      "sha256": "f1583e327cb0849d421a095fd12dbdc066c6423e6eda5a567ada1f78abd8c940",
+      "codec": "AAC-LC",
+      "role": "cinematic skill, weapon, impact and boss-signature atlas fallback"
+    },
+    {
+      "id": "giftborne-combat-opus-v5",
+      "file": "giftborne-combat-v5.webm",
+      "bytes": 219661,
+      "sha256": "c7202f5df1f8454727a47c3b2d0838e82a06b3c167b5f761f5831af8d9ab5edc",
+      "codec": "Opus",
+      "role": "cinematic skill, weapon, impact and boss-signature atlas"
+    },
+    {
+      "id": "giftborne-foley-aac-v1",
+      "file": "giftborne-foley-v1.m4a",
+      "bytes": 61534,
+      "sha256": "af73f382619684ae1639c9fc514456c26fd8941777f86a6121aefb8dc4b8a270",
+      "codec": "AAC-LC",
+      "role": "locomotion and creature foley cue atlas fallback"
+    },
+    {
+      "id": "giftborne-foley-opus-v1",
+      "file": "giftborne-foley-v1.webm",
+      "bytes": 38964,
+      "sha256": "36ed4cb4358a4a4d3b5890ea26e45190077bd8d7e12e1cc11956766be049af7d",
+      "codec": "Opus",
+      "role": "locomotion and creature foley cue atlas"
+    },
+    {
+      "id": "giftborne-creatures-aac-v2",
+      "file": "giftborne-creatures-v2.m4a",
+      "bytes": 192660,
+      "sha256": "cc4334e1a630f80f4cd2e805cebd8ca0944fffe71ca1cccd82075ac66a6ee99b",
+      "codec": "AAC-LC",
+      "role": "48 kHz stereo actor-specific creature cue atlas fallback"
+    },
+    {
+      "id": "giftborne-creatures-opus-v2",
+      "file": "giftborne-creatures-v2.webm",
+      "bytes": 154379,
+      "sha256": "7ad77e0b1caf69da90d4e733b8a6f08ffc85382fd5e2ef8ba89e14499e589427",
+      "codec": "Opus",
+      "role": "48 kHz stereo actor-specific creature cue atlas"
+    },
+    {
+      "id": "giftborne-aetherion-aac-v1",
+      "file": "giftborne-aetherion-v1.m4a",
+      "bytes": 56400,
+      "sha256": "f959ae6daa1a445bddb0173415c4092ca0b9ae640d29ca6aba0cd2f4f4d72fc2",
+      "codec": "AAC-LC",
+      "role": "Aetherion effort and hurt voice cue atlas fallback"
+    },
+    {
+      "id": "giftborne-aetherion-opus-v1",
+      "file": "giftborne-aetherion-v1.webm",
+      "bytes": 42718,
+      "sha256": "02e25f4f9e844ab28ee81ca990b1ed10e65b6e4699670fc1044d253a1f34d486",
+      "codec": "Opus",
+      "role": "Aetherion effort and hurt voice cue atlas"
+    },
+    {
+      "id": "giftborne-ui-aac-v4",
+      "file": "giftborne-ui-v4.m4a",
+      "bytes": 17241,
+      "sha256": "9082cf604264017ebf625907aa5be30bc9173a02c09a1ed0bf3d190963eb7a06",
+      "codec": "AAC-LC",
+      "role": "recorded cinematic interface cue atlas fallback"
+    },
+    {
+      "id": "giftborne-ui-opus-v4",
+      "file": "giftborne-ui-v4.webm",
+      "bytes": 13341,
+      "sha256": "497ac51e8e14276b49a8380a58f82f65acc2ce966cbca4005f5adc38fd4dc856",
+      "codec": "Opus",
+      "role": "recorded cinematic interface cue atlas"
+    },
+    {
+      "id": "skyreach-hub-aac-v2",
+      "file": "skyreach-hub-v2.m4a",
+      "bytes": 722860,
+      "sha256": "590a091cca4f60cac64958449364ba40723394f80ca1f5be2311635bc75d5237",
+      "codec": "AAC-LC",
+      "role": "bright orchestral hub and buildcraft score fallback"
+    },
+    {
+      "id": "skyreach-hub-opus-v2",
+      "file": "skyreach-hub-v2.webm",
+      "bytes": 653877,
+      "sha256": "e6f0c5efaad85aff8171e59d6cb17e795fba3d2b2f94e851096b3a2de3034d1d",
+      "codec": "Opus",
+      "role": "bright orchestral hub and buildcraft score"
+    }
+  ],
+  "cues": [
+    { "id": "ui-select", "offset": 0, "duration": 0.34 },
+    { "id": "ui-confirm", "offset": 0.34, "duration": 0.72 },
+    { "id": "ui-back", "offset": 1.06, "duration": 0.46 }
+  ],
+  "combatCues": [
+    { "id": "weapon-swing-a", "offset": 0, "duration": 0.64 },
+    { "id": "weapon-swing-b", "offset": 0.72, "duration": 0.66 },
+    { "id": "impact-light", "offset": 1.46, "duration": 0.72 },
+    { "id": "impact-heavy", "offset": 2.26, "duration": 1.05 },
+    { "id": "aether-burst", "offset": 3.39, "duration": 2.1 },
+    { "id": "giftbound-shield", "offset": 5.57, "duration": 2.2 },
+    { "id": "starfall-lance", "offset": 7.85, "duration": 2.25 },
+    { "id": "astral-step", "offset": 10.18, "duration": 1.2 },
+    { "id": "sovereign-signature", "offset": 11.46, "duration": 3 },
+    { "id": "crystal-impact", "offset": 14.54, "duration": 1.45 },
+    { "id": "celestial-bell", "offset": 16.07, "duration": 1.65 }
+  ],
+  "foleyCues": [
+    { "id": "footstep-stone-a", "offset": 0, "duration": 0.24 },
+    { "id": "footstep-stone-b", "offset": 0.29, "duration": 0.31 },
+    { "id": "footstep-stone-c", "offset": 0.65, "duration": 0.25 },
+    { "id": "cloth-rustle-a", "offset": 0.95, "duration": 0.52 },
+    { "id": "cloth-rustle-b", "offset": 1.52, "duration": 0.44 },
+    { "id": "armor-jingle-a", "offset": 2.01, "duration": 0.26 },
+    { "id": "armor-jingle-b", "offset": 2.32, "duration": 0.4 },
+    { "id": "sovereign-glide-a", "offset": 2.77, "duration": 0.62 },
+    { "id": "sovereign-glide-b", "offset": 3.44, "duration": 0.64 }
+  ],
+  "creatureCues": [
+    { "id": "sovereign-attack-a", "offset": 0, "duration": 0.95 },
+    { "id": "sovereign-attack-b", "offset": 0.95, "duration": 0.95 },
+    { "id": "sovereign-cast-a", "offset": 1.9, "duration": 1.45 },
+    { "id": "sovereign-cast-b", "offset": 3.35, "duration": 1.25 },
+    { "id": "sovereign-hit-a", "offset": 4.6, "duration": 0.42 },
+    { "id": "sovereign-hit-b", "offset": 5.02, "duration": 0.48 },
+    { "id": "sovereign-phase", "offset": 5.5, "duration": 2.1 },
+    { "id": "sovereign-death", "offset": 7.6, "duration": 3.05 },
+    { "id": "sentinel-attack-a", "offset": 10.65, "duration": 0.7 },
+    { "id": "sentinel-attack-b", "offset": 11.35, "duration": 0.78 },
+    { "id": "sentinel-hit-a", "offset": 12.13, "duration": 0.38 },
+    { "id": "sentinel-hit-b", "offset": 12.51, "duration": 0.44 },
+    { "id": "sentinel-death", "offset": 12.95, "duration": 1.35 },
+    { "id": "wisp-cast-a", "offset": 14.3, "duration": 0.82 },
+    { "id": "wisp-cast-b", "offset": 15.12, "duration": 0.96 },
+    { "id": "wisp-hit-a", "offset": 16.08, "duration": 0.35 },
+    { "id": "wisp-hit-b", "offset": 16.43, "duration": 0.42 },
+    { "id": "wisp-death", "offset": 16.85, "duration": 1.55 }
+  ],
+  "aetherionCues": [
+    { "id": "aetherion-effort-a", "offset": 0, "duration": 0.46 },
+    { "id": "aetherion-effort-b", "offset": 0.46, "duration": 0.4 },
+    { "id": "aetherion-cast-a", "offset": 0.86, "duration": 0.78 },
+    { "id": "aetherion-cast-b", "offset": 1.64, "duration": 0.94 },
+    { "id": "aetherion-hurt-a", "offset": 2.58, "duration": 0.42 },
+    { "id": "aetherion-hurt-b", "offset": 3, "duration": 0.64 },
+    { "id": "aetherion-death", "offset": 3.64, "duration": 3.05 }
+  ],
+  "sources": [
+    {
+      "id": "haeldb-male-grunt-yelling",
+      "sourceUrl": "https://opengameart.org/content/male-gruntyelling-sounds",
+      "license": "CC0-1.0",
+      "clips": [
+        "3grunt3.wav",
+        "3grunt5.wav",
+        "3yell5.wav",
+        "3yell14.wav",
+        "3grunt1.wav",
+        "3grunt2.wav",
+        "3yell16.wav"
+      ]
+    },
+    {
+      "id": "kenney-rpg-audio",
+      "sourceUrl": "https://www.kenney.nl/assets/rpg-audio",
+      "license": "CC0-1.0",
+      "clips": [
+        "footstep00.ogg",
+        "footstep04.ogg",
+        "footstep07.ogg",
+        "cloth1.ogg",
+        "cloth3.ogg",
+        "beltHandle1.ogg",
+        "metalClick.ogg",
+        "clothBelt.ogg",
+        "clothBelt2.ogg"
+      ]
+    },
+    {
+      "id": "sketchman3-wind-whoosh",
+      "sourceUrl": "https://opengameart.org/content/wind-whoosh-loop",
+      "license": "CC0-1.0",
+      "clips": ["wind woosh loop.ogg"]
+    },
+    {
+      "id": "mintodog-hope-orchestral-battle-music",
+      "sourceUrl": "https://opengameart.org/content/hopeorchestral-battle-music",
+      "license": "CC0-1.0",
+      "clips": ["hope_orchestral_battle_music_bpm165_0.ogg"]
+    },
+    {
+      "id": "matthew-pablo-colossal-boss-battle-theme",
+      "sourceUrl": "https://opengameart.org/content/colossal-boss-battle-theme",
+      "license": "CC-BY-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Blackmoor Colossus by Matthew Pablo, edited for Giftborne",
+      "clips": [
+        "Blackmoor Colossus Loop (No Vocals).wav",
+        "Blackmoor Colossus Loop.wav"
+      ]
+    },
+    {
+      "id": "pixabay-daviddumais-sword-slash-185432",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-sword-slash-and-swing-185432/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["daviddumaisaudio-sword-slash-and-swing-185432.mp3"]
+    },
+    {
+      "id": "pixabay-dragon-studio-armor-impact-393843",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-armor-impact-from-sword-393843/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-armor-impact-from-sword-393843.mp3"]
+    },
+    {
+      "id": "pixabay-rescopic-elemental-magic-228342",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-elemental-magic-spell-impact-outgoing-228342/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": [
+        "rescopicsound-elemental-magic-spell-impact-outgoing-228342.mp3"
+      ]
+    },
+    {
+      "id": "pixabay-dragon-studio-epic-spell-478364",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-epic-spell-impact-478364/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-epic-spell-impact-478364.mp3"]
+    },
+    {
+      "id": "pixabay-dragon-studio-epic-roar-364481",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-epic-dragon-roar-364481/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-epic-dragon-roar-364481.mp3"]
+    },
+    {
+      "id": "pixabay-universfield-cinematic-impact-352465",
+      "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-cinematic-impact-boom-05-352465/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["universfield-cinematic-impact-boom-05-352465.mp3"]
+    },
+    {
+      "id": "pixabay-dragon-studio-sword-slice-393845",
+      "sourceUrl": "https://pixabay.com/sound-effects/sword-slice-2-393845/",
+      "license": "Pixabay-Content-License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "clips": ["dragon-studio-sword-slice-2-393845.mp3"]
+    },
+    {
+      "id": "bmaczero-metal-impact-sounds",
+      "sourceUrl": "https://opengameart.org/content/metal-impact-sounds",
+      "license": "CC0-1.0",
+      "clips": ["bong1.wav", "thud2.wav"]
+    }
+  ]
+}
