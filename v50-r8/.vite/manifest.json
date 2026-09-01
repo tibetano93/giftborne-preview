@@ -1,0 +1,583 @@
+{
+  "_PlayerUnitFrame-CV4GdSsQ.js": {
+    "file": "assets/PlayerUnitFrame-CV4GdSsQ.js",
+    "name": "PlayerUnitFrame",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_assetUrl-D4NVGLh-.js",
+      "_dist-B5e_GxN_.js"
+    ]
+  },
+  "_SettingsPanel-CMyaJYRO.js": {
+    "file": "assets/SettingsPanel-CMyaJYRO.js",
+    "name": "SettingsPanel",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_skillArt-ctq-8_MZ.js",
+      "_localization-CBv6Q1pe.js"
+    ]
+  },
+  "_WorldRegionRenderer-CiF7NUR5.css": {
+    "file": "assets/WorldRegionRenderer-CiF7NUR5.css",
+    "src": "_WorldRegionRenderer-CiF7NUR5.css"
+  },
+  "_WorldRegionRenderer-ZRrzPcIW.js": {
+    "file": "assets/WorldRegionRenderer-ZRrzPcIW.js",
+    "name": "WorldRegionRenderer",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_dist-DEenxrrH.js",
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_preload-helper-DjF6SaxH.js",
+      "_partyPresentation-9YvKT0rG.js",
+      "_fixedStep--rxf52i2.js",
+      "_worldClient-CqTUp8_x.js",
+      "_worldActorModelAuthority-C9aQE25C.js",
+      "_worldSceneClient-D61SD1kE.js",
+      "_worldPopulationSeparation-Bgcj1Yws.js",
+      "_worldRegionClient-BTLMPqDx.js"
+    ],
+    "dynamicImports": [
+      "src/world/worldScene3d.ts",
+      "src/world/skyreachPopulation.ts",
+      "src/world/worldRegionHybrid3d.ts"
+    ],
+    "css": [
+      "assets/WorldRegionRenderer-CiF7NUR5.css"
+    ]
+  },
+  "_aetherionActor3d-DNzyd2sx.js": {
+    "file": "assets/aetherionActor3d-DNzyd2sx.js",
+    "name": "aetherionActor3d",
+    "imports": [
+      "_three.module-DBBfrfor.js"
+    ]
+  },
+  "_assetUrl-D4NVGLh-.js": {
+    "file": "assets/assetUrl-D4NVGLh-.js",
+    "name": "assetUrl"
+  },
+  "_campaignEncounterBindings.moonveil-BYjMVAvd.js": {
+    "file": "assets/campaignEncounterBindings.moonveil-BYjMVAvd.js",
+    "name": "campaignEncounterBindings.moonveil"
+  },
+  "_campaignEncounterPresets.emberglass-Co8qJr_W.js": {
+    "file": "assets/campaignEncounterPresets.emberglass-Co8qJr_W.js",
+    "name": "campaignEncounterPresets.emberglass",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_worldBattle-DQCSM1Xk.js"
+    ]
+  },
+  "_campaignEncounterPresets.moonveil-BLCJk4RV.js": {
+    "file": "assets/campaignEncounterPresets.moonveil-BLCJk4RV.js",
+    "name": "campaignEncounterPresets.moonveil",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_worldBattle-DQCSM1Xk.js"
+    ]
+  },
+  "_campaignEncounterPresets.skyreach-CqgX8Jly.js": {
+    "file": "assets/campaignEncounterPresets.skyreach-CqgX8Jly.js",
+    "name": "campaignEncounterPresets.skyreach",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_worldBattle-DQCSM1Xk.js"
+    ]
+  },
+  "_combatQuality-COvvhrFk.js": {
+    "file": "assets/combatQuality-COvvhrFk.js",
+    "name": "combatQuality"
+  },
+  "_dist-B5e_GxN_.js": {
+    "file": "assets/dist-B5e_GxN_.js",
+    "name": "dist",
+    "imports": [
+      "_worldBattle-DQCSM1Xk.js",
+      "_dist-DEenxrrH.js"
+    ]
+  },
+  "_dist-CYaHU1qu.js": {
+    "file": "assets/dist-CYaHU1qu.js",
+    "name": "dist",
+    "imports": [
+      "_regionAuthority-DQp-ieH-.js"
+    ]
+  },
+  "_dist-DEenxrrH.js": {
+    "file": "assets/dist-DEenxrrH.js",
+    "name": "dist"
+  },
+  "_emberglassRegionAuthority-BDWp-4ec.js": {
+    "file": "assets/emberglassRegionAuthority-BDWp-4ec.js",
+    "name": "emberglassRegionAuthority",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_emberglassRegionGeometry-CrQ4ebsM.js",
+      "_regionGeometryAuthority-D5e8-roF.js"
+    ]
+  },
+  "_emberglassRegionGeometry-CrQ4ebsM.js": {
+    "file": "assets/emberglassRegionGeometry-CrQ4ebsM.js",
+    "name": "emberglassRegionGeometry",
+    "imports": [
+      "_regionGeometry-C-DRJMez.js"
+    ]
+  },
+  "_fixedStep--rxf52i2.js": {
+    "file": "assets/fixedStep--rxf52i2.js",
+    "name": "fixedStep"
+  },
+  "_isometricSceneHost3d-_Vl8ievx.js": {
+    "file": "assets/isometricSceneHost3d-_Vl8ievx.js",
+    "name": "isometricSceneHost3d",
+    "imports": [
+      "_three.module-DBBfrfor.js"
+    ]
+  },
+  "_jsx-runtime-KJkY8l8U.js": {
+    "file": "assets/jsx-runtime-KJkY8l8U.js",
+    "name": "jsx-runtime"
+  },
+  "_localization-CBv6Q1pe.js": {
+    "file": "assets/localization-CBv6Q1pe.js",
+    "name": "localization",
+    "imports": [
+      "_worldBattle-DQCSM1Xk.js",
+      "_dist-B5e_GxN_.js"
+    ]
+  },
+  "_miniAppRuntime-CPMlL9fj.js": {
+    "file": "assets/miniAppRuntime-CPMlL9fj.js",
+    "name": "miniAppRuntime",
+    "imports": [
+      "_assetUrl-D4NVGLh-.js"
+    ]
+  },
+  "_moonveilRegionAuthority-DzgBK6ll.js": {
+    "file": "assets/moonveilRegionAuthority-DzgBK6ll.js",
+    "name": "moonveilRegionAuthority",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_moonveilRegionGeometry-B9gzI8H-.js",
+      "_regionGeometryAuthority-D5e8-roF.js"
+    ]
+  },
+  "_moonveilRegionGeometry-B9gzI8H-.js": {
+    "file": "assets/moonveilRegionGeometry-B9gzI8H-.js",
+    "name": "moonveilRegionGeometry",
+    "imports": [
+      "_regionGeometry-C-DRJMez.js"
+    ]
+  },
+  "_partyActorOptimization-C9DK5f_A.js": {
+    "file": "assets/partyActorOptimization-C9DK5f_A.js",
+    "name": "partyActorOptimization",
+    "imports": [
+      "_three.module-DBBfrfor.js",
+      "_aetherionActor3d-DNzyd2sx.js",
+      "_partyPresentation-9YvKT0rG.js"
+    ]
+  },
+  "_partyPresentation-9YvKT0rG.js": {
+    "file": "assets/partyPresentation-9YvKT0rG.js",
+    "name": "partyPresentation"
+  },
+  "_preload-helper-DjF6SaxH.js": {
+    "file": "assets/preload-helper-DjF6SaxH.js",
+    "name": "preload-helper"
+  },
+  "_regionAuthority-DQp-ieH-.js": {
+    "file": "assets/regionAuthority-DQp-ieH-.js",
+    "name": "regionAuthority"
+  },
+  "_regionGeometry-C-DRJMez.js": {
+    "file": "assets/regionGeometry-C-DRJMez.js",
+    "name": "regionGeometry"
+  },
+  "_regionGeometryAuthority-D5e8-roF.js": {
+    "file": "assets/regionGeometryAuthority-D5e8-roF.js",
+    "name": "regionGeometryAuthority",
+    "imports": [
+      "_regionAuthority-DQp-ieH-.js"
+    ]
+  },
+  "_regionRenderThemesV49-C6lT7eP7.js": {
+    "file": "assets/regionRenderThemesV49-C6lT7eP7.js",
+    "name": "regionRenderThemesV49"
+  },
+  "_regionSetDressingClient-IeLKWXKW.js": {
+    "file": "assets/regionSetDressingClient-IeLKWXKW.js",
+    "name": "regionSetDressingClient",
+    "imports": [
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_worldClient-CqTUp8_x.js",
+      "_worldSceneClient-D61SD1kE.js",
+      "_worldRegionClient-BTLMPqDx.js"
+    ]
+  },
+  "_skillArt-ctq-8_MZ.js": {
+    "file": "assets/skillArt-ctq-8_MZ.js",
+    "name": "skillArt",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_worldBattle-DQCSM1Xk.js",
+      "_dist-DEenxrrH.js",
+      "_assetUrl-D4NVGLh-.js",
+      "_dist-B5e_GxN_.js",
+      "_localization-CBv6Q1pe.js"
+    ]
+  },
+  "_skyreachArtDescriptor-GOdAhzVl.js": {
+    "file": "assets/skyreachArtDescriptor-GOdAhzVl.js",
+    "name": "skyreachArtDescriptor",
+    "imports": [
+      "_worldActorModelAuthority-C9aQE25C.js"
+    ]
+  },
+  "_skyreachDevSlice-D5QgyruG.js": {
+    "file": "assets/skyreachDevSlice-D5QgyruG.js",
+    "name": "skyreachDevSlice",
+    "imports": [
+      "_worldClient-CqTUp8_x.js",
+      "_regionRenderThemesV49-C6lT7eP7.js",
+      "_skyreachRegionAuthority-CtFWfUg8.js"
+    ]
+  },
+  "_skyreachRegionAuthority-CtFWfUg8.js": {
+    "file": "assets/skyreachRegionAuthority-CtFWfUg8.js",
+    "name": "skyreachRegionAuthority",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_skyreachRegionGeometry-Dfnllzrh.js",
+      "_regionGeometryAuthority-D5e8-roF.js"
+    ]
+  },
+  "_skyreachRegionGeometry-Dfnllzrh.js": {
+    "file": "assets/skyreachRegionGeometry-Dfnllzrh.js",
+    "name": "skyreachRegionGeometry",
+    "imports": [
+      "_regionGeometry-C-DRJMez.js"
+    ]
+  },
+  "_three.module-DBBfrfor.js": {
+    "file": "assets/three.module-DBBfrfor.js",
+    "name": "three.module"
+  },
+  "_worldActorModelAuthority-C9aQE25C.js": {
+    "file": "assets/worldActorModelAuthority-C9aQE25C.js",
+    "name": "worldActorModelAuthority",
+    "imports": [
+      "_assetUrl-D4NVGLh-.js"
+    ]
+  },
+  "_worldBattle-DQCSM1Xk.js": {
+    "file": "assets/worldBattle-DQCSM1Xk.js",
+    "name": "worldBattle",
+    "imports": [
+      "_dist-DEenxrrH.js"
+    ]
+  },
+  "_worldClient-CqTUp8_x.js": {
+    "file": "assets/worldClient-CqTUp8_x.js",
+    "name": "worldClient",
+    "imports": [
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_fixedStep--rxf52i2.js"
+    ]
+  },
+  "_worldEncounterCatalogClient-DZja7-xq.js": {
+    "file": "assets/worldEncounterCatalogClient-DZja7-xq.js",
+    "name": "worldEncounterCatalogClient",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_dist-DEenxrrH.js",
+      "_preload-helper-DjF6SaxH.js",
+      "_campaignEncounterBindings.moonveil-BYjMVAvd.js"
+    ],
+    "dynamicImports": [
+      "_campaignEncounterPresets.skyreach-CqgX8Jly.js",
+      "_campaignEncounterPresets.emberglass-Co8qJr_W.js",
+      "_campaignEncounterPresets.moonveil-BLCJk4RV.js"
+    ]
+  },
+  "_worldNavigation-BceUYLbO.js": {
+    "file": "assets/worldNavigation-BceUYLbO.js",
+    "name": "worldNavigation",
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_worldBattle-DQCSM1Xk.js",
+      "_dist-DEenxrrH.js",
+      "_skillArt-ctq-8_MZ.js",
+      "_assetUrl-D4NVGLh-.js",
+      "_dist-B5e_GxN_.js",
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_preload-helper-DjF6SaxH.js",
+      "_campaignEncounterBindings.moonveil-BYjMVAvd.js",
+      "_localization-CBv6Q1pe.js"
+    ],
+    "dynamicImports": [
+      "_worldEncounterCatalogClient-DZja7-xq.js",
+      "src/characterModelPreview3d.ts",
+      "src/world/SkyreachSanctuaryRuntime.tsx"
+    ]
+  },
+  "_worldPopulationSeparation-Bgcj1Yws.js": {
+    "file": "assets/worldPopulationSeparation-Bgcj1Yws.js",
+    "name": "worldPopulationSeparation"
+  },
+  "_worldRegionClient-BTLMPqDx.js": {
+    "file": "assets/worldRegionClient-BTLMPqDx.js",
+    "name": "worldRegionClient",
+    "imports": [
+      "_worldBattle-DQCSM1Xk.js",
+      "_dist-DEenxrrH.js",
+      "_dist-B5e_GxN_.js",
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_preload-helper-DjF6SaxH.js",
+      "_localization-CBv6Q1pe.js",
+      "_miniAppRuntime-CPMlL9fj.js",
+      "_worldActorModelAuthority-C9aQE25C.js",
+      "_worldSceneClient-D61SD1kE.js"
+    ],
+    "dynamicImports": [
+      "src/world/skyreachRegionModule.ts",
+      "src/world/emberglassRegionModule.ts",
+      "src/world/moonveilRegionModule.ts"
+    ]
+  },
+  "_worldSceneClient-D61SD1kE.js": {
+    "file": "assets/worldSceneClient-D61SD1kE.js",
+    "name": "worldSceneClient",
+    "imports": [
+      "_dist-DEenxrrH.js",
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_worldClient-CqTUp8_x.js"
+    ]
+  },
+  "_worldSceneProjection3d-DBx42A2-.js": {
+    "file": "assets/worldSceneProjection3d-DBx42A2-.js",
+    "name": "worldSceneProjection3d",
+    "imports": [
+      "_three.module-DBBfrfor.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-DB-RIVs3.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_worldBattle-DQCSM1Xk.js",
+      "_dist-DEenxrrH.js",
+      "_skillArt-ctq-8_MZ.js",
+      "_assetUrl-D4NVGLh-.js",
+      "_dist-B5e_GxN_.js",
+      "_worldNavigation-BceUYLbO.js",
+      "_preload-helper-DjF6SaxH.js",
+      "_localization-CBv6Q1pe.js",
+      "_SettingsPanel-CMyaJYRO.js",
+      "_miniAppRuntime-CPMlL9fj.js"
+    ],
+    "dynamicImports": [
+      "src/CombatView.tsx",
+      "src/world/WorldShell.tsx"
+    ],
+    "css": [
+      "assets/index-CRerk7_R.css"
+    ]
+  },
+  "src/CombatView.tsx": {
+    "file": "assets/CombatView-BYiHbRW6.js",
+    "name": "CombatView",
+    "src": "src/CombatView.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_worldBattle-DQCSM1Xk.js",
+      "_skillArt-ctq-8_MZ.js",
+      "_assetUrl-D4NVGLh-.js",
+      "_dist-B5e_GxN_.js",
+      "_localization-CBv6Q1pe.js",
+      "_SettingsPanel-CMyaJYRO.js",
+      "_three.module-DBBfrfor.js",
+      "_aetherionActor3d-DNzyd2sx.js",
+      "_combatQuality-COvvhrFk.js",
+      "_partyActorOptimization-C9DK5f_A.js",
+      "_isometricSceneHost3d-_Vl8ievx.js",
+      "_partyPresentation-9YvKT0rG.js",
+      "_fixedStep--rxf52i2.js",
+      "_PlayerUnitFrame-CV4GdSsQ.js"
+    ]
+  },
+  "src/characterModelPreview3d.ts": {
+    "file": "assets/characterModelPreview3d-Ck9j8cOA.js",
+    "name": "characterModelPreview3d",
+    "src": "src/characterModelPreview3d.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_assetUrl-D4NVGLh-.js",
+      "_three.module-DBBfrfor.js",
+      "_aetherionActor3d-DNzyd2sx.js",
+      "_partyPresentation-9YvKT0rG.js"
+    ]
+  },
+  "src/world/SkyreachSanctuaryRuntime.tsx": {
+    "file": "assets/SkyreachSanctuaryRuntime-D1eOLxdR.js",
+    "name": "SkyreachSanctuaryRuntime",
+    "src": "src/world/SkyreachSanctuaryRuntime.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_combatQuality-COvvhrFk.js",
+      "_worldActorModelAuthority-C9aQE25C.js",
+      "_WorldRegionRenderer-ZRrzPcIW.js",
+      "_worldRegionClient-BTLMPqDx.js"
+    ],
+    "css": [
+      "assets/SkyreachSanctuaryRuntime-fnkRF1DH.css"
+    ]
+  },
+  "src/world/WorldShell.tsx": {
+    "file": "assets/WorldShell-Wk389rP7.js",
+    "name": "WorldShell",
+    "src": "src/world/WorldShell.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_jsx-runtime-KJkY8l8U.js",
+      "_worldBattle-DQCSM1Xk.js",
+      "_dist-DEenxrrH.js",
+      "_skillArt-ctq-8_MZ.js",
+      "_assetUrl-D4NVGLh-.js",
+      "_dist-B5e_GxN_.js",
+      "_worldNavigation-BceUYLbO.js",
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_preload-helper-DjF6SaxH.js",
+      "_localization-CBv6Q1pe.js",
+      "_combatQuality-COvvhrFk.js",
+      "_PlayerUnitFrame-CV4GdSsQ.js",
+      "_worldClient-CqTUp8_x.js",
+      "_worldActorModelAuthority-C9aQE25C.js",
+      "_WorldRegionRenderer-ZRrzPcIW.js",
+      "_worldRegionClient-BTLMPqDx.js",
+      "_worldEncounterCatalogClient-DZja7-xq.js",
+      "_emberglassRegionGeometry-CrQ4ebsM.js",
+      "_moonveilRegionGeometry-B9gzI8H-.js",
+      "_skyreachRegionGeometry-Dfnllzrh.js",
+      "_regionRenderThemesV49-C6lT7eP7.js"
+    ],
+    "dynamicImports": [
+      "_skyreachRegionAuthority-CtFWfUg8.js",
+      "_emberglassRegionAuthority-BDWp-4ec.js",
+      "_moonveilRegionAuthority-DzgBK6ll.js"
+    ],
+    "css": [
+      "assets/WorldShell-DD4gMUfJ.css"
+    ]
+  },
+  "src/world/emberglassRegionModule.ts": {
+    "file": "assets/emberglassRegionModule-DnVsMR0l.js",
+    "name": "emberglassRegionModule",
+    "src": "src/world/emberglassRegionModule.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_worldClient-CqTUp8_x.js",
+      "_worldActorModelAuthority-C9aQE25C.js",
+      "_worldRegionClient-BTLMPqDx.js",
+      "_regionRenderThemesV49-C6lT7eP7.js",
+      "_campaignEncounterPresets.emberglass-Co8qJr_W.js",
+      "_emberglassRegionAuthority-BDWp-4ec.js",
+      "_regionSetDressingClient-IeLKWXKW.js"
+    ]
+  },
+  "src/world/moonveilRegionModule.ts": {
+    "file": "assets/moonveilRegionModule-DzmOPLRG.js",
+    "name": "moonveilRegionModule",
+    "src": "src/world/moonveilRegionModule.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_worldClient-CqTUp8_x.js",
+      "_worldActorModelAuthority-C9aQE25C.js",
+      "_worldRegionClient-BTLMPqDx.js",
+      "_regionRenderThemesV49-C6lT7eP7.js",
+      "_regionSetDressingClient-IeLKWXKW.js",
+      "_campaignEncounterPresets.moonveil-BLCJk4RV.js",
+      "_moonveilRegionAuthority-DzgBK6ll.js"
+    ]
+  },
+  "src/world/skyreachPopulation.ts": {
+    "file": "assets/skyreachPopulation-dvxYuz3q.js",
+    "name": "skyreachPopulation",
+    "src": "src/world/skyreachPopulation.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_regionAuthority-DQp-ieH-.js",
+      "_dist-CYaHU1qu.js",
+      "_worldPopulationSeparation-Bgcj1Yws.js",
+      "_skyreachRegionAuthority-CtFWfUg8.js",
+      "_skyreachDevSlice-D5QgyruG.js"
+    ]
+  },
+  "src/world/skyreachRegionModule.ts": {
+    "file": "assets/skyreachRegionModule-Cqr0gApk.js",
+    "name": "skyreachRegionModule",
+    "src": "src/world/skyreachRegionModule.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_localization-CBv6Q1pe.js",
+      "_worldRegionClient-BTLMPqDx.js",
+      "_regionSetDressingClient-IeLKWXKW.js",
+      "_skyreachDevSlice-D5QgyruG.js",
+      "_campaignEncounterPresets.skyreach-CqgX8Jly.js",
+      "_skyreachArtDescriptor-GOdAhzVl.js"
+    ]
+  },
+  "src/world/worldRegionHybrid3d.ts": {
+    "file": "assets/worldRegionHybrid3d-BVfw1Cbm.js",
+    "name": "worldRegionHybrid3d",
+    "src": "src/world/worldRegionHybrid3d.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_three.module-DBBfrfor.js",
+      "_combatQuality-COvvhrFk.js",
+      "_isometricSceneHost3d-_Vl8ievx.js",
+      "_worldSceneClient-D61SD1kE.js",
+      "_worldSceneProjection3d-DBx42A2-.js"
+    ]
+  },
+  "src/world/worldScene3d.ts": {
+    "file": "assets/worldScene3d-DzLZqq-e.js",
+    "name": "worldScene3d",
+    "src": "src/world/worldScene3d.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worldBattle-DQCSM1Xk.js",
+      "_dist-DEenxrrH.js",
+      "_assetUrl-D4NVGLh-.js",
+      "_dist-B5e_GxN_.js",
+      "_three.module-DBBfrfor.js",
+      "_aetherionActor3d-DNzyd2sx.js",
+      "_combatQuality-COvvhrFk.js",
+      "_partyActorOptimization-C9DK5f_A.js",
+      "_isometricSceneHost3d-_Vl8ievx.js",
+      "_partyPresentation-9YvKT0rG.js",
+      "_worldActorModelAuthority-C9aQE25C.js",
+      "_worldSceneClient-D61SD1kE.js",
+      "_skyreachDevSlice-D5QgyruG.js",
+      "_skyreachArtDescriptor-GOdAhzVl.js",
+      "_worldSceneProjection3d-DBx42A2-.js"
+    ]
+  }
+}
