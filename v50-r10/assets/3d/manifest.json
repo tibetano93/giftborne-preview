@@ -1,0 +1,404 @@
+{
+  "format": "glTF 2.0 binary",
+  "actorPayloadBudgetsBytes": {
+    "low": 3100000,
+    "production": 3100000,
+    "adaptiveFallback": 3700000
+  },
+  "vfxAtlasBudgetBytes": 640000,
+  "models": [
+    {
+      "id": "giftborne-aetherion-v8",
+      "file": "aetherion-authored-v8.glb",
+      "bytes": 246180,
+      "sha256": "b47676a3a1831d30fe299d3934aa69c851c1a280d2201b5615d550c96d7117e7",
+      "decodedIntegrity": {
+        "primitiveCount": 11,
+        "triangleCount": 11408,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 11284,
+      "detailTriangles": 124,
+      "visibleTriangles": 11408,
+      "visibleTriangleBudget": 12000,
+      "actorPayloadTiers": ["adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "license": "CC0-1.0 + Giftborne-original",
+      "role": "Aetherion with a complete realistic male anatomy foundation, paired source sclera plus authored iris and pupil geometry, fitted celestial plate accents, relic heart and blade, mobile retarget and authored material islands",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-relic-sovereign-v8",
+      "file": "relic-sovereign-authored-v8.glb",
+      "bytes": 369700,
+      "sha256": "d33adc495627a57bb000b1abd6991cc78339a189ff15040089147f2667002663",
+      "decodedIntegrity": {
+        "primitiveCount": 5,
+        "triangleCount": 11938,
+        "degenerateTriangleCount": 0,
+        "animationCount": 11,
+        "animationChannelCount": 221,
+        "animationSamplerCount": 221,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 7672,
+      "detailTriangles": 4266,
+      "visibleTriangles": 11938,
+      "visibleTriangleBudget": 12000,
+      "actorPayloadTiers": ["adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/durian/models/dragon_adult.blend.zip",
+      "license": "CC-BY-3.0 + Giftborne-original",
+      "role": "Relic Sovereign built from the nonhuman adult Scales dragon foundation with an 82-bone mobile rig, Giftborne celestial materials and eleven full-chain spine, neck, jaw, wing and tail motions",
+      "signature": "GB_SOVEREIGN_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aetherion-v17",
+      "file": "aetherion-authored-v17.glb",
+      "bytes": 502004,
+      "sha256": "9e455cefc1a00b69d1897169ce5675ed4f67d6894510e20b6b6f3984530cf484",
+      "decodedIntegrity": {
+        "primitiveCount": 7,
+        "triangleCount": 30968,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30968,
+      "detailTriangles": 0,
+      "visibleTriangles": 30968,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "role": "Aetherion production model combining complete realistic human anatomy with adult tapered proportions, fitted symmetric knight armor, an original closed winged celestial helmet, layered chest and shoulder hierarchy, matte gold-edged twin mantle panels, articulated extremity accents and a narrower Light Sword in one consolidated skinned shell",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-relic-sovereign-v14",
+      "file": "relic-sovereign-authored-v14.glb",
+      "bytes": 610656,
+      "sha256": "8d1f43cb6881ee0adcb8281f1dd0c389a3be4bf617266b40073132365dcb210d",
+      "decodedIntegrity": {
+        "primitiveCount": 3,
+        "triangleCount": 5666,
+        "degenerateTriangleCount": 0,
+        "animationCount": 11,
+        "animationChannelCount": 1672,
+        "animationSamplerCount": 1672,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 5546,
+      "detailTriangles": 120,
+      "visibleTriangles": 5666,
+      "visibleTriangleBudget": 6000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://opengameart.org/sites/default/files/forest-monster_0.7z",
+      "license": "CC0-1.0 + Giftborne-original",
+      "role": "Relic Sovereign production model retaining connected weathered-stone monster anatomy and original UV detail, separating a compact fractured relic crown, luminous eyes and chest singularity into one skinned detail shell, and preserving eleven baked locomotion, attack, stagger, ascension and death clips",
+      "signature": "GB_SOVEREIGN_SIGNATURE"
+    },
+    {
+      "id": "giftborne-vault-sentinel-v4",
+      "file": "vault-sentinel-authored-v4.glb",
+      "bytes": 42652,
+      "sha256": "abe61524f02afe7305b463d84767945a684569320130b9991d52c669e9aff186",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 3500,
+        "degenerateTriangleCount": 0,
+        "animationCount": 5,
+        "animationChannelCount": 10,
+        "animationSamplerCount": 10,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "actorPayloadTiers": [],
+      "sourceUrl": "Giftborne Blender source",
+      "license": "Giftborne-original",
+      "role": "original animated Vault Sentinel with curved shield, restrained luminous mask, refined armor and pennant-spear construct",
+      "signature": "GB_SENTINEL_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aether-wisp-v4",
+      "file": "aether-wisp-authored-v4.glb",
+      "bytes": 36912,
+      "sha256": "6e918cb6c19e9b37b1d488fc920a9a17589220be94cf2159fb554cfa14870336",
+      "decodedIntegrity": {
+        "primitiveCount": 5,
+        "triangleCount": 3430,
+        "degenerateTriangleCount": 0,
+        "animationCount": 5,
+        "animationChannelCount": 10,
+        "animationSamplerCount": 10,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "Giftborne Blender source",
+      "license": "Giftborne-original",
+      "role": "original animated Aether Wisp with a restrained luminous core, curved petals, partial orbits and draped trailing-light form",
+      "signature": "GB_WISP_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-citizen-v1",
+      "file": "skyreach-citizen-authored-v1.glb",
+      "bytes": 79684,
+      "sha256": "92152f6ad01a7141301176aaaa2061591ca68ee9fd904ff3f19c56c99d40f540",
+      "decodedIntegrity": {
+        "primitiveCount": 21,
+        "triangleCount": 3176,
+        "degenerateTriangleCount": 0,
+        "animationCount": 6,
+        "animationChannelCount": 37,
+        "animationSamplerCount": 37,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 3176,
+      "visibleTriangleBudget": 3400,
+      "actorPayloadTiers": [],
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "role": "legacy original articulated Skyreach citizen retained for v48 rollback compatibility",
+      "signature": "GB_SKYREACH_CITIZEN_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-residents-v2",
+      "file": "skyreach-residents-authored-v2.glb",
+      "bytes": 592696,
+      "sha256": "35c656261a3e12911272065ac31153b477d60dfd9c784f47e3faa28a1f20a427",
+      "decodedIntegrity": {
+        "primitiveCount": 24,
+        "triangleCount": 63794,
+        "degenerateTriangleCount": 0,
+        "animationCount": 6,
+        "animationChannelCount": 39,
+        "animationSamplerCount": 39,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 63794,
+      "visibleTriangleBudget": 65000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "scripts/build-skyreach-quality-cast.py",
+      "provenanceId": "skyreach-quality-cast-v3",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "eight named textured Skyreach residents from four CC0 humanoid outfit foundations with a shared rig and complete six-state lifecycle",
+      "signature": "GB_SKYREACH_RESIDENTS_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-enemies-v1",
+      "file": "skyreach-enemies-authored-v1.glb",
+      "bytes": 243720,
+      "sha256": "933e47e6aeec4787972ff145bc4da460f38e6fccc1d6fb3cdfa0f00d80f66590",
+      "decodedIntegrity": {
+        "primitiveCount": 12,
+        "triangleCount": 41168,
+        "degenerateTriangleCount": 0,
+        "animationCount": 6,
+        "animationChannelCount": 39,
+        "animationSamplerCount": 39,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 41168,
+      "visibleTriangleBudget": 42000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "scripts/build-skyreach-quality-cast.py",
+      "provenanceId": "skyreach-quality-cast-v3",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "four named textured Skyreach enemy identities from a CC0 armored humanoid foundation with a shared rig and complete six-state lifecycle",
+      "signature": "GB_SKYREACH_ENEMIES_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-companions-v1",
+      "file": "skyreach-companions-authored-v1.glb",
+      "bytes": 414856,
+      "sha256": "eb276fde40921baf1b76d541302408b633d24ae538a6255318f99afa16191ec6",
+      "decodedIntegrity": {
+        "primitiveCount": 12,
+        "triangleCount": 41564,
+        "degenerateTriangleCount": 0,
+        "animationCount": 6,
+        "animationChannelCount": 39,
+        "animationSamplerCount": 39,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 41564,
+      "visibleTriangleBudget": 42000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "scripts/build-skyreach-quality-cast.py",
+      "provenanceId": "skyreach-quality-cast-v3",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "four named textured arena companions from male and female CC0 armored humanoid foundations with a shared rig and complete six-state lifecycle",
+      "signature": "GB_SKYREACH_COMPANIONS_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-architecture-v1",
+      "file": "skyreach-modular-architecture-authored-v1.glb",
+      "bytes": 109972,
+      "sha256": "05e50955a6df5228257096e9c348a8252329695d49ec349773856d137a582949",
+      "decodedIntegrity": {
+        "primitiveCount": 70,
+        "triangleCount": 12340,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 12340,
+      "visibleTriangleBudget": 13000,
+      "actorPayloadTiers": [],
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "role": "original modular Skyreach major-building and landmark template set with framed windows, layered roof trim, entry canopy and reusable finials",
+      "signature": "GB_SKYREACH_ARCHITECTURE_SIGNATURE"
+    },
+    {
+      "id": "giftborne-authored-motion-v3",
+      "file": "giftborne-authored-motion-v3.glb",
+      "bytes": 320124,
+      "sha256": "af74abcafd6ee17efc5a8ba1c059420ffd29170ff976b44a9b5fab387d8a22b7",
+      "decodedIntegrity": {
+        "primitiveCount": 0,
+        "triangleCount": 0,
+        "degenerateTriangleCount": 0,
+        "animationCount": 10,
+        "animationChannelCount": 250,
+        "animationSamplerCount": 250,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "ten actor-specific in-place Aetherion motion clips; the Grove Sovereign owns its independent embedded motion set"
+    }
+  ],
+  "materials": [
+    {
+      "id": "aetherion-star-metal-v3",
+      "file": "materials/aetherion-star-metal-v3.webp",
+      "bytes": 46336,
+      "sha256": "dda456dd3b9ad814feb10ccd0918dbc5218573cafa61787c7e9e274bef0605ce",
+      "width": 512,
+      "height": 512,
+      "role": "original hard ivory, antique-gold and cyan-inlay Aetherion star-metal color material",
+      "actorPayload": true
+    },
+    {
+      "id": "aetherion-star-metal-normal-v2",
+      "file": "materials/aetherion-star-metal-normal-v2.webp",
+      "bytes": 120574,
+      "sha256": "2768e45faac7107434fad5037c43bdeb72aa6cf8efa97d05debb0b479fde9bb6",
+      "width": 248,
+      "height": 248,
+      "role": "derived tangent-space normal detail for Aetherion star-metal",
+      "actorPayload": true
+    },
+    {
+      "id": "aetherion-star-metal-roughness-v2",
+      "file": "materials/aetherion-star-metal-roughness-v2.webp",
+      "bytes": 21500,
+      "sha256": "b9b087d443d79a5a38c393adbeb63543cada4395500439a3db503ab39e55a214",
+      "width": 248,
+      "height": 248,
+      "role": "derived bounded roughness response for Aetherion star-metal",
+      "actorPayload": true
+    },
+    {
+      "id": "sovereign-moon-regalia-v3",
+      "file": "materials/sovereign-moon-regalia-v3.webp",
+      "bytes": 62486,
+      "sha256": "174669142a1ae3dda07b0a8615e43db62752b26589ac7e24fb6ce8fae0d118a7",
+      "width": 512,
+      "height": 512,
+      "role": "original pearl, rose-gold and lavender Sovereign regalia color material",
+      "actorPayload": false
+    },
+    {
+      "id": "sovereign-moon-regalia-normal-v1",
+      "file": "materials/sovereign-moon-regalia-normal-v1.webp",
+      "bytes": 141814,
+      "sha256": "f881decaec6b36a617585c61b9124cb581bb62a0df64dfe9191d6e9471cef96a",
+      "width": 248,
+      "height": 248,
+      "role": "derived tangent-space normal detail for Sovereign moon regalia",
+      "actorPayload": false
+    },
+    {
+      "id": "sovereign-moon-regalia-roughness-v1",
+      "file": "materials/sovereign-moon-regalia-roughness-v1.webp",
+      "bytes": 28312,
+      "sha256": "fb1d69b2e028e680d60f5a267b207ba30706efb6a39be516c35690613a6d22ea",
+      "width": 248,
+      "height": 248,
+      "role": "derived bounded roughness response for Sovereign moon regalia",
+      "actorPayload": false
+    },
+    {
+      "id": "celestial-vault-floor-v1",
+      "file": "materials/celestial-vault-floor-v1.webp",
+      "bytes": 235120,
+      "sha256": "a0d6c27371ffa37ecfb0cb685fed9faf0e0db3d1680eedcc4e25e1c616681a51",
+      "width": 1024,
+      "height": 1024,
+      "role": "original Celestial Vault arena floor",
+      "actorPayload": false
+    },
+    {
+      "id": "celestial-vault-floor-sunlit-v2",
+      "file": "materials/celestial-vault-floor-sunlit-v2.webp",
+      "bytes": 230974,
+      "sha256": "0320c966e4be8c4cf9705814a6bf468c690dfe68c38f0fe155c348027fb187c5",
+      "width": 1024,
+      "height": 1024,
+      "role": "original sunlit Celestial Vault arena floor",
+      "actorPayload": false
+    },
+    {
+      "id": "skyreach-frontier-daybreak-v3",
+      "file": "materials/skyreach-frontier-daybreak-v3.webp",
+      "bytes": 276466,
+      "sha256": "492b4ea8ca11375d26421cd9408fed38f89f5c7b21abc8d46eaf1c1ab873e24d",
+      "width": 1600,
+      "height": 900,
+      "role": "original bright Skyreach Frontier world panorama",
+      "actorPayload": false
+    },
+    {
+      "id": "skyreach-frontier-floor-v3",
+      "file": "materials/skyreach-frontier-floor-v3.webp",
+      "bytes": 278264,
+      "sha256": "e44a0d3e8ffbedea68a0e68b8a041736196618773e95a2941c45924189ae590c",
+      "width": 1024,
+      "height": 1024,
+      "role": "original garden-stone Skyreach Frontier combat floor",
+      "actorPayload": false
+    },
+    {
+      "id": "celestial-seal-v4",
+      "file": "materials/celestial-seal-v4.webp",
+      "bytes": 90466,
+      "sha256": "d25f1191d6004c227cc74429f121f0181220107dfd727b176f81fb2e354337de",
+      "width": 512,
+      "height": 512,
+      "role": "original additive celestial cast and impact seal",
+      "actorPayload": false
+    },
+    {
+      "id": "combat-vfx-atlas-v1",
+      "file": "materials/combat-vfx-atlas-v1.webp",
+      "bytes": 564412,
+      "sha256": "13ce3cdc6c0e3a6a07b7e0c3f5c292c856e61fd22ec5bb3877bfed7ba879f10e",
+      "width": 1024,
+      "height": 1024,
+      "role": "original nine-cell alpha atlas for player skills, impacts and phase pulse",
+      "actorPayload": false
+    }
+  ]
+}
