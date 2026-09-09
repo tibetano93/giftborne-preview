@@ -1,0 +1,1 @@
+var e=e=>`set-dressing-${e}`;export{e as t};
