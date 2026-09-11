@@ -1,0 +1,246 @@
+{
+  "atlasVersion": 1,
+  "maxTextureDimension": 2048,
+  "textures": [
+    {
+      "id": "lyra-intro",
+      "file": "lyra-intro-v1.webp",
+      "bytes": 34444,
+      "sha256": "bfd5c478c3a4df92892883d18014d47fa83959ad2960461a888eafb6a15f84e4",
+      "width": 512,
+      "height": 768,
+      "license": "CC0-1.0 foundation + Giftborne-original",
+      "provenance": {
+        "kind": "offline-render-of-runtime-resident",
+        "blender": "5.2.1 LTS",
+        "action": "SkyreachResidents_Idle",
+        "normalizedTime": 0.5,
+        "azimuthDegrees": 20,
+        "webpQuality": 90,
+        "foundationRecord": "scripts/source-assets/skyreach-quality-cast-v3.json",
+        "sources": [
+          {
+            "id": "model",
+            "file": "apps/miniapp/public/assets/3d/skyreach-residents-authored-v2.glb",
+            "bytes": 578952,
+            "sha256": "22994f15d2253617cfbf95e6da39458f9b02c3ecd0567d78890b120a95145207"
+          },
+          {
+            "id": "weapon",
+            "file": "apps/miniapp/public/assets/3d/skyreach-role-weapons-v1.glb",
+            "bytes": 15848,
+            "sha256": "4e39a155374c550fb3ad0637eae0c0cc5e4b160e908292756d60a56e19a35848"
+          }
+        ],
+        "codeSha256Lf": {
+          "scripts/build-skyreach-quality-cast.mjs": "45374b1713e09bf29c4498f67d68f3daa27802e67a79301476f5cddaf85ac081",
+          "scripts/render-authored-actor-preview.py": "f26707dc926d6df431915c94474add8de1d18cf99b3a3965b56ba885a2402395",
+          "apps/miniapp/src/world/skyreachPlayCanvasWeapons.ts": "e1a9c61713b9f548ea35cfa4632413974f7d12a9b585ff525483ac84a1052994"
+        }
+      }
+    },
+    {
+      "id": "skyreach-beacon-intro",
+      "file": "skyreach-beacon-intro-v1.webp",
+      "bytes": 28032,
+      "sha256": "09cb5278decfd90193926daccd524268b5da6c51a937ac13752c46e8e6f63c46",
+      "width": 384,
+      "height": 512,
+      "license": "Giftborne-original",
+      "provenance": {
+        "kind": "offline-render-of-runtime-landmark",
+        "blender": "Blender 5.2.1 LTS",
+        "azimuthDegrees": 32,
+        "webpQuality": 90,
+        "usage": "Third intro illustration; unchanged shipped world geometry and materials, offline lighting",
+        "sources": [
+          {
+            "id": "model",
+            "file": "apps/miniapp/public/assets/3d/skyreach-fallen-beacon-v1.glb",
+            "bytes": 136152,
+            "sha256": "cf08c6e5ba7a21002f6e6f5de025ad292b6ea0b501aa0728e038ee7fea18e7a7"
+          }
+        ],
+        "codeSha256Lf": {
+          "scripts/build-skyreach-authored-world.mjs": "29672d939c80c0cad82d01d6532abbc69efb57c7c7b3b63a18611fafe485f864",
+          "scripts/render-authored-actor-preview.py": "f26707dc926d6df431915c94474add8de1d18cf99b3a3965b56ba885a2402395"
+        }
+      }
+    },
+    {
+      "id": "mira-intro",
+      "file": "mira-intro-v1.webp",
+      "bytes": 22886,
+      "sha256": "b8962448a41b8a0569a6974320fe6f68057a7f803c31111d29d428ad22680586",
+      "width": 512,
+      "height": 768,
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "provenance": {
+        "kind": "offline-render-of-authored-story-character",
+        "blender": "5.2.1 LTS",
+        "usage": "First intro illustration from the shared world appearance recipe; offline portrait pose/lighting, not runtime animation acceptance",
+        "foundationCredit": "Human Base Meshes by Blender Studio and the Blender community, CC0-1.0; female realistic body and paired eyes. Giftborne clothing, hair, palette and 65-joint binding.",
+        "foundationRecord": "scripts/source-assets/aetherion-production-foundation-v1.json",
+        "sources": [
+          {
+            "id": "model",
+            "file": "scripts/source-assets/mira-authored-v1.blend",
+            "bytes": 1289643,
+            "sha256": "a1742dd218057fbd289eebd9dce1deebcfd1027431ac1d3e39bfee989d77af54",
+            "portraitGaze": "Paired irises and pupils share an authored focus toward the portrait observer; reduced upper-lid lowering and a dark limbal rim. Not runtime eye tracking."
+          }
+        ],
+        "codeSha256Lf": {
+          "scripts/render-mira-portrait.py": "0a5978339dc671c9c8f0fab89e4f24e54d7177ca5637f64a5e703ca0b3a21cf7",
+          "scripts/build-skyreach-authored-world.py": "d3fc429ad5e3f76c84ad6735c048a97c5d7645a05fcafea62662672c468e8e79"
+        }
+      }
+    },
+    {
+      "id": "aetherion",
+      "file": "aetherion-ui-v20.webp",
+      "bytes": 36264,
+      "sha256": "cf3a31b6f03fde5a5ce73352b5b07ee6cf65b223144b31850309b522690a8ead",
+      "width": 512,
+      "height": 768,
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "provenance": {
+        "kind": "offline-render-of-runtime-actor",
+        "blender": "5.2.1 LTS",
+        "action": "Aetherion_Idle",
+        "normalizedTime": 0.5,
+        "azimuthDegrees": 18,
+        "webpQuality": 90,
+        "sources": [
+          {
+            "id": "model",
+            "file": "apps/miniapp/public/assets/3d/aetherion-authored-v20.glb",
+            "bytes": 513824,
+            "sha256": "aa374bc708ff36aec9ed67d520d9125a101d05d004220723fa7d00b53d864862"
+          },
+          {
+            "id": "motion",
+            "file": "apps/miniapp/public/assets/3d/giftborne-authored-motion-v3.glb",
+            "bytes": 320124,
+            "sha256": "af74abcafd6ee17efc5a8ba1c059420ffd29170ff976b44a9b5fab387d8a22b7"
+          },
+          {
+            "id": "albedo",
+            "file": "apps/miniapp/public/assets/3d/materials/aetherion-star-metal-v3.webp",
+            "bytes": 46336,
+            "sha256": "dda456dd3b9ad814feb10ccd0918dbc5218573cafa61787c7e9e274bef0605ce"
+          }
+        ],
+        "codeSha256Lf": {
+          "apps/miniapp/src/actorAppearance.ts": "2eda0f803f5cecb0b6a6da0d30496702a63ee50254c4d221da378fccccacabc5",
+          "scripts/render-authored-actor-preview.py": "f26707dc926d6df431915c94474add8de1d18cf99b3a3965b56ba885a2402395",
+          "apps/miniapp/scripts/render-aetherion-portrait.mjs": "afa46c58ccdefeb192810954e05fc80bec87546fe4e7174db3ca01a64f90e537"
+        }
+      }
+    },
+    {
+      "id": "aetherion-v19-retained",
+      "file": "aetherion-ui-v19.webp",
+      "bytes": 47878,
+      "sha256": "55de8a60cfdc77a08e51399bc308c546b233c5186475f7741a31a2c898f4ef17",
+      "width": 512,
+      "height": 768,
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "provenance": {
+        "kind": "offline-render-of-runtime-actor",
+        "blender": "5.2.1 LTS",
+        "action": "Aetherion_Idle",
+        "normalizedTime": 0.5,
+        "azimuthDegrees": 18,
+        "webpQuality": 90,
+        "sources": [
+          {
+            "id": "model",
+            "file": "apps/miniapp/public/assets/3d/aetherion-authored-v19.glb",
+            "bytes": 505580,
+            "sha256": "e1e2252502b275ef6d57efc7740eb2d895f163e733a1fd78005afa9a8a157388"
+          },
+          {
+            "id": "motion",
+            "file": "apps/miniapp/public/assets/3d/giftborne-authored-motion-v3.glb",
+            "bytes": 320124,
+            "sha256": "af74abcafd6ee17efc5a8ba1c059420ffd29170ff976b44a9b5fab387d8a22b7"
+          },
+          {
+            "id": "albedo",
+            "file": "apps/miniapp/public/assets/3d/materials/aetherion-star-metal-v3.webp",
+            "bytes": 46336,
+            "sha256": "dda456dd3b9ad814feb10ccd0918dbc5218573cafa61787c7e9e274bef0605ce"
+          }
+        ],
+        "codeSha256Lf": {
+          "apps/miniapp/src/actorAppearance.ts": "99ff45c67ce783cdee0f29d59da6d3d467a73b940126195dacb4abb32e7f8aa1",
+          "scripts/render-authored-actor-preview.py": "60f670b38ad73b83efa13ee8ac56b2b8242cf3f73555350e7c46250575713ca6",
+          "apps/miniapp/scripts/render-aetherion-portrait.mjs": "3a52053c5cdf84e2fc5728eb4d9b4701f5f6ea371d4b07a10acb9ba63394b06e"
+        }
+      }
+    },
+    {
+      "id": "aetherion-v18-retained",
+      "file": "aetherion-ui-v18.webp",
+      "bytes": 38898,
+      "sha256": "b5a3fdacba0633efc79d6df6eb68349dca1885a3d914baa0ce135a08592bb375",
+      "width": 512,
+      "height": 768,
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "provenance": {
+        "kind": "offline-render-of-runtime-actor",
+        "blender": "4.5.5 LTS",
+        "action": "Aetherion_Idle",
+        "normalizedTime": 0.5,
+        "azimuthDegrees": 18,
+        "webpQuality": 90,
+        "sources": [
+          {
+            "id": "model",
+            "file": "apps/miniapp/public/assets/3d/aetherion-authored-v18.glb",
+            "bytes": 501864,
+            "sha256": "a1f743234726a20ce3832a826e1e9e9d90579196eb0e3c3fd07983b0f194eb2b"
+          },
+          {
+            "id": "motion",
+            "file": "apps/miniapp/public/assets/3d/giftborne-authored-motion-v3.glb",
+            "bytes": 320124,
+            "sha256": "af74abcafd6ee17efc5a8ba1c059420ffd29170ff976b44a9b5fab387d8a22b7"
+          },
+          {
+            "id": "albedo",
+            "file": "apps/miniapp/public/assets/3d/materials/aetherion-star-metal-v3.webp",
+            "bytes": 46336,
+            "sha256": "dda456dd3b9ad814feb10ccd0918dbc5218573cafa61787c7e9e274bef0605ce"
+          }
+        ],
+        "codeSha256Lf": {
+          "apps/miniapp/src/actorAppearance.ts": "9536071c0173da0efe0db16ec77e25c201baefa26d44c6c6fd51fa43967b76f4",
+          "scripts/source-assets/aetherion-ui-v18-renderer.py": "288a653de83fcec7889a1e4506805c30b748d1c8a214934b1fdfacec76010861",
+          "apps/miniapp/scripts/render-aetherion-portrait.mjs": "623877d879d61bcc2ef09c74b9437ccc520e27b8eef07badb550ad27a203717c"
+        }
+      }
+    },
+    { "id": "aetherion-v49-retained", "file": "aetherion-ui-v49.webp" },
+    { "id": "celestial-vault-arena", "file": "celestial-vault-arena.png" },
+    {
+      "id": "celestial-vault-sunlit-v2",
+      "file": "celestial-vault-sunlit-v2.png"
+    },
+    { "id": "relic-birthday-cake", "file": "relic-birthday-cake.png" },
+    { "id": "relic-duck", "file": "relic-duck.png" },
+    { "id": "relic-heart-gift-box", "file": "relic-heart-gift-box.png" },
+    { "id": "relic-sovereign", "file": "relic-sovereign.png" },
+    { "id": "skill-aegis-wall", "file": "skill-aegis-wall.png" },
+    { "id": "skill-aether-burst", "file": "skill-aether-burst.png" },
+    { "id": "skill-astral-step", "file": "skill-astral-step.png" },
+    { "id": "skill-giftbound-shield", "file": "skill-giftbound-shield.png" },
+    { "id": "skill-oath-interrupt", "file": "skill-oath-interrupt.png" },
+    { "id": "skill-relic-slash", "file": "skill-relic-slash.png" },
+    { "id": "skill-sovereign-taunt", "file": "skill-sovereign-taunt.png" },
+    { "id": "skill-starfall-lance", "file": "skill-starfall-lance.png" },
+    { "id": "skill-sunbreaker", "file": "skill-sunbreaker.png" },
+    { "id": "skill-vanguard-leap", "file": "skill-vanguard-leap.png" }
+  ]
+}

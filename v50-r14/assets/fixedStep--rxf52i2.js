@@ -1,0 +1,1 @@
+var e=(e,t,n,r=5)=>{if(n<=0||r<=0)throw RangeError(`Fixed-step timing must be positive.`);let i=Math.max(0,e)+Math.min(Math.max(0,t),n*r),a=Math.min(r,Math.floor((i+n*1e-6)/n));return{accumulatorMs:Math.max(0,i-a*n),steps:a}};export{e as t};
