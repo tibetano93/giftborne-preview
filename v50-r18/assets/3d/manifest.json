@@ -1,0 +1,3442 @@
+{
+  "format": "glTF 2.0 binary",
+  "actorPayloadBudgetsBytes": {
+    "low": 3100000,
+    "production": 3100000,
+    "adaptiveFallback": 3700000
+  },
+  "vfxAtlasBudgetBytes": 640000,
+  "models": [
+    {
+      "id": "giftborne-nera-glasssmith-v1",
+      "file": "nera-glasssmith-v1.glb",
+      "bytes": 286864,
+      "sha256": "85c9033456fe4105e68173401011664d8021f52ff1a86c6db60ecdde34d79b0c",
+      "decodedIntegrity": {
+        "primitiveCount": 2,
+        "triangleCount": 8891,
+        "degenerateTriangleCount": 0,
+        "animationCount": 6,
+        "animationChannelCount": 39,
+        "animationSamplerCount": 39,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 8891,
+      "visibleTriangleBudget": 10000,
+      "actorPayloadTiers": [],
+      "sourceUrl": "scripts/build-skyreach-quality-cast.py",
+      "provenanceId": "skyreach-quality-cast-v3",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "original Nera Glasssmith regional derivative with native hair, ceramic shoulder, work harness and hand-bound amber tool",
+      "signature": "GB_NERA_GLASSSMITH_SIGNATURE",
+      "source": "scripts/source-assets/nera-glasssmith-v1.blend",
+      "sourceSha256": "aea5b4ad99e45c127900a8be3644f86432453e1a58c66d5cdae77c8a03ebfe2f",
+      "sourceInput": "apps/miniapp/public/assets/3d/skyreach-residents-authored-v2.glb",
+      "sourceInputSha256": "c47aeed25f4b5a982d006a2365d4f123f06920a5e950cdcd11b4e91dbd415485",
+      "designSource": "scripts/source-assets/phase-e-emberglass-art-v1.json",
+      "designIdentity": "ew-npc-nera-glasssmith",
+      "blender": "5.2.1 LTS"
+    },
+    {
+      "id": "giftborne-skyreach-windworn-stump-v1",
+      "file": "skyreach-windworn-stump-v1.glb",
+      "bytes": 11752,
+      "sha256": "b24941b1e6d7c55b2680dd08620254f0562c46438ca394afda14034345d9c532",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Meshy paid private asset ownership",
+      "signature": "GB_SKYREACH_WINDWORN_STUMP_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "One optional dry stump at the First Light inner wall; no collider or actor",
+      "source": "scripts/source-assets/skyreach-windworn-stump-pilot.blend",
+      "sourceSha256": "cb56774720d901f77f756611a9915bbf1fbc3804f1e9635f0d83637279967065",
+      "sourceInput": "scripts/source-assets/skyreach-windworn-stump-pilot.glb",
+      "sourceInputSha256": "03e15f6879dfb5d512b620241edf981fd65ac5570f25f3e184722b4171b226b3",
+      "visibleTriangles": 1480,
+      "visibleTriangleBudget": 1480,
+      "boundsM": {
+        "min": [
+          -0.5948651432991028, -0.000007955095528089373, -0.40153801246336585
+        ],
+        "max": [0.5940966606140137, 0.7928267398092732, 0.4015291909759391]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 1,
+        "triangleCount": 1480,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-dawnfolk-veilblade-v1",
+      "file": "dawnfolk-veilblade-v1.glb",
+      "bytes": 469764,
+      "sha256": "f0ba64378c4ec3a91cf7616bd5b4e54cce06bc09d23ddff6bb38f5fc4479bcca",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 27977,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 27977,
+      "detailTriangles": 0,
+      "visibleTriangles": 27977,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Veilblade dawnfolk: asymmetric light shoulders, split short coat, single-edge contract-length blade. Existing source anatomy/head and materials retained; exact 65-joint bind space, v4 motion, grasp and contact arc. Same hitbox/formulas. Existing builder --only hero --hero-face open --hero-class veilblade --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-veilblade-v1",
+      "file": "aeral-veilblade-v1.glb",
+      "bytes": 472864,
+      "sha256": "dc51ca364455e64b170ebddeb12fc7368767fde797716364d7c14ca0e227dd51",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28409,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28409,
+      "detailTriangles": 0,
+      "visibleTriangles": 28409,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Veilblade aeral: asymmetric light shoulders, split short coat, single-edge contract-length blade. Existing source anatomy/head and materials retained; exact 65-joint bind space, v4 motion, grasp and contact arc. Same hitbox/formulas. Existing builder --only hero --hero-face open --hero-class veilblade --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-veilblade-v1",
+      "file": "stonekin-veilblade-v1.glb",
+      "bytes": 515376,
+      "sha256": "cc14892e0df19b6b809079b3ffc1f1868c54e12b767047a4af69100eedb2e5f1",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 27977,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 27977,
+      "detailTriangles": 0,
+      "visibleTriangles": 27977,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Veilblade stonekin: asymmetric light shoulders, split short coat, single-edge contract-length blade. Existing source anatomy/head and materials retained; exact 65-joint bind space, v4 motion, grasp and contact arc. Same hitbox/formulas. Existing builder --only hero --hero-face open --hero-class veilblade --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-veilblade-v1",
+      "file": "emberkin-veilblade-v1.glb",
+      "bytes": 472792,
+      "sha256": "90733785fbdf83d46d84094604205a4dd5781d5275ef5c6df79fc72cb30c6580",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28101,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28101,
+      "detailTriangles": 0,
+      "visibleTriangles": 28101,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Veilblade emberkin: asymmetric light shoulders, split short coat, single-edge contract-length blade. Existing source anatomy/head and materials retained; exact 65-joint bind space, v4 motion, grasp and contact arc. Same hitbox/formulas. Existing builder --only hero --hero-face open --hero-class veilblade --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-veilblade-v1",
+      "file": "thornborn-veilblade-v1.glb",
+      "bytes": 471492,
+      "sha256": "246205d2ecb49444e0ce40312ca07b8149cbdf184108dea50730d0054f22f2f7",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28069,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28069,
+      "detailTriangles": 0,
+      "visibleTriangles": 28069,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Veilblade thornborn: asymmetric light shoulders, split short coat, single-edge contract-length blade. Existing source anatomy/head and materials retained; exact 65-joint bind space, v4 motion, grasp and contact arc. Same hitbox/formulas. Existing builder --only hero --hero-face open --hero-class veilblade --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-veilblade-v1",
+      "file": "tideborn-veilblade-v1.glb",
+      "bytes": 473288,
+      "sha256": "e10d62d7a907a90701d38870b742cf50597767e30218c58a89ce857a9d495b30",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28433,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28433,
+      "detailTriangles": 0,
+      "visibleTriangles": 28433,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Veilblade tideborn: asymmetric light shoulders, split short coat, single-edge contract-length blade. Existing source anatomy/head and materials retained; exact 65-joint bind space, v4 motion, grasp and contact arc. Same hitbox/formulas. Existing builder --only hero --hero-face open --hero-class veilblade --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-veilblade-v1",
+      "file": "glassborn-veilblade-v1.glb",
+      "bytes": 530532,
+      "sha256": "3f5b91717ac4ebe8ff82ae2c952d611674210913b8e8323d81e6e38f94a15076",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 27993,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 27993,
+      "detailTriangles": 0,
+      "visibleTriangles": 27993,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Veilblade glassborn: asymmetric light shoulders, split short coat, single-edge contract-length blade. Existing source anatomy/head and materials retained; exact 65-joint bind space, v4 motion, grasp and contact arc. Same hitbox/formulas. Existing builder --only hero --hero-face open --hero-class veilblade --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-veilblade-v1",
+      "file": "duskborn-veilblade-v1.glb",
+      "bytes": 471144,
+      "sha256": "5d2e5f48d02e44c30c6021ee15f34e20b4d82d104cb4cf80be4638fa4651b356",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28181,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28181,
+      "detailTriangles": 0,
+      "visibleTriangles": 28181,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Veilblade duskborn: asymmetric light shoulders, split short coat, single-edge contract-length blade. Existing source anatomy/head and materials retained; exact 65-joint bind space, v4 motion, grasp and contact arc. Same hitbox/formulas. Existing builder --only hero --hero-face open --hero-class veilblade --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-v1",
+      "file": "duskborn-authored-v1.glb",
+      "bytes": 476064,
+      "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 30296,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30296,
+      "detailTriangles": 0,
+      "visibleTriangles": 30296,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskborn: continuous low crescent brow and smooth recessed tapered face, joined into existing skin primitive using nearest original source face/brow weights per vertex. Same opaque materials, body/equipment, 65-joint rig and v4 clips; no racial stats. build-authored-actors.mjs --only hero --hero-face open --hero-race duskborn.",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-v1",
+      "file": "glassborn-authored-v1.glb",
+      "bytes": 535072,
+      "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 30108,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30108,
+      "detailTriangles": 0,
+      "visibleTriangles": 30108,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Glassborn: narrow prismatic face and rooted faceted cheekbones joined into existing skin primitive using each vertex nearest original cheek weights. Opaque original materials, same body/equipment, 65-joint rig and v4 clips; no racial stats. build-authored-actors.mjs --only hero --hero-face open --hero-race glassborn.",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-v1",
+      "file": "tideborn-authored-v1.glb",
+      "bytes": 478044,
+      "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 30548,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30548,
+      "detailTriangles": 0,
+      "visibleTriangles": 30548,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Tideborn: smooth rounded face with three short rounded cheek gill folds per side, joined into existing skin primitive using each vertex nearest original cheek weights. Same body/equipment, 65-joint rig and v4 clips; no racial stats. build-authored-actors.mjs --only hero --hero-face open --hero-race tideborn.",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-v1",
+      "file": "thornborn-authored-v1.glb",
+      "bytes": 476468,
+      "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 30184,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30184,
+      "detailTriangles": 0,
+      "visibleTriangles": 30184,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornborn: ridged connected face and paired downward cheek thorns joined into the existing skin primitive with actual source cheek weights. Same body/equipment, 65-joint rig and v4 clips; no racial stats. build-authored-actors.mjs --only hero --hero-face open --hero-race thornborn.",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-v1",
+      "file": "emberkin-authored-v1.glb",
+      "bytes": 477648,
+      "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 30216,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30216,
+      "detailTriangles": 0,
+      "visibleTriangles": 30216,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Emberkin: narrow connected face and paired swept forehead crests with the source forehead skin blend. Same body, equipment, 65-joint rig and v4 clips; no racial stats. build-authored-actors.mjs --only hero --hero-face open --hero-race emberkin.",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-v1",
+      "file": "stonekin-authored-v1.glb",
+      "bytes": 520004,
+      "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 30092,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30092,
+      "detailTriangles": 0,
+      "visibleTriangles": 30092,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stonekin: broad faceted jaw and temples deformed in the connected v21 skin. Same body, equipment, 65-joint rig and v4 clips; no racial stats. build-authored-actors.mjs --only hero --hero-face open --hero-race stonekin.",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-v1",
+      "file": "aeral-authored-v1.glb",
+      "bytes": 477600,
+      "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 30524,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30524,
+      "detailTriangles": 0,
+      "visibleTriangles": 30524,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Aeral: paired swept auricular fans and tapered cheekbones derived in Blender from the exact v21; same body, armor, weapons and 65-joint rig. build-authored-actors.mjs --only hero --hero-face open --hero-race aeral. No racial gameplay modifiers.",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-skyreach-terrain-stratum-v1",
+      "file": "skyreach-terrain-stratum-v1.glb",
+      "bytes": 7208,
+      "sha256": "7629c881409e7ea8f746dff89bbf1114e0b025ce512e3b1382d47c126d6edfdd",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_TERRAIN_STRATUM_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original low cloudstone contour shelf for the existing 128 terrain placements",
+      "source": "scripts/source-assets/skyreach-terrain-stratum-v1.blend",
+      "sourceSha256": "88fefb5bc0cc99567325e6893a83caaa9e1cc4bebb6d5b4b9222cb207f26f6eb",
+      "visibleTriangles": 204,
+      "visibleTriangleBudget": 256,
+      "boundsM": {
+        "min": [-0.5289911031723022, -0.524603264496335, -0.52515833141819],
+        "max": [0.5256379842758179, 0.5061118175244417, 0.524160087728653]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 1,
+        "triangleCount": 204,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-emberglass-arrival-v1",
+      "file": "emberglass-arrival-v1.glb",
+      "bytes": 57144,
+      "sha256": "37a5585f337f651e06a2cc827e0342d4c370f5789a0b3a93b99d37448eddccb2",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_EMBERGLASS_ARRIVAL_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original Emberglass arrival smithy, caravan shelter and basalt collider module; placement remains region-authoritative",
+      "source": "scripts/source-assets/emberglass-arrival-v1.blend",
+      "sourceSha256": "a4f47c649d0941fb66b130d8bb80e882e79ad8e56728ba9c6bdc3b8849d7b1b4",
+      "visibleTriangles": 2808,
+      "visibleTriangleBudget": 6000,
+      "boundsM": {
+        "min": [
+          -2.7300000190734863, -0.000032115786837039195, -2.7300000190734863
+        ],
+        "max": [2.7300000190734863, 3.6000321321781144, 2.7300000190734863]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 2808,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-forge-section-v1",
+      "file": "forge-section-v1.glb",
+      "bytes": 55792,
+      "sha256": "308cea15892242378d5c92cc1f63e900650f0898a87f97494c917977191b32ed",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_FORGE_SECTION_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Private Forge floor, cooling plinth and three breakable clamps; metre-scale simulation footprints",
+      "source": "scripts/source-assets/forge-section-v1.blend",
+      "sourceSha256": "f82c99be92a4de6d1a14756672e8de84cc36b59ab05c82530cfd788ca5213719",
+      "visibleTriangles": 2300,
+      "visibleTriangleBudget": 6000,
+      "boundsM": {
+        "min": [-8, -0.3999572843313217, -6.999969482421875],
+        "max": [8, 1.2199886590242386, 6.999969482421875]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 12,
+        "triangleCount": 2300,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-gale-deposit-v1",
+      "file": "skyreach-gale-deposit-v1.glb",
+      "bytes": 9244,
+      "sha256": "7c6f52d5165695f8d4c4bd05af2dfe5933b225b0dd02580db93280c511728a86",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_GALE_DEPOSIT_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original opaque crystal deposit for six existing Skyreach gale-shard collection sites",
+      "source": "scripts/source-assets/skyreach-gale-deposit-v1.blend",
+      "sourceSha256": "b104a25bac5ef33faeff8ebac7d09b4137c2729f464b5bac7980240cb4a6edcc",
+      "visibleTriangles": 190,
+      "visibleTriangleBudget": 1000,
+      "boundsM": {
+        "min": [
+          -0.5164942145347595, 0.000002815563800773191, -0.3759933699622344
+        ],
+        "max": [0.44721248745918274, 0.9399999976158142, 0.33960303559448235]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 2,
+        "triangleCount": 190,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-trail-marker-v1",
+      "file": "skyreach-trail-marker-v1.glb",
+      "bytes": 18580,
+      "sha256": "2bb43c91449b1149d7cbf140262484638a30c0a55d048e9cacf4c0c49b2f34cb",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_TRAIL_MARKER_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original low weathered cairn with inset wind marks for four existing Windbound Path targets",
+      "source": "scripts/source-assets/skyreach-trail-marker-v1.blend",
+      "sourceSha256": "e6872e776db453ef0dd3a84ec25ffd8ee17a95cf2c07bf5a463d41a27b035cf1",
+      "visibleTriangles": 504,
+      "visibleTriangleBudget": 1600,
+      "boundsM": {
+        "min": [
+          -0.47418368607759476, -0.030000288920480678, -0.2827066969415082
+        ],
+        "max": [0.41538234800100327, 0.7882202015686817, 0.30532392899598015]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 2,
+        "triangleCount": 504,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-mira-memory-v1",
+      "file": "mira-memory-v1.glb",
+      "bytes": 513524,
+      "sha256": "333ffc87ca4969bccad93d22b8d399574c4c8565a2d044895a2a2787e7103e4d",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "signature": "GB_MIRA_MEMORY_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "One non-interactive Mira memory projection using the approved native anatomy and clothing with three recollection gestures",
+      "source": "scripts/source-assets/mira-memory-v1.blend",
+      "sourceSha256": "2b5530d7446aa0f79817f6ec44e36130cf8fb376ad0a256b212f490cbf064b15",
+      "sourceInput": "scripts/source-assets/mira-authored-v1.blend",
+      "sourceInputSha256": "a1742dd218057fbd289eebd9dce1deebcfd1027431ac1d3e39bfee989d77af54",
+      "visibleTriangles": 39376,
+      "visibleTriangleBudget": 40000,
+      "decodedIntegrity": {
+        "primitiveCount": 11,
+        "triangleCount": 39376,
+        "degenerateTriangleCount": 0,
+        "animationCount": 3,
+        "animationChannelCount": 588,
+        "animationSamplerCount": 588,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-garden-bed-v1",
+      "file": "skyreach-garden-bed-v1.glb",
+      "bytes": 48820,
+      "sha256": "dba26574893d4646a57198fee8ed037ac666bd051ac7d41b3b3c8e1e6280ac2a",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_GARDEN_BED_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original filled Skyreach stone garden bed with earth and low folded foliage",
+      "source": "scripts/source-assets/skyreach-garden-bed-v1.blend",
+      "sourceSha256": "319027b8f4835f5e9c8028f90cea13cb5dc02bc524a5dea738bf584f4ee0292f",
+      "visibleTriangles": 1924,
+      "visibleTriangleBudget": 2000,
+      "boundsM": {
+        "min": [
+          -1.503664493560791, -0.0000025327007620035147, -1.5036671011221188
+        ],
+        "max": [1.5036643743515015, 0.9629284052777449, 1.5034782140028256]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 3,
+        "triangleCount": 1924,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-archive-v1",
+      "file": "skyreach-archive-v1.glb",
+      "bytes": 114036,
+      "sha256": "0b122c316b8e06830e3dd2ffeb2cd0ae767302aa2b4a3d4b912b3e9cfc6b0448",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_ARCHIVE_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "provenanceId": "skyreach-authored-world-v1",
+      "actorPayloadTiers": [],
+      "role": "Original stone archive for Lyra with an asymmetric slate roof and closed timber door",
+      "source": "scripts/source-assets/skyreach-archive-v1.blend",
+      "sourceSha256": "1b6b4af4975b687e705b796302821bdcfa882c4918f66a7a8918ea12b45b942a",
+      "visibleTriangles": 5508,
+      "visibleTriangleBudget": 6000,
+      "boundsM": {
+        "min": [
+          -2.3999633504807605, -0.000014380112901335451, -2.5999999046325684
+        ],
+        "max": [2.3999633504807605, 4.5000120746917105, 2.6500000953674316]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 6,
+        "triangleCount": 5508,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-windwall-v1",
+      "file": "skyreach-windwall-v1.glb",
+      "bytes": 15624,
+      "sha256": "d099f1b497b355b08aacab8368497cf3fc538ea96e3c674b0004129d7c7804ef",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_WINDWALL_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original weathered Skyreach masonry with staggered courses and broken crest",
+      "source": "scripts/source-assets/skyreach-windwall-v1.blend",
+      "sourceSha256": "705cd2af7135895623349a8b030814975bd291d3912d1efaa049a1e604312d89",
+      "visibleTriangles": 528,
+      "visibleTriangleBudget": 600,
+      "boundsM": {
+        "min": [
+          -1.49399995803833, 0.000018710383244524564, -0.4859022032042759
+        ],
+        "max": [1.49399995803833, 1.969981318226985, 0.4859022032042759]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 1,
+        "triangleCount": 528,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-wind-garden-v1",
+      "file": "skyreach-wind-garden-v1.glb",
+      "bytes": 13048,
+      "sha256": "04fb2c68b74ae091b381e598e60bceb6c835cb4867ab8a1edd717870c1fd00cf",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_WIND_GARDEN_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original low Skyreach groundcover with curved leaves and wind grasses",
+      "source": "scripts/source-assets/skyreach-wind-garden-v1.blend",
+      "sourceSha256": "7149a855122de9e510a400da220619fa45c38dd6f815be2b0eceda11a7d2c6c7",
+      "visibleTriangles": 756,
+      "visibleTriangleBudget": 1200,
+      "boundsM": {
+        "min": [-1.3463521003723145, 0.017987749774595496, -0.818012202602743],
+        "max": [0.8808396458625793, 0.6310205312381818, 1.0408469685138453]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 2,
+        "triangleCount": 756,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-star-road-gate-v1",
+      "file": "skyreach-star-road-gate-v1.glb",
+      "bytes": 80072,
+      "sha256": "ba538da4788d766d08371741780db22d2351fe5bc47e0b6f21c53e86eea34e6f",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_STAR_ROAD_GATE_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original fractured Skyreach Star Road arch with a clear six-metre passage",
+      "source": "scripts/source-assets/skyreach-star-road-gate-v1.blend",
+      "sourceSha256": "fa8cba594e088c244d90b7252ea27223c86e69da984cbd433228c3bed6a02929",
+      "visibleTriangles": 3318,
+      "visibleTriangleBudget": 12000,
+      "boundsM": {
+        "min": [
+          -4.349999964237213, -0.00001690796168474229, -0.7000198350033324
+        ],
+        "max": [4.349999666213989, 5.085855960845947, 0.7000198350033324]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 6,
+        "triangleCount": 3318,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-memory-spire-v1",
+      "file": "skyreach-memory-spire-v1.glb",
+      "bytes": 45560,
+      "sha256": "df08437d514515fb07e40590b9e18a6b2157135679e47daeb2a826e04ddb97a6",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_MEMORY_SPIRE_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original open Skyreach memory reliquary with fractured stone fins",
+      "source": "scripts/source-assets/skyreach-memory-spire-v1.blend",
+      "sourceSha256": "4c2ef6032211271faafd076cae3913578031a7703d67e9db908aa87fd33b0ce0",
+      "visibleTriangles": 2360,
+      "visibleTriangleBudget": 4000,
+      "boundsM": {
+        "min": [
+          -0.6321119070053101, 0.000006723007739850573, -0.648376094078202
+        ],
+        "max": [0.6321119070053101, 2.090143695473671, 0.5856378543130347]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 4,
+        "triangleCount": 2360,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-fallen-beacon-v1",
+      "file": "skyreach-fallen-beacon-v1.glb",
+      "bytes": 133004,
+      "sha256": "8948e9c6edccbf2974b869b7e1f7c64d4d8251ebf1fffe8dde72ed31bd2a9079",
+      "blender": "Blender 5.2.1 LTS",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "signature": "GB_SKYREACH_FALLEN_BEACON_SIGNATURE",
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "actorPayloadTiers": [],
+      "role": "Original ruined Skyreach beacon with exposed fractured lens",
+      "source": "scripts/source-assets/skyreach-fallen-beacon-v1.blend",
+      "sourceSha256": "4b539876208fa686885c31c3f3b0029f50a9c16bc33a6d5c90b69f24b19c2eb7",
+      "visibleTriangles": 5884,
+      "visibleTriangleBudget": 12000,
+      "boundsM": {
+        "min": [
+          -1.621818053026504, 0.000015416845130289403, -1.6218180322326297
+        ],
+        "max": [1.5937444537497845, 4.9000003188848495, 1.573587741928311]
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 5884,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-skyreach-role-weapons-v1",
+      "file": "skyreach-role-weapons-v1.glb",
+      "bytes": 15848,
+      "sha256": "4e39a155374c550fb3ad0637eae0c0cc5e4b160e908292756d60a56e19a35848",
+      "license": "Giftborne-original",
+      "sourceUrl": "scripts/export-skyreach-role-weapons.py",
+      "provenanceId": "skyreach-role-weapons-v1",
+      "signature": "GB_SKYREACH_ROLE_WEAPONS_SIGNATURE",
+      "role": "Bone-bound Skyreach swords, spear and channeling staves",
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "source": "scripts/source-assets/skyreach-role-weapons-v1.blend",
+      "sourceSha256": "615a54ce9d0a01c6740ac667e231da56f589c933c40828a0bdfa847a57122706",
+      "exporterSha256": "a5e563f8e95472a1841cfc3859112f77f9d24d5bdfa333fb39f5203a2bfee35d",
+      "visibleTriangles": 696,
+      "visibleTriangleBudget": 1200,
+      "boundsM": {
+        "GB_WEAPON_CHANNELER_A": {
+          "min": [-0.077241, -0.575, -0.073527],
+          "max": [0.077241, 0.946, 0.073527]
+        },
+        "GB_WEAPON_CHANNELER_B": {
+          "min": [-0.077241, -0.575, -0.073527],
+          "max": [0.077241, 0.946, 0.073527]
+        },
+        "GB_WEAPON_LANCER": {
+          "min": [-0.074961, -0.635, -0.043031],
+          "max": [0.074961, 1.24, 0.043031]
+        },
+        "GB_WEAPON_SENTINEL": {
+          "min": [-0.135012, -0.1975, -0.043013],
+          "max": [0.135012, 0.89, 0.043013]
+        },
+        "GB_WEAPON_STARWARDEN": {
+          "min": [-0.226206, -0.57, -0.07206],
+          "max": [0.226206, 1.164834, 0.048018]
+        }
+      },
+      "decodedIntegrity": {
+        "primitiveCount": 5,
+        "triangleCount": 696,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      }
+    },
+    {
+      "id": "giftborne-aetherion-v8",
+      "file": "aetherion-authored-v8.glb",
+      "bytes": 246180,
+      "sha256": "b47676a3a1831d30fe299d3934aa69c851c1a280d2201b5615d550c96d7117e7",
+      "decodedIntegrity": {
+        "primitiveCount": 11,
+        "triangleCount": 11408,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 11284,
+      "detailTriangles": 124,
+      "visibleTriangles": 11408,
+      "visibleTriangleBudget": 12000,
+      "actorPayloadTiers": ["adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "license": "CC0-1.0 + Giftborne-original",
+      "role": "Aetherion with a complete realistic male anatomy foundation, paired source sclera plus authored iris and pupil geometry, fitted celestial plate accents, relic heart and blade, mobile retarget and authored material islands",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-relic-sovereign-v8",
+      "file": "relic-sovereign-authored-v8.glb",
+      "bytes": 369700,
+      "sha256": "d33adc495627a57bb000b1abd6991cc78339a189ff15040089147f2667002663",
+      "decodedIntegrity": {
+        "primitiveCount": 5,
+        "triangleCount": 11938,
+        "degenerateTriangleCount": 0,
+        "animationCount": 11,
+        "animationChannelCount": 221,
+        "animationSamplerCount": 221,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 7672,
+      "detailTriangles": 4266,
+      "visibleTriangles": 11938,
+      "visibleTriangleBudget": 12000,
+      "actorPayloadTiers": ["adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/durian/models/dragon_adult.blend.zip",
+      "license": "CC-BY-3.0 + Giftborne-original",
+      "role": "Relic Sovereign built from the nonhuman adult Scales dragon foundation with an 82-bone mobile rig, Giftborne celestial materials and eleven full-chain spine, neck, jaw, wing and tail motions",
+      "signature": "GB_SOVEREIGN_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aetherion-v17",
+      "file": "aetherion-authored-v17.glb",
+      "bytes": 502004,
+      "sha256": "9e455cefc1a00b69d1897169ce5675ed4f67d6894510e20b6b6f3984530cf484",
+      "decodedIntegrity": {
+        "primitiveCount": 7,
+        "triangleCount": 30968,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30968,
+      "detailTriangles": 0,
+      "visibleTriangles": 30968,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": [],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "role": "Retained inactive v17 rollback model combining complete realistic human anatomy with adult tapered proportions, fitted symmetric knight armor, an original closed winged celestial helmet, layered chest and shoulder hierarchy, matte gold-edged twin mantle panels, articulated extremity accents and a narrower Light Sword in one consolidated skinned shell",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aetherion-v18",
+      "file": "aetherion-authored-v18.glb",
+      "bytes": 501864,
+      "sha256": "a1f743234726a20ce3832a826e1e9e9d90579196eb0e3c3fd07983b0f194eb2b",
+      "decodedIntegrity": {
+        "primitiveCount": 7,
+        "triangleCount": 30968,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30968,
+      "detailTriangles": 0,
+      "visibleTriangles": 30968,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": [],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "role": "Retained inactive v18 rollback model. Aetherion v18 with fitted broad gold pauldrons; production model combining complete realistic human anatomy with adult tapered proportions, fitted symmetric knight armor, an original closed winged celestial helmet, layered chest and shoulder hierarchy, matte gold-edged twin mantle panels, articulated extremity accents and a narrower Light Sword in one consolidated skinned shell",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aetherion-v19",
+      "file": "aetherion-authored-v19.glb",
+      "bytes": 505580,
+      "sha256": "e1e2252502b275ef6d57efc7740eb2d895f163e733a1fd78005afa9a8a157388",
+      "decodedIntegrity": {
+        "primitiveCount": 7,
+        "triangleCount": 30968,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30968,
+      "detailTriangles": 0,
+      "visibleTriangles": 30968,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": [],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "role": "Retained inactive v19 rollback model; Aetherion v19, built with Blender 5.2.1 LTS from the same licensed foundations: matched authoring-rest skin binding baked into the unchanged 65-bone runtime T-rest, semantic equipment roles, seated forearm and chest details, fitted back cuirass, and the preserved v18 celestial armor design in one consolidated mobile shell",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aetherion-v20",
+      "file": "aetherion-authored-v20.glb",
+      "bytes": 513824,
+      "sha256": "aa374bc708ff36aec9ed67d520d9125a101d05d004220723fa7d00b53d864862",
+      "decodedIntegrity": {
+        "primitiveCount": 7,
+        "triangleCount": 30968,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30968,
+      "detailTriangles": 0,
+      "visibleTriangles": 30968,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": [],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "role": "Aetherion with restored adult hand volume, closed right-hand sword grip and full one-handed blade; same licensed anatomy, armor, 65-joint rig and runtime identity",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aetherion-v21",
+      "file": "aetherion-open-face-v21.glb",
+      "bytes": 478892,
+      "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 30092,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 30092,
+      "detailTriangles": 0,
+      "visibleTriangles": 30092,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Open face, paired source eyes, cropped hair and small brow crown over the v20 anatomy, six fitted armor parts, unchanged 65-joint motion rig and sword grip. Built with build-authored-actors.mjs --only hero --hero-face open; no stat or equipment authority change.",
+      "signature": "GB_AETHERION_SIGNATURE"
+    },
+    {
+      "id": "giftborne-relic-sovereign-v14",
+      "file": "relic-sovereign-authored-v14.glb",
+      "bytes": 610656,
+      "sha256": "8d1f43cb6881ee0adcb8281f1dd0c389a3be4bf617266b40073132365dcb210d",
+      "decodedIntegrity": {
+        "primitiveCount": 3,
+        "triangleCount": 5666,
+        "degenerateTriangleCount": 0,
+        "animationCount": 11,
+        "animationChannelCount": 1672,
+        "animationSamplerCount": 1672,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 5546,
+      "detailTriangles": 120,
+      "visibleTriangles": 5666,
+      "visibleTriangleBudget": 6000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://opengameart.org/sites/default/files/forest-monster_0.7z",
+      "license": "CC0-1.0 + Giftborne-original",
+      "role": "Relic Sovereign production model retaining connected weathered-stone monster anatomy and original UV detail, separating a compact fractured relic crown, luminous eyes and chest singularity into one skinned detail shell, and preserving eleven baked locomotion, attack, stagger, ascension and death clips",
+      "signature": "GB_SOVEREIGN_SIGNATURE"
+    },
+    {
+      "id": "giftborne-vault-sentinel-v4",
+      "file": "vault-sentinel-authored-v4.glb",
+      "bytes": 42652,
+      "sha256": "abe61524f02afe7305b463d84767945a684569320130b9991d52c669e9aff186",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 3500,
+        "degenerateTriangleCount": 0,
+        "animationCount": 5,
+        "animationChannelCount": 10,
+        "animationSamplerCount": 10,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "actorPayloadTiers": [],
+      "sourceUrl": "Giftborne Blender source",
+      "license": "Giftborne-original",
+      "role": "original animated Vault Sentinel with curved shield, restrained luminous mask, refined armor and pennant-spear construct",
+      "signature": "GB_SENTINEL_SIGNATURE"
+    },
+    {
+      "id": "giftborne-aether-wisp-v4",
+      "file": "aether-wisp-authored-v4.glb",
+      "bytes": 36912,
+      "sha256": "6e918cb6c19e9b37b1d488fc920a9a17589220be94cf2159fb554cfa14870336",
+      "decodedIntegrity": {
+        "primitiveCount": 5,
+        "triangleCount": 3430,
+        "degenerateTriangleCount": 0,
+        "animationCount": 5,
+        "animationChannelCount": 10,
+        "animationSamplerCount": 10,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "Giftborne Blender source",
+      "license": "Giftborne-original",
+      "role": "original animated Aether Wisp with a restrained luminous core, curved petals, partial orbits and draped trailing-light form",
+      "signature": "GB_WISP_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-citizen-v1",
+      "file": "skyreach-citizen-authored-v1.glb",
+      "bytes": 79684,
+      "sha256": "92152f6ad01a7141301176aaaa2061591ca68ee9fd904ff3f19c56c99d40f540",
+      "decodedIntegrity": {
+        "primitiveCount": 21,
+        "triangleCount": 3176,
+        "degenerateTriangleCount": 0,
+        "animationCount": 6,
+        "animationChannelCount": 37,
+        "animationSamplerCount": 37,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 3176,
+      "visibleTriangleBudget": 3400,
+      "actorPayloadTiers": [],
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "role": "legacy original articulated Skyreach citizen retained for v48 rollback compatibility",
+      "signature": "GB_SKYREACH_CITIZEN_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-residents-v2",
+      "file": "skyreach-residents-authored-v2.glb",
+      "bytes": 615976,
+      "sha256": "c47aeed25f4b5a982d006a2365d4f123f06920a5e950cdcd11b4e91dbd415485",
+      "decodedIntegrity": {
+        "primitiveCount": 24,
+        "triangleCount": 64762,
+        "degenerateTriangleCount": 0,
+        "animationCount": 8,
+        "animationChannelCount": 81,
+        "animationSamplerCount": 81,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 64762,
+      "visibleTriangleBudget": 65000,
+      "refinement": {
+        "source": "scripts/source-assets/lyra-face-v1.blend",
+        "sourceSha256": "4c67d36adc6116daed68626010838232ca8d6ef3f98767c4d5ef1b77d718e3a6",
+        "exporter": "scripts/build-skyreach-quality-cast.py",
+        "exporterSha256": "1000e057883d81d9ed32f77ec21435ff91ad399f6c292f0354cadf7b8bb67d61",
+        "binding": "Head",
+        "mantleBindings": ["spine_03", "upperarm_l", "upperarm_r"],
+        "variant": "GB_VARIANT_LYRA_STARWARDEN"
+      },
+      "turnRefinement": {
+        "source": "scripts/source-assets/lyra-turn-v1.blend",
+        "sourceSha256": "1ef4749d2000c5207694602ff2f228479e6854e2cddea444e596e447cb5b631b",
+        "exporter": "scripts/build-skyreach-quality-cast.py",
+        "exporterSha256": "1000e057883d81d9ed32f77ec21435ff91ad399f6c292f0354cadf7b8bb67d61",
+        "blender": "5.2.1 LTS",
+        "runtimeActor": "sf-place-npc-lyra-starwarden",
+        "durationSeconds": 1,
+        "stepAngleDegrees": 30,
+        "maxActiveClips": 2
+      },
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "scripts/build-skyreach-quality-cast.py",
+      "provenanceId": "skyreach-quality-cast-v3",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "eight named textured Skyreach residents from four CC0 humanoid outfit foundations with a shared rig and complete six-state lifecycle",
+      "signature": "GB_SKYREACH_RESIDENTS_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-enemies-v1",
+      "file": "skyreach-enemies-authored-v1.glb",
+      "bytes": 259908,
+      "sha256": "fe25b6ce21cd5a54be04e37204b61c8ba1f460062f05df5d428a87cdb887571e",
+      "decodedIntegrity": {
+        "primitiveCount": 12,
+        "triangleCount": 41377,
+        "degenerateTriangleCount": 0,
+        "animationCount": 6,
+        "animationChannelCount": 39,
+        "animationSamplerCount": 39,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 41377,
+      "visibleTriangleBudget": 42000,
+      "refinement": {
+        "source": "scripts/source-assets/keeper-face-v1.blend",
+        "sourceSha256": "94000f21015bbc746b6253a8deb7c6655f92a3b1893332a761480df628e36291",
+        "exporter": "scripts/build-skyreach-quality-cast.py",
+        "exporterSha256": "1000e057883d81d9ed32f77ec21435ff91ad399f6c292f0354cadf7b8bb67d61",
+        "binding": "Head",
+        "armorBindings": ["spine_03", "upperarm_l", "upperarm_r"],
+        "variant": "GB_VARIANT_PASS_SENTINEL"
+      },
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "scripts/build-skyreach-quality-cast.py",
+      "provenanceId": "skyreach-quality-cast-v3",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "four named textured Skyreach enemy identities from a CC0 armored humanoid foundation with a shared rig and complete six-state lifecycle",
+      "signature": "GB_SKYREACH_ENEMIES_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-companions-v1",
+      "file": "skyreach-companions-authored-v1.glb",
+      "bytes": 414856,
+      "sha256": "eb276fde40921baf1b76d541302408b633d24ae538a6255318f99afa16191ec6",
+      "decodedIntegrity": {
+        "primitiveCount": 12,
+        "triangleCount": 41564,
+        "degenerateTriangleCount": 0,
+        "animationCount": 6,
+        "animationChannelCount": 39,
+        "animationSamplerCount": 39,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 41564,
+      "visibleTriangleBudget": 42000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "scripts/build-skyreach-quality-cast.py",
+      "provenanceId": "skyreach-quality-cast-v3",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "four named textured arena companions from male and female CC0 armored humanoid foundations with a shared rig and complete six-state lifecycle",
+      "signature": "GB_SKYREACH_COMPANIONS_SIGNATURE"
+    },
+    {
+      "id": "giftborne-skyreach-architecture-v1",
+      "file": "skyreach-modular-architecture-authored-v1.glb",
+      "bytes": 161640,
+      "sha256": "eb8ca6571c11ab3e714a4b01a9af128200150f352772b54246137af0acbe64a3",
+      "source": "scripts/source-assets/skyreach-architecture-v1.blend",
+      "sourceSha256": "930123ca768913ac344ffe5c842c7b23438fb4213f15648239cfe86f9ae29924",
+      "decodedIntegrity": {
+        "primitiveCount": 84,
+        "triangleCount": 12296,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "visibleTriangles": 12296,
+      "visibleTriangleBudget": 13000,
+      "actorPayloadTiers": [],
+      "sourceUrl": "scripts/build-skyreach-authored-world.py",
+      "provenanceId": "skyreach-authored-world-v1",
+      "license": "Giftborne-original",
+      "role": "original modular Skyreach major-building and landmark template set with framed windows, layered roof trim, entry canopy and reusable finials",
+      "signature": "GB_SKYREACH_ARCHITECTURE_SIGNATURE"
+    },
+    {
+      "id": "giftborne-authored-motion-v3",
+      "file": "giftborne-authored-motion-v3.glb",
+      "bytes": 320124,
+      "sha256": "af74abcafd6ee17efc5a8ba1c059420ffd29170ff976b44a9b5fab387d8a22b7",
+      "decodedIntegrity": {
+        "primitiveCount": 0,
+        "triangleCount": 0,
+        "degenerateTriangleCount": 0,
+        "animationCount": 10,
+        "animationChannelCount": 250,
+        "animationSamplerCount": 250,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "actorPayloadTiers": [],
+      "sourceUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "ten actor-specific in-place Aetherion motion clips; the Grove Sovereign owns its independent embedded motion set"
+    },
+    {
+      "id": "giftborne-authored-motion-v4",
+      "file": "giftborne-authored-motion-v4.glb",
+      "bytes": 320124,
+      "sha256": "eecf77fe948a112be035f406410c914c4fab5b20352f221ebb32435c5d4f6caa",
+      "decodedIntegrity": {
+        "primitiveCount": 0,
+        "triangleCount": 0,
+        "degenerateTriangleCount": 0,
+        "animationCount": 10,
+        "animationChannelCount": 250,
+        "animationSamplerCount": 250,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
+      "license": "CC0-1.0 + Giftborne-authored",
+      "role": "ten in-place hero clips; AstralStep pronates the closed sword hand during the tumble, with unchanged source timing and other joint tracks"
+    },
+    {
+      "id": "giftborne-dawnfolk-runesmith-v1",
+      "file": "dawnfolk-runesmith-v1.glb",
+      "bytes": 483204,
+      "sha256": "b6ba9c90a3f379f51335f9682496eb3bf388e778521d45211fc5e76a0377d666",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 28167,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28167,
+      "detailTriangles": 0,
+      "visibleTriangles": 28167,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Runesmith dawnfolk: forged forearm plates, conformed anvil seal, split leather apron. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class runesmith --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-runesmith-v1",
+      "file": "aeral-runesmith-v1.glb",
+      "bytes": 486448,
+      "sha256": "49612ff443893371b4c9a246da1137d0a208e196ffa27dbea8f6df442605a958",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 28599,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28599,
+      "detailTriangles": 0,
+      "visibleTriangles": 28599,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Runesmith aeral: forged forearm plates, conformed anvil seal, split leather apron. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class runesmith --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-runesmith-v1",
+      "file": "stonekin-runesmith-v1.glb",
+      "bytes": 528996,
+      "sha256": "6f55f8b3402493c182ca0b514c4be8459af636259a4f30cbf984e0d0a5c10375",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 28167,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28167,
+      "detailTriangles": 0,
+      "visibleTriangles": 28167,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Runesmith stonekin: forged forearm plates, conformed anvil seal, split leather apron. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class runesmith --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-runesmith-v1",
+      "file": "emberkin-runesmith-v1.glb",
+      "bytes": 486416,
+      "sha256": "7e4e8a783e5384211b877855460adfd09391e86b633250f74d3586fd01dd0336",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 28291,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28291,
+      "detailTriangles": 0,
+      "visibleTriangles": 28291,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Runesmith emberkin: forged forearm plates, conformed anvil seal, split leather apron. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class runesmith --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-runesmith-v1",
+      "file": "thornborn-runesmith-v1.glb",
+      "bytes": 485120,
+      "sha256": "4f0611ec836d23183c109c38c5e460f7ba9a6566869b38316a7c5f65fca8cc10",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 28259,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28259,
+      "detailTriangles": 0,
+      "visibleTriangles": 28259,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Runesmith thornborn: forged forearm plates, conformed anvil seal, split leather apron. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class runesmith --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-runesmith-v1",
+      "file": "tideborn-runesmith-v1.glb",
+      "bytes": 486912,
+      "sha256": "60f87d73dd5da5d88c2fbba845777e745ba0f5ca907e057ff71cb14833cd579a",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 28623,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28623,
+      "detailTriangles": 0,
+      "visibleTriangles": 28623,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Runesmith tideborn: forged forearm plates, conformed anvil seal, split leather apron. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class runesmith --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-runesmith-v1",
+      "file": "glassborn-runesmith-v1.glb",
+      "bytes": 544160,
+      "sha256": "199ce045c9ae0682cad85f5e2270b173a7a559faf0ed060336dc00ac1cc3e969",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 28183,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28183,
+      "detailTriangles": 0,
+      "visibleTriangles": 28183,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Runesmith glassborn: forged forearm plates, conformed anvil seal, split leather apron. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class runesmith --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-runesmith-v1",
+      "file": "duskborn-runesmith-v1.glb",
+      "bytes": 484768,
+      "sha256": "fc8d412d6aa55eabb39a116bdefdfc3014432bb88eae2d63c580bce449bb153e",
+      "decodedIntegrity": {
+        "primitiveCount": 8,
+        "triangleCount": 28371,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28371,
+      "detailTriangles": 0,
+      "visibleTriangles": 28371,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Runesmith duskborn: forged forearm plates, conformed anvil seal, split leather apron. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class runesmith --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    },
+    {
+      "id": "giftborne-dawnfolk-stormcaller-v1",
+      "file": "dawnfolk-stormcaller-v1.glb",
+      "bytes": 487024,
+      "sha256": "92b280940ebe65dab37cd5cf7f189c5f2874a060dc128ee7a2b752009ba1a906",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28725,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28725,
+      "detailTriangles": 0,
+      "visibleTriangles": 28725,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stormcaller dawnfolk: angular gold/aether conducting shoulders, conformed aether cuirass crest, split robe. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class stormcaller --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-stormcaller-v1",
+      "file": "aeral-stormcaller-v1.glb",
+      "bytes": 490120,
+      "sha256": "777a9dbae58b0fa8058677bddbf1b1f57d39f89d329aa2a2f817c9b2478d7000",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 29157,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 29157,
+      "detailTriangles": 0,
+      "visibleTriangles": 29157,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stormcaller aeral: angular gold/aether conducting shoulders, conformed aether cuirass crest, split robe. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class stormcaller --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-stormcaller-v1",
+      "file": "stonekin-stormcaller-v1.glb",
+      "bytes": 532624,
+      "sha256": "df8edc27c7b3a950fa5a38a407d1fc91d541ce2eb3a88ed86249ebe83e70a578",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28725,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28725,
+      "detailTriangles": 0,
+      "visibleTriangles": 28725,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stormcaller stonekin: angular gold/aether conducting shoulders, conformed aether cuirass crest, split robe. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class stormcaller --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-stormcaller-v1",
+      "file": "emberkin-stormcaller-v1.glb",
+      "bytes": 490044,
+      "sha256": "9c4f75a1e9b3feae7767b0f423d1f594c874e7fb86cea6c1eec4d6df7160822b",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28849,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28849,
+      "detailTriangles": 0,
+      "visibleTriangles": 28849,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stormcaller emberkin: angular gold/aether conducting shoulders, conformed aether cuirass crest, split robe. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class stormcaller --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-stormcaller-v1",
+      "file": "thornborn-stormcaller-v1.glb",
+      "bytes": 488744,
+      "sha256": "7d2a126984afeb6af2950548660465b5fe56647848dc6922ff4932452813f77b",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28817,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28817,
+      "detailTriangles": 0,
+      "visibleTriangles": 28817,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stormcaller thornborn: angular gold/aether conducting shoulders, conformed aether cuirass crest, split robe. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class stormcaller --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-stormcaller-v1",
+      "file": "tideborn-stormcaller-v1.glb",
+      "bytes": 490536,
+      "sha256": "22e18c445d847306c07b164bb7b1d1e981827fc33c87a654419ec25689c3592c",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 29181,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 29181,
+      "detailTriangles": 0,
+      "visibleTriangles": 29181,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stormcaller tideborn: angular gold/aether conducting shoulders, conformed aether cuirass crest, split robe. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class stormcaller --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-stormcaller-v1",
+      "file": "glassborn-stormcaller-v1.glb",
+      "bytes": 547780,
+      "sha256": "dcdfb6a177a9f569d86a9507b20c55a3fa6dbe5f07c0dd4aab3d5883c08f4924",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28741,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28741,
+      "detailTriangles": 0,
+      "visibleTriangles": 28741,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stormcaller glassborn: angular gold/aether conducting shoulders, conformed aether cuirass crest, split robe. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class stormcaller --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-stormcaller-v1",
+      "file": "duskborn-stormcaller-v1.glb",
+      "bytes": 488396,
+      "sha256": "b19649a89c7c1ccef39941402e1f10679ef526bda68203b9822dd8123228ce9d",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 28929,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 28929,
+      "detailTriangles": 0,
+      "visibleTriangles": 28929,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Stormcaller duskborn: angular gold/aether conducting shoulders, conformed aether cuirass crest, split robe. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class stormcaller --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    },
+    {
+      "id": "giftborne-dawnfolk-dawnwarden-v1",
+      "file": "dawnfolk-dawnwarden-v1.glb",
+      "bytes": 418752,
+      "sha256": "ce6bbb6cbde37aa5c526ec5a04af6e766395776a0215c37a067bf00ce4758f58",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23383,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23383,
+      "detailTriangles": 0,
+      "visibleTriangles": 23383,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Dawnwarden dawnfolk: rounded ivory/gold guardian plates, conformed rising-sun crest, short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class dawnwarden --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-dawnwarden-v1",
+      "file": "aeral-dawnwarden-v1.glb",
+      "bytes": 421840,
+      "sha256": "44a025a4ab29e3652164cc2d6202eb609fcfc936c20382ad9e397ba3292c687a",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23815,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23815,
+      "detailTriangles": 0,
+      "visibleTriangles": 23815,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Dawnwarden aeral: rounded ivory/gold guardian plates, conformed rising-sun crest, short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class dawnwarden --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-dawnwarden-v1",
+      "file": "stonekin-dawnwarden-v1.glb",
+      "bytes": 464332,
+      "sha256": "e0936014344718f9a2bba227948c6e59ca15b7c63bb1c7b95d56f2ade644c6fc",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23383,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23383,
+      "detailTriangles": 0,
+      "visibleTriangles": 23383,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Dawnwarden stonekin: rounded ivory/gold guardian plates, conformed rising-sun crest, short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class dawnwarden --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-dawnwarden-v1",
+      "file": "emberkin-dawnwarden-v1.glb",
+      "bytes": 421756,
+      "sha256": "213c1009325df2d9ba50ca25b1e413e8b50b0ae4fee57a106c318fc024f144b6",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23507,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23507,
+      "detailTriangles": 0,
+      "visibleTriangles": 23507,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Dawnwarden emberkin: rounded ivory/gold guardian plates, conformed rising-sun crest, short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class dawnwarden --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-dawnwarden-v1",
+      "file": "thornborn-dawnwarden-v1.glb",
+      "bytes": 420456,
+      "sha256": "eef80bafa52af01f8998786961498813bb16f28aac6eb63d992efae9e487ae40",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23475,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23475,
+      "detailTriangles": 0,
+      "visibleTriangles": 23475,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Dawnwarden thornborn: rounded ivory/gold guardian plates, conformed rising-sun crest, short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class dawnwarden --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-dawnwarden-v1",
+      "file": "tideborn-dawnwarden-v1.glb",
+      "bytes": 422252,
+      "sha256": "e64f732ec7562725a2b2fa063bba6c93e1a6c6054e614ce46c78d3102580b8ea",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23839,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23839,
+      "detailTriangles": 0,
+      "visibleTriangles": 23839,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Dawnwarden tideborn: rounded ivory/gold guardian plates, conformed rising-sun crest, short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class dawnwarden --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-dawnwarden-v1",
+      "file": "glassborn-dawnwarden-v1.glb",
+      "bytes": 479504,
+      "sha256": "8e803f6a78572275dd40f0eaafcc9f69c9d55293f1ddc806370f7f4cb2fac22d",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23399,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23399,
+      "detailTriangles": 0,
+      "visibleTriangles": 23399,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Dawnwarden glassborn: rounded ivory/gold guardian plates, conformed rising-sun crest, short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class dawnwarden --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-dawnwarden-v1",
+      "file": "duskborn-dawnwarden-v1.glb",
+      "bytes": 420108,
+      "sha256": "1b6f095d771c34d52698c9a03369ce065193199010c3163254180aa3ba626315",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23587,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23587,
+      "detailTriangles": 0,
+      "visibleTriangles": 23587,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Dawnwarden duskborn: rounded ivory/gold guardian plates, conformed rising-sun crest, short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class dawnwarden --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    },
+    {
+      "id": "giftborne-dawnfolk-thornbinder-v1",
+      "file": "dawnfolk-thornbinder-v1.glb",
+      "bytes": 406176,
+      "sha256": "b6ba1aa316368b8327a9ce7f8fbb947a217f8458b09cf8edf8fef9a0596102c1",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23405,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23405,
+      "detailTriangles": 0,
+      "visibleTriangles": 23405,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornbinder dawnfolk: leaf-cut leather shoulders, conformed branching chest seams, segmented root tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class thornbinder --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-thornbinder-v1",
+      "file": "aeral-thornbinder-v1.glb",
+      "bytes": 409228,
+      "sha256": "fe5f9b3a4622af9815b86dffeefb250b2e4cef0e4686c0949218fb161fe69b5a",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23837,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23837,
+      "detailTriangles": 0,
+      "visibleTriangles": 23837,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornbinder aeral: leaf-cut leather shoulders, conformed branching chest seams, segmented root tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class thornbinder --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-thornbinder-v1",
+      "file": "stonekin-thornbinder-v1.glb",
+      "bytes": 451788,
+      "sha256": "4fa362192788963f00dadf2dc90b52d72effa4c071f783efb6db24f93af87701",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23405,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23405,
+      "detailTriangles": 0,
+      "visibleTriangles": 23405,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornbinder stonekin: leaf-cut leather shoulders, conformed branching chest seams, segmented root tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class thornbinder --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-thornbinder-v1",
+      "file": "emberkin-thornbinder-v1.glb",
+      "bytes": 409208,
+      "sha256": "798f0291c542e27523534c50d5f9f8bafe23e415eb9a59025146cce4a667d5a3",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23529,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23529,
+      "detailTriangles": 0,
+      "visibleTriangles": 23529,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornbinder emberkin: leaf-cut leather shoulders, conformed branching chest seams, segmented root tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class thornbinder --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-thornbinder-v1",
+      "file": "thornborn-thornbinder-v1.glb",
+      "bytes": 407908,
+      "sha256": "cf686a3d411b0142373d8618b99e913835fa8353b84e4ee6e9e2cd6b17017a63",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23497,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23497,
+      "detailTriangles": 0,
+      "visibleTriangles": 23497,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornbinder thornborn: leaf-cut leather shoulders, conformed branching chest seams, segmented root tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class thornbinder --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-thornbinder-v1",
+      "file": "tideborn-thornbinder-v1.glb",
+      "bytes": 409704,
+      "sha256": "59a57084f00b2ed8023aa2af4f0a12a9145909691ebc476ce3954b7e0fb58375",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23861,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23861,
+      "detailTriangles": 0,
+      "visibleTriangles": 23861,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornbinder tideborn: leaf-cut leather shoulders, conformed branching chest seams, segmented root tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class thornbinder --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-thornbinder-v1",
+      "file": "glassborn-thornbinder-v1.glb",
+      "bytes": 466948,
+      "sha256": "024a044afc8e22c1094ee3c1fa0d0b5ef45fef0cc801f1b4f932e267358ac660",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23421,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23421,
+      "detailTriangles": 0,
+      "visibleTriangles": 23421,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornbinder glassborn: leaf-cut leather shoulders, conformed branching chest seams, segmented root tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class thornbinder --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-thornbinder-v1",
+      "file": "duskborn-thornbinder-v1.glb",
+      "bytes": 407560,
+      "sha256": "70996643b729142e4bea9f2232bc2e1b27a464bbe4e9390ffd6d598083a48a5d",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23609,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23609,
+      "detailTriangles": 0,
+      "visibleTriangles": 23609,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Thornbinder duskborn: leaf-cut leather shoulders, conformed branching chest seams, segmented root tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class thornbinder --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    },
+    {
+      "id": "giftborne-dawnfolk-wayfarer-v1",
+      "file": "dawnfolk-wayfarer-v1.glb",
+      "bytes": 415388,
+      "sha256": "319f54d03e0818a33ae9a89bfe3499010d2e317a0abce80a3ae88dd5f4f84551",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23229,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23229,
+      "detailTriangles": 0,
+      "visibleTriangles": 23229,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Wayfarer dawnfolk: short travel shoulder cape, diagonal leather crossbelt and flat cosmetic left-belt bag. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class wayfarer --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-wayfarer-v1",
+      "file": "aeral-wayfarer-v1.glb",
+      "bytes": 418480,
+      "sha256": "89355c335342bddf32f9c1db554590165833e649eccb2e3894b913c970c268d3",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23661,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23661,
+      "detailTriangles": 0,
+      "visibleTriangles": 23661,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Wayfarer aeral: short travel shoulder cape, diagonal leather crossbelt and flat cosmetic left-belt bag. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class wayfarer --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-wayfarer-v1",
+      "file": "stonekin-wayfarer-v1.glb",
+      "bytes": 460984,
+      "sha256": "11f707b94e9830a3b99af1fcf0edd2c61278f9702428f5688521cc5552b2d218",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23229,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23229,
+      "detailTriangles": 0,
+      "visibleTriangles": 23229,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Wayfarer stonekin: short travel shoulder cape, diagonal leather crossbelt and flat cosmetic left-belt bag. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class wayfarer --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-wayfarer-v1",
+      "file": "emberkin-wayfarer-v1.glb",
+      "bytes": 418404,
+      "sha256": "6672b1c24b3c0f80a481db47f363e52018e5767960cc3ab1490fb9514a610b3c",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23353,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23353,
+      "detailTriangles": 0,
+      "visibleTriangles": 23353,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Wayfarer emberkin: short travel shoulder cape, diagonal leather crossbelt and flat cosmetic left-belt bag. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class wayfarer --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-wayfarer-v1",
+      "file": "thornborn-wayfarer-v1.glb",
+      "bytes": 417108,
+      "sha256": "8e1644fac23a60b9c17c4895125e4e0729094513d3fd3e24445bd94f202cf9a0",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23321,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23321,
+      "detailTriangles": 0,
+      "visibleTriangles": 23321,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Wayfarer thornborn: short travel shoulder cape, diagonal leather crossbelt and flat cosmetic left-belt bag. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class wayfarer --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-wayfarer-v1",
+      "file": "tideborn-wayfarer-v1.glb",
+      "bytes": 418900,
+      "sha256": "9e70451c7fd69d9b1524639dda7a596c355306a7305c00c968362df53dffff60",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23685,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23685,
+      "detailTriangles": 0,
+      "visibleTriangles": 23685,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Wayfarer tideborn: short travel shoulder cape, diagonal leather crossbelt and flat cosmetic left-belt bag. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class wayfarer --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-wayfarer-v1",
+      "file": "glassborn-wayfarer-v1.glb",
+      "bytes": 476148,
+      "sha256": "f4d1cabd58573130e6e5cddf070fbd10953cb9cebd655f803ef935863c211778",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23245,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23245,
+      "detailTriangles": 0,
+      "visibleTriangles": 23245,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Wayfarer glassborn: short travel shoulder cape, diagonal leather crossbelt and flat cosmetic left-belt bag. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class wayfarer --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-wayfarer-v1",
+      "file": "duskborn-wayfarer-v1.glb",
+      "bytes": 416756,
+      "sha256": "3dda5f70f26cd1e5c3b38cb494f0496818c06cbaf35c24fad51ee650e6a19cf3",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23433,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23433,
+      "detailTriangles": 0,
+      "visibleTriangles": 23433,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Wayfarer duskborn: short travel shoulder cape, diagonal leather crossbelt and flat cosmetic left-belt bag. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class wayfarer --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    },
+    {
+      "id": "giftborne-dawnfolk-duskweaver-v1",
+      "file": "dawnfolk-duskweaver-v1.glb",
+      "bytes": 405276,
+      "sha256": "7a71d50cc213deddf16879ac08b392674c7200aef910724df6c7ef940676a315",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23097,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23097,
+      "detailTriangles": 0,
+      "visibleTriangles": 23097,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskweaver dawnfolk: short layered cloth panels, fitted interwoven chest knot and light forearm bracers. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class duskweaver --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-duskweaver-v1",
+      "file": "aeral-duskweaver-v1.glb",
+      "bytes": 408304,
+      "sha256": "4faa429251ce25d985f5483d8f1a6fcb18b0d2c0af3a3d58ddda4a0f9725781f",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23529,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23529,
+      "detailTriangles": 0,
+      "visibleTriangles": 23529,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskweaver aeral: short layered cloth panels, fitted interwoven chest knot and light forearm bracers. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class duskweaver --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-duskweaver-v1",
+      "file": "stonekin-duskweaver-v1.glb",
+      "bytes": 450828,
+      "sha256": "724dbdf75813c08ad3bc5eb899b0ffecd2d24ba14d115313d2486924fd42028a",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23097,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23097,
+      "detailTriangles": 0,
+      "visibleTriangles": 23097,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskweaver stonekin: short layered cloth panels, fitted interwoven chest knot and light forearm bracers. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class duskweaver --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-duskweaver-v1",
+      "file": "emberkin-duskweaver-v1.glb",
+      "bytes": 408248,
+      "sha256": "aa5b810f5936d8172f3acb7058db35a0968aefb1609c2121cae4c4359b5b8b2f",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23221,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23221,
+      "detailTriangles": 0,
+      "visibleTriangles": 23221,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskweaver emberkin: short layered cloth panels, fitted interwoven chest knot and light forearm bracers. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class duskweaver --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-duskweaver-v1",
+      "file": "thornborn-duskweaver-v1.glb",
+      "bytes": 406948,
+      "sha256": "552bde29572590300a3982b13879653fc5bc46d54d44a726ed15496443c39bde",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23189,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23189,
+      "detailTriangles": 0,
+      "visibleTriangles": 23189,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskweaver thornborn: short layered cloth panels, fitted interwoven chest knot and light forearm bracers. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class duskweaver --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-duskweaver-v1",
+      "file": "tideborn-duskweaver-v1.glb",
+      "bytes": 408744,
+      "sha256": "5d4203cd0ee41d4022193fa4475efe1a17f0f27411182430d07e4988d8b1d65a",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23553,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23553,
+      "detailTriangles": 0,
+      "visibleTriangles": 23553,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskweaver tideborn: short layered cloth panels, fitted interwoven chest knot and light forearm bracers. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class duskweaver --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-duskweaver-v1",
+      "file": "glassborn-duskweaver-v1.glb",
+      "bytes": 465988,
+      "sha256": "7e8e674441f8d3d612132191b075415d827ef2cf8b59290cbc84bde3101d2dac",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23113,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23113,
+      "detailTriangles": 0,
+      "visibleTriangles": 23113,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskweaver glassborn: short layered cloth panels, fitted interwoven chest knot and light forearm bracers. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class duskweaver --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-duskweaver-v1",
+      "file": "duskborn-duskweaver-v1.glb",
+      "bytes": 406600,
+      "sha256": "f77a5462db4977973545d7fda0e52370610a8eb7b7623efe05f0be8434c0a8cb",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23301,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23301,
+      "detailTriangles": 0,
+      "visibleTriangles": 23301,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Duskweaver duskborn: short layered cloth panels, fitted interwoven chest knot and light forearm bracers. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class duskweaver --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    },
+    {
+      "id": "giftborne-dawnfolk-chronomancer-v1",
+      "file": "dawnfolk-chronomancer-v1.glb",
+      "bytes": 423544,
+      "sha256": "89b6b7b32544b1e88d3eda59c24b7d93844edeec1ba0c603a46938d2b3025ae0",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 24301,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 24301,
+      "detailTriangles": 0,
+      "visibleTriangles": 24301,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Chronomancer dawnfolk: compact circular dial clasp, short segmented coat and repeated bracer arcs. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class chronomancer --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-chronomancer-v1",
+      "file": "aeral-chronomancer-v1.glb",
+      "bytes": 426612,
+      "sha256": "d382ef49a9faae0abc1bf983c138bee93b151b1ca1280392b96b3aacb68a4220",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 24733,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 24733,
+      "detailTriangles": 0,
+      "visibleTriangles": 24733,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Chronomancer aeral: compact circular dial clasp, short segmented coat and repeated bracer arcs. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class chronomancer --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-chronomancer-v1",
+      "file": "stonekin-chronomancer-v1.glb",
+      "bytes": 469128,
+      "sha256": "b1e7a63f3bd469d8bc6774cf32aa61ebb4795ef245a184417416ff643af896ae",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 24301,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 24301,
+      "detailTriangles": 0,
+      "visibleTriangles": 24301,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Chronomancer stonekin: compact circular dial clasp, short segmented coat and repeated bracer arcs. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class chronomancer --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-chronomancer-v1",
+      "file": "emberkin-chronomancer-v1.glb",
+      "bytes": 426548,
+      "sha256": "83c2626d149f21b695fb6515023e15e5375335b871907d562551b9c7c53180d0",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 24425,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 24425,
+      "detailTriangles": 0,
+      "visibleTriangles": 24425,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Chronomancer emberkin: compact circular dial clasp, short segmented coat and repeated bracer arcs. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class chronomancer --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-chronomancer-v1",
+      "file": "thornborn-chronomancer-v1.glb",
+      "bytes": 425252,
+      "sha256": "843b8782da3086c26fe55c274e2068f2fbb2e866d5295c1de5c28c0177c75f21",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 24393,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 24393,
+      "detailTriangles": 0,
+      "visibleTriangles": 24393,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Chronomancer thornborn: compact circular dial clasp, short segmented coat and repeated bracer arcs. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class chronomancer --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-chronomancer-v1",
+      "file": "tideborn-chronomancer-v1.glb",
+      "bytes": 427040,
+      "sha256": "b5ca4560fd3c00b215fb1d4e7e949f312a794e951b2485d0ab5751c33a9b65ff",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 24757,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 24757,
+      "detailTriangles": 0,
+      "visibleTriangles": 24757,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Chronomancer tideborn: compact circular dial clasp, short segmented coat and repeated bracer arcs. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class chronomancer --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-chronomancer-v1",
+      "file": "glassborn-chronomancer-v1.glb",
+      "bytes": 484296,
+      "sha256": "af83540810d7f8e801fb8b34a41e60b823467bc419480ab1d817c0e2ae362ac3",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 24317,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 24317,
+      "detailTriangles": 0,
+      "visibleTriangles": 24317,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Chronomancer glassborn: compact circular dial clasp, short segmented coat and repeated bracer arcs. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class chronomancer --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-chronomancer-v1",
+      "file": "duskborn-chronomancer-v1.glb",
+      "bytes": 424900,
+      "sha256": "3b82597d2703a255099badbe447c740d5665a61b1083cc9d4b15b1c78529202f",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 24505,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 24505,
+      "detailTriangles": 0,
+      "visibleTriangles": 24505,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Chronomancer duskborn: compact circular dial clasp, short segmented coat and repeated bracer arcs. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class chronomancer --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    },
+    {
+      "id": "giftborne-dawnfolk-oathkeeper-v1",
+      "file": "dawnfolk-oathkeeper-v1.glb",
+      "bytes": 410920,
+      "sha256": "0e6f58be5c30dfedf12a04c32a9ca63c8b867f9c39906a40d5f229ab0dc399b3",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 22965,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 22965,
+      "detailTriangles": 0,
+      "visibleTriangles": 22965,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Oathkeeper dawnfolk: symmetric cuirass, three fitted gold oath marks, angular compact pauldrons and short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class oathkeeper --hero-race dawnfolk",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aetherion-open-face-v21.glb",
+        "sha256": "9b03bff6cad299ee808bcd4692dd871e1d3b3182a390fff6d461b8b58f6fa40e"
+      }
+    },
+    {
+      "id": "giftborne-aeral-oathkeeper-v1",
+      "file": "aeral-oathkeeper-v1.glb",
+      "bytes": 414044,
+      "sha256": "0cdd1cef8f87bc14d21d9604dc4840380a1f6b97f04163cbaf2061e58b122136",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23397,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23397,
+      "detailTriangles": 0,
+      "visibleTriangles": 23397,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Oathkeeper aeral: symmetric cuirass, three fitted gold oath marks, angular compact pauldrons and short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class oathkeeper --hero-race aeral",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "aeral-authored-v1.glb",
+        "sha256": "018d11bb49d8943fddd3062f8bdbc62e801972bf3938979bf0356e1f790206b4"
+      }
+    },
+    {
+      "id": "giftborne-stonekin-oathkeeper-v1",
+      "file": "stonekin-oathkeeper-v1.glb",
+      "bytes": 456540,
+      "sha256": "1339d389c75b13c1ee43ba8270a8269b09be9d3b7ea0f3d023ad5925167c49b9",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 22965,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 22965,
+      "detailTriangles": 0,
+      "visibleTriangles": 22965,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Oathkeeper stonekin: symmetric cuirass, three fitted gold oath marks, angular compact pauldrons and short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class oathkeeper --hero-race stonekin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "stonekin-authored-v1.glb",
+        "sha256": "87e077e71ace481dbc57a30b2e996626087b5eae6baf0a40f97aa84dc7230454"
+      }
+    },
+    {
+      "id": "giftborne-emberkin-oathkeeper-v1",
+      "file": "emberkin-oathkeeper-v1.glb",
+      "bytes": 413960,
+      "sha256": "853ab2aa6e0207d6a20e2601ed11b58fec4d05b7b4fa75d806500e0731a9029f",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23089,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23089,
+      "detailTriangles": 0,
+      "visibleTriangles": 23089,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Oathkeeper emberkin: symmetric cuirass, three fitted gold oath marks, angular compact pauldrons and short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class oathkeeper --hero-race emberkin",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "emberkin-authored-v1.glb",
+        "sha256": "e7461a7c523b2990a59c2869cbaed8c40eb37521833c5c3b075a606dd71282e0"
+      }
+    },
+    {
+      "id": "giftborne-thornborn-oathkeeper-v1",
+      "file": "thornborn-oathkeeper-v1.glb",
+      "bytes": 412664,
+      "sha256": "e38d54ebc64f582eb889ecdd14bc4c96c969294b97f19bfd78cb859015cd6d51",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23057,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23057,
+      "detailTriangles": 0,
+      "visibleTriangles": 23057,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Oathkeeper thornborn: symmetric cuirass, three fitted gold oath marks, angular compact pauldrons and short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class oathkeeper --hero-race thornborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "thornborn-authored-v1.glb",
+        "sha256": "760673060cbe50cc406d27fd46ee69c1bd1ce6f7cf8043dc9548f5877b3075fe"
+      }
+    },
+    {
+      "id": "giftborne-tideborn-oathkeeper-v1",
+      "file": "tideborn-oathkeeper-v1.glb",
+      "bytes": 414456,
+      "sha256": "86b82e7c2b589e90d5cd31ca710d5f7b3113c7705289c1aeffd6028b81b6eb75",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23421,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23421,
+      "detailTriangles": 0,
+      "visibleTriangles": 23421,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Oathkeeper tideborn: symmetric cuirass, three fitted gold oath marks, angular compact pauldrons and short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class oathkeeper --hero-race tideborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "tideborn-authored-v1.glb",
+        "sha256": "66c43cd5091e46ea818f0292ce4f989be4f7e4d2072704e251f7e47cee7a0b5d"
+      }
+    },
+    {
+      "id": "giftborne-glassborn-oathkeeper-v1",
+      "file": "glassborn-oathkeeper-v1.glb",
+      "bytes": 471704,
+      "sha256": "f4e9e92eed7b531d7d0f5436ce39d0136bc327e3f9f9f21352900b3c48f8a51b",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 22981,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 22981,
+      "detailTriangles": 0,
+      "visibleTriangles": 22981,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Oathkeeper glassborn: symmetric cuirass, three fitted gold oath marks, angular compact pauldrons and short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class oathkeeper --hero-race glassborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "glassborn-authored-v1.glb",
+        "sha256": "182f5d9099a5f7285dae29d7f970c99f13068b2f696925cab5a2554ca74aefa0"
+      }
+    },
+    {
+      "id": "giftborne-duskborn-oathkeeper-v1",
+      "file": "duskborn-oathkeeper-v1.glb",
+      "bytes": 412312,
+      "sha256": "bc1aa8297723ff38770f6c32f5a29e801e8d8d466808e6a8d7a458774a806ece",
+      "decodedIntegrity": {
+        "primitiveCount": 9,
+        "triangleCount": 23169,
+        "degenerateTriangleCount": 0,
+        "animationCount": 0,
+        "animationChannelCount": 0,
+        "animationSamplerCount": 0,
+        "unreferencedAnimationSamplerCount": 0
+      },
+      "coreTriangles": 23169,
+      "detailTriangles": 0,
+      "visibleTriangles": 23169,
+      "visibleTriangleBudget": 32000,
+      "actorPayloadTiers": ["low", "production", "adaptiveFallback"],
+      "sourceUrl": "https://download.blender.org/demo/bundles/bundles-3.6/human-base-meshes-bundle-v1.0.0.zip",
+      "armorSourceUrl": "https://opengameart.org/sites/default/files/Knight_0.blend",
+      "license": "CC0-1.0 foundations + Giftborne-original",
+      "blender": "Blender 5.2.1 LTS",
+      "role": "Oathkeeper duskborn: symmetric cuirass, three fitted gold oath marks, angular compact pauldrons and short tabard. Original race anatomy, 65 exact binds, v4 motion, sword grasp/reach/contact and gameplay preserved. Existing builder --only hero --hero-face open --hero-class oathkeeper --hero-race duskborn",
+      "signature": "GB_AETHERION_SIGNATURE",
+      "derivedFrom": {
+        "file": "duskborn-authored-v1.glb",
+        "sha256": "38c6cbd2daee16c002deaaf1a37790e060366fd195b577323286bc25a4830069"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "id": "aetherion-star-metal-v3",
+      "file": "materials/aetherion-star-metal-v3.webp",
+      "bytes": 46336,
+      "sha256": "dda456dd3b9ad814feb10ccd0918dbc5218573cafa61787c7e9e274bef0605ce",
+      "width": 512,
+      "height": 512,
+      "role": "original hard ivory, antique-gold and cyan-inlay Aetherion star-metal color material",
+      "actorPayload": true
+    },
+    {
+      "id": "aetherion-star-metal-normal-v2",
+      "file": "materials/aetherion-star-metal-normal-v2.webp",
+      "bytes": 120574,
+      "sha256": "2768e45faac7107434fad5037c43bdeb72aa6cf8efa97d05debb0b479fde9bb6",
+      "width": 248,
+      "height": 248,
+      "role": "derived tangent-space normal detail for Aetherion star-metal",
+      "actorPayload": true
+    },
+    {
+      "id": "aetherion-star-metal-roughness-v2",
+      "file": "materials/aetherion-star-metal-roughness-v2.webp",
+      "bytes": 21500,
+      "sha256": "b9b087d443d79a5a38c393adbeb63543cada4395500439a3db503ab39e55a214",
+      "width": 248,
+      "height": 248,
+      "role": "derived bounded roughness response for Aetherion star-metal",
+      "actorPayload": true
+    },
+    {
+      "id": "sovereign-moon-regalia-v3",
+      "file": "materials/sovereign-moon-regalia-v3.webp",
+      "bytes": 62486,
+      "sha256": "174669142a1ae3dda07b0a8615e43db62752b26589ac7e24fb6ce8fae0d118a7",
+      "width": 512,
+      "height": 512,
+      "role": "original pearl, rose-gold and lavender Sovereign regalia color material",
+      "actorPayload": false
+    },
+    {
+      "id": "sovereign-moon-regalia-normal-v1",
+      "file": "materials/sovereign-moon-regalia-normal-v1.webp",
+      "bytes": 141814,
+      "sha256": "f881decaec6b36a617585c61b9124cb581bb62a0df64dfe9191d6e9471cef96a",
+      "width": 248,
+      "height": 248,
+      "role": "derived tangent-space normal detail for Sovereign moon regalia",
+      "actorPayload": false
+    },
+    {
+      "id": "sovereign-moon-regalia-roughness-v1",
+      "file": "materials/sovereign-moon-regalia-roughness-v1.webp",
+      "bytes": 28312,
+      "sha256": "fb1d69b2e028e680d60f5a267b207ba30706efb6a39be516c35690613a6d22ea",
+      "width": 248,
+      "height": 248,
+      "role": "derived bounded roughness response for Sovereign moon regalia",
+      "actorPayload": false
+    },
+    {
+      "id": "celestial-vault-floor-v1",
+      "file": "materials/celestial-vault-floor-v1.webp",
+      "bytes": 235120,
+      "sha256": "a0d6c27371ffa37ecfb0cb685fed9faf0e0db3d1680eedcc4e25e1c616681a51",
+      "width": 1024,
+      "height": 1024,
+      "role": "original Celestial Vault arena floor",
+      "actorPayload": false
+    },
+    {
+      "id": "celestial-vault-floor-sunlit-v2",
+      "file": "materials/celestial-vault-floor-sunlit-v2.webp",
+      "bytes": 230974,
+      "sha256": "0320c966e4be8c4cf9705814a6bf468c690dfe68c38f0fe155c348027fb187c5",
+      "width": 1024,
+      "height": 1024,
+      "role": "original sunlit Celestial Vault arena floor",
+      "actorPayload": false
+    },
+    {
+      "id": "skyreach-frontier-daybreak-v3",
+      "file": "materials/skyreach-frontier-daybreak-v3.webp",
+      "bytes": 276466,
+      "sha256": "492b4ea8ca11375d26421cd9408fed38f89f5c7b21abc8d46eaf1c1ab873e24d",
+      "width": 1600,
+      "height": 900,
+      "role": "original bright Skyreach Frontier world panorama",
+      "actorPayload": false
+    },
+    {
+      "id": "skyreach-frontier-floor-v3",
+      "file": "materials/skyreach-frontier-floor-v3.webp",
+      "bytes": 278264,
+      "sha256": "e44a0d3e8ffbedea68a0e68b8a041736196618773e95a2941c45924189ae590c",
+      "width": 1024,
+      "height": 1024,
+      "role": "original garden-stone Skyreach Frontier combat floor",
+      "actorPayload": false
+    },
+    {
+      "id": "celestial-seal-v4",
+      "file": "materials/celestial-seal-v4.webp",
+      "bytes": 90466,
+      "sha256": "d25f1191d6004c227cc74429f121f0181220107dfd727b176f81fb2e354337de",
+      "width": 512,
+      "height": 512,
+      "role": "original additive celestial cast and impact seal",
+      "actorPayload": false
+    },
+    {
+      "id": "combat-vfx-atlas-v1",
+      "file": "materials/combat-vfx-atlas-v1.webp",
+      "bytes": 564412,
+      "sha256": "13ce3cdc6c0e3a6a07b7e0c3f5c292c856e61fd22ec5bb3877bfed7ba879f10e",
+      "width": 1024,
+      "height": 1024,
+      "role": "original nine-cell alpha atlas for player skills, impacts and phase pulse",
+      "actorPayload": false
+    }
+  ]
+}
