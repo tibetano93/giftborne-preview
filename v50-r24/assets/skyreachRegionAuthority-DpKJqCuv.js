@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-QTnfLwEv.js";import{i as t}from"./skyreachRegionGeometry-D0ASF2qr.js";import{t as n}from"./regionGeometryAuthority-DYWLoG8i.js";var r=e({SKYREACH_REGION_AUTHORITY:()=>i}),i=n(t);export{r as n,i as t};
