@@ -1,1 +1,0 @@
-var e=e=>Object.freeze({...e,bounds:Object.freeze({...e.bounds}),spawn:Object.freeze({...e.spawn,position:Object.freeze({...e.spawn.position})}),collision:Object.freeze(e.collision.map(e=>Object.freeze({...e}))),placements:Object.freeze(e.placements.map(e=>Object.freeze({...e,position:Object.freeze({...e.position})})))});export{e as t};

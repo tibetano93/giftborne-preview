@@ -1,1 +1,0 @@
-import{n as e,r as t,t as n}from"./regionAuthority-BEJ_3k1z.js";var r=r=>t(r.regionId,r.collision,r.placements.map(t=>t.kind===`landmark`?e(r.regionId,t.interactionRadiusCm,t.placementId,t.targetId):n(r.regionId,{placementId:t.placementId,targetId:t.targetId,kind:t.kind,position:t.position,radiusCm:t.interactionRadiusCm})));export{r as t};

@@ -1,1 +1,0 @@
-var e=({buildEnabled:e=!0,development:t=!1,search:n=typeof window>`u`?``:window.location?.search??``}={})=>e||t&&new URLSearchParams(n).get(`worldEngine`)===`playcanvas`;export{e as t};

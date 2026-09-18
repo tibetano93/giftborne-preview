@@ -1,1 +1,0 @@
-var e=e=>Object.freeze({renderFps:e===`balanced`?60:30,pixelRatioCap:e===`high`?1.5:e===`low`?.75:1.25});export{e as t};
