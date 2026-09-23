@@ -1,0 +1,1 @@
+var e=[`mb-int-seal-socket-sky`,`mb-int-seal-socket-ember`,`mb-int-seal-socket-moon`];function t(t){let n=t?.questStates[`mb-m05-before-the-vault`];return n?.status===`completed`||n?.status===`turned-in`?7:n?.status!==`active`||n.objectiveIndex!==1?0:e.reduce((e,t,r)=>n.matchedTargetIds.includes(t)?e|1<<r:e,0)}export{t as n,e as t};

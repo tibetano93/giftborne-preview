@@ -1,0 +1,1 @@
+var e=[`mb-int-path-lantern-01`,`mb-int-path-lantern-02`,`mb-int-path-lantern-03`,`mb-int-path-lantern-04`];function t(t){let n=t?.questStates[`mb-m01-lanterns-in-the-mist`];return n?.status===`completed`||n?.status===`turned-in`?15:n?.status!==`active`||n.objectiveIndex!==1?0:e.reduce((e,t,r)=>n.matchedTargetIds.includes(t)?e|1<<r:e,0)}export{t as n,e as t};
