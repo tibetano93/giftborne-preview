@@ -1,0 +1,1 @@
+var e=[`ew-int-aether-clamp-01`,`ew-int-aether-clamp-02`,`ew-int-aether-clamp-03`,`ew-int-aether-clamp-04`];function t(t){let n=t?.questStates[`ew-m03-break-the-bindings`];return n?.status===`completed`||n?.status===`turned-in`?15:n?.status!==`active`||n.objectiveIndex!==0?0:e.reduce((e,t,r)=>n.matchedTargetIds.includes(t)?e|1<<r:e,0)}export{t as n,e as t};

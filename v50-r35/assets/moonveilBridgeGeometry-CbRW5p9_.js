@@ -1,0 +1,1 @@
+var e=[{minXCm:19190,minYCm:14790,maxXCm:21810,maxYCm:15500},{minXCm:19190,minYCm:16900,maxXCm:21810,maxYCm:17810}];export{e as t};

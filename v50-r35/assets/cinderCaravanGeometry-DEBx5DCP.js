@@ -1,0 +1,1 @@
+var e=[{xCm:15e3,yCm:1e4},{xCm:16800,yCm:10600},{xCm:18600,yCm:9800},{xCm:20400,yCm:10400},{xCm:22e3,yCm:9700}];export{e as t};

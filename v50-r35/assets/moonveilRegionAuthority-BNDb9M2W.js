@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-QTnfLwEv.js";import{n as t}from"./moonveilRegionGeometry-CjIx_jym.js";import{t as n}from"./regionGeometryAuthority-CA7JfahX.js";var r=e({MOONVEIL_REGION_AUTHORITY:()=>i}),i=n(t);export{r as n,i as t};

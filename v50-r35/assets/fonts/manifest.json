@@ -1,0 +1,28 @@
+{
+  "family": "Cormorant Garamond",
+  "version": "v21",
+  "license": "OFL-1.1",
+  "source": "https://github.com/google/fonts/tree/main/ofl/cormorantgaramond",
+  "fonts": [
+    {
+      "id": "cormorant-garamond-latin-v21",
+      "subset": "latin",
+      "file": "cormorant-garamond-latin-v21.woff2",
+      "bytes": 37640,
+      "sha256": "d80df8ff5aecd299a61549f9e29ab1ed0b9b05f4ea71d50fe978e07d5240b235"
+    },
+    {
+      "id": "cormorant-garamond-cyrillic-v21",
+      "subset": "cyrillic",
+      "file": "cormorant-garamond-cyrillic-v21.woff2",
+      "bytes": 21168,
+      "sha256": "017fab69b4be8ffc08ca312823327989ade6dc3d948f0afa125e12ec2e5e7ca1"
+    }
+  ],
+  "licenseFile": {
+    "id": "cormorant-garamond-ofl-1.1",
+    "file": "OFL-cormorant-garamond.txt",
+    "bytes": 4386,
+    "sha256": "6f5a41d57400577a50aae88475b11f292f3d7de78ee7d5113c69577331d8ad31"
+  }
+}
