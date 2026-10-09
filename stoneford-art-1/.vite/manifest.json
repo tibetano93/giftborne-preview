@@ -1,0 +1,350 @@
+{
+  "_combatQuality-hj8qGkTn.js": {
+    "file": "assets/combatQuality-hj8qGkTn.js",
+    "name": "combatQuality"
+  },
+  "_dist-C-ZNjT4P.js": {
+    "file": "assets/dist-C-ZNjT4P.js",
+    "name": "dist",
+    "imports": [
+      "_dist-DOft84xf.js"
+    ]
+  },
+  "_dist-DOft84xf.js": {
+    "file": "assets/dist-DOft84xf.js",
+    "name": "dist"
+  },
+  "_entity-BcCrbfZz.js": {
+    "file": "assets/entity-BcCrbfZz.js",
+    "name": "entity",
+    "imports": [
+      "_env-lighting-BauSjaK_.js"
+    ]
+  },
+  "_env-lighting-BauSjaK_.js": {
+    "file": "assets/env-lighting-BauSjaK_.js",
+    "name": "env-lighting"
+  },
+  "_geometry-utils-C_cvllXz.js": {
+    "file": "assets/geometry-utils-C_cvllXz.js",
+    "name": "geometry-utils",
+    "imports": [
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js"
+    ]
+  },
+  "_mesh-instance-DGtveu5x.js": {
+    "file": "assets/mesh-instance-DGtveu5x.js",
+    "name": "mesh-instance",
+    "imports": [
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js"
+    ]
+  },
+  "_moonveilRegionGeometry-Dg3E4-Yd.js": {
+    "file": "assets/moonveilRegionGeometry-Dg3E4-Yd.js",
+    "name": "moonveilRegionGeometry",
+    "imports": [
+      "_regionGeometry-C-DRJMez.js",
+      "stoneford.html"
+    ]
+  },
+  "_moonveilRegionModule-D6ppfjjC.js": {
+    "file": "assets/moonveilRegionModule-D6ppfjjC.js",
+    "name": "moonveilRegionModule",
+    "imports": [
+      "_dist-C-ZNjT4P.js",
+      "_worldActorModelAuthority-eiNVjCiT.js",
+      "_worldClient-CsRBXU3D.js",
+      "_worldMapNavmeshProjection-IRcpidYT.js",
+      "stoneford.html",
+      "_worldRegionClient-DbB3waVD.js",
+      "_moonveilRegionGeometry-Dg3E4-Yd.js"
+    ]
+  },
+  "_regionGeometry-C-DRJMez.js": {
+    "file": "assets/regionGeometry-C-DRJMez.js",
+    "name": "regionGeometry"
+  },
+  "_skyreachPlayCanvasGateCutaway-Dzk1rYPs.js": {
+    "file": "assets/skyreachPlayCanvasGateCutaway-Dzk1rYPs.js",
+    "name": "skyreachPlayCanvasGateCutaway",
+    "imports": [
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js"
+    ]
+  },
+  "_skyreachTerrainStrata-BFd4TgFV.js": {
+    "file": "assets/skyreachTerrainStrata-BFd4TgFV.js",
+    "name": "skyreachTerrainStrata",
+    "imports": [
+      "_worldActorModelAuthority-eiNVjCiT.js",
+      "stoneford.html"
+    ]
+  },
+  "_worldActorModelAuthority-eiNVjCiT.js": {
+    "file": "assets/worldActorModelAuthority-eiNVjCiT.js",
+    "name": "worldActorModelAuthority",
+    "imports": [
+      "_dist-DOft84xf.js",
+      "_worldClient-CsRBXU3D.js",
+      "_regionGeometry-C-DRJMez.js",
+      "_worldMapNavmeshProjection-IRcpidYT.js"
+    ]
+  },
+  "_worldClient-CsRBXU3D.js": {
+    "file": "assets/worldClient-CsRBXU3D.js",
+    "name": "worldClient"
+  },
+  "_worldMapNavmeshProjection-IRcpidYT.js": {
+    "file": "assets/worldMapNavmeshProjection-IRcpidYT.js",
+    "name": "worldMapNavmeshProjection",
+    "imports": [
+      "_worldClient-CsRBXU3D.js"
+    ]
+  },
+  "_worldMapRoute-CrUgeqO1.js": {
+    "file": "assets/worldMapRoute-CrUgeqO1.js",
+    "name": "worldMapRoute",
+    "imports": [
+      "_worldMapNavmeshProjection-IRcpidYT.js"
+    ]
+  },
+  "_worldRegionClient-DbB3waVD.js": {
+    "file": "assets/worldRegionClient-DbB3waVD.js",
+    "name": "worldRegionClient",
+    "imports": [
+      "_dist-C-ZNjT4P.js",
+      "_worldActorModelAuthority-eiNVjCiT.js",
+      "_worldClient-CsRBXU3D.js",
+      "stoneford.html"
+    ],
+    "dynamicImports": [
+      "src/world/skyreachRegionModule.ts",
+      "src/world/emberglassRegionModule.ts",
+      "_moonveilRegionModule-D6ppfjjC.js"
+    ]
+  },
+  "_worldSceneProjection3d-ZMGioNS4.js": {
+    "file": "assets/worldSceneProjection3d-ZMGioNS4.js",
+    "name": "worldSceneProjection3d"
+  },
+  "src/world/emberglassPlayCanvasEnvironment.ts": {
+    "file": "assets/emberglassPlayCanvasEnvironment-2m2q9nsi.js",
+    "name": "emberglassPlayCanvasEnvironment",
+    "src": "src/world/emberglassPlayCanvasEnvironment.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worldActorModelAuthority-eiNVjCiT.js",
+      "_worldClient-CsRBXU3D.js",
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js",
+      "_mesh-instance-DGtveu5x.js",
+      "_skyreachPlayCanvasGateCutaway-Dzk1rYPs.js",
+      "src/world/emberglassRegionModule.ts",
+      "src/world/forgePlayCanvasStage.ts"
+    ]
+  },
+  "src/world/emberglassRegionModule.ts": {
+    "file": "assets/emberglassRegionModule-BceTnWrg.js",
+    "name": "emberglassRegionModule",
+    "src": "src/world/emberglassRegionModule.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dist-C-ZNjT4P.js",
+      "_worldActorModelAuthority-eiNVjCiT.js",
+      "_worldClient-CsRBXU3D.js",
+      "_worldMapNavmeshProjection-IRcpidYT.js",
+      "_worldRegionClient-DbB3waVD.js"
+    ]
+  },
+  "src/world/forgePlayCanvasStage.ts": {
+    "file": "assets/forgePlayCanvasStage-D4GaNQpc.js",
+    "name": "forgePlayCanvasStage",
+    "src": "src/world/forgePlayCanvasStage.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dist-C-ZNjT4P.js",
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js"
+    ]
+  },
+  "src/world/moonveilPlayCanvasArchitecture.ts": {
+    "file": "assets/moonveilPlayCanvasArchitecture-CBZnKcp6.js",
+    "name": "moonveilPlayCanvasArchitecture",
+    "src": "src/world/moonveilPlayCanvasArchitecture.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "stoneford.html",
+      "_entity-BcCrbfZz.js",
+      "_skyreachPlayCanvasGateCutaway-Dzk1rYPs.js",
+      "_moonveilRegionGeometry-Dg3E4-Yd.js",
+      "_moonveilRegionModule-D6ppfjjC.js"
+    ]
+  },
+  "src/world/moonveilPlayCanvasEnvironment.ts": {
+    "file": "assets/moonveilPlayCanvasEnvironment-p_7_PylN.js",
+    "name": "moonveilPlayCanvasEnvironment",
+    "src": "src/world/moonveilPlayCanvasEnvironment.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "stoneford.html",
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js",
+      "_mesh-instance-DGtveu5x.js",
+      "_moonveilRegionGeometry-Dg3E4-Yd.js",
+      "_moonveilRegionModule-D6ppfjjC.js",
+      "src/world/moonveilPlayCanvasArchitecture.ts"
+    ]
+  },
+  "src/world/moonveilPlayCanvasLanterns.ts": {
+    "file": "assets/moonveilPlayCanvasLanterns-TopXAGzq.js",
+    "name": "moonveilPlayCanvasLanterns",
+    "src": "src/world/moonveilPlayCanvasLanterns.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js",
+      "_mesh-instance-DGtveu5x.js",
+      "_geometry-utils-C_cvllXz.js",
+      "_moonveilRegionGeometry-Dg3E4-Yd.js"
+    ]
+  },
+  "src/world/moonveilPlayCanvasLedger.ts": {
+    "file": "assets/moonveilPlayCanvasLedger-B22Lqe_3.js",
+    "name": "moonveilPlayCanvasLedger",
+    "src": "src/world/moonveilPlayCanvasLedger.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_entity-BcCrbfZz.js",
+      "_mesh-instance-DGtveu5x.js",
+      "_geometry-utils-C_cvllXz.js",
+      "_moonveilRegionGeometry-Dg3E4-Yd.js"
+    ]
+  },
+  "src/world/moonveilPlayCanvasSeals.ts": {
+    "file": "assets/moonveilPlayCanvasSeals-wlomcNhR.js",
+    "name": "moonveilPlayCanvasSeals",
+    "src": "src/world/moonveilPlayCanvasSeals.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js",
+      "_mesh-instance-DGtveu5x.js",
+      "_moonveilRegionGeometry-Dg3E4-Yd.js"
+    ]
+  },
+  "src/world/skyreachPopulation.ts": {
+    "file": "assets/skyreachPopulation-9KVjfDLo.js",
+    "name": "skyreachPopulation",
+    "src": "src/world/skyreachPopulation.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worldClient-CsRBXU3D.js",
+      "stoneford.html",
+      "_worldMapRoute-CrUgeqO1.js"
+    ]
+  },
+  "src/world/skyreachRegionModule.ts": {
+    "file": "assets/skyreachRegionModule-DG6GjBmw.js",
+    "name": "skyreachRegionModule",
+    "src": "src/world/skyreachRegionModule.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "stoneford.html",
+      "_worldRegionClient-DbB3waVD.js"
+    ]
+  },
+  "src/world/stonefordPlayCanvasReference.ts": {
+    "file": "assets/stonefordPlayCanvasReference-frZn5oxU.js",
+    "name": "stonefordPlayCanvasReference",
+    "src": "src/world/stonefordPlayCanvasReference.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "stoneford.html",
+      "_env-lighting-BauSjaK_.js"
+    ]
+  },
+  "src/world/worldRegionHybrid3d.ts": {
+    "file": "assets/worldRegionHybrid3d-CZc-1lyx.js",
+    "name": "worldRegionHybrid3d",
+    "src": "src/world/worldRegionHybrid3d.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "stoneford.html",
+      "_worldSceneProjection3d-ZMGioNS4.js",
+      "_combatQuality-hj8qGkTn.js"
+    ]
+  },
+  "src/world/worldScene3d.ts": {
+    "file": "assets/worldScene3d-B_52xWoQ.js",
+    "name": "worldScene3d",
+    "src": "src/world/worldScene3d.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dist-DOft84xf.js",
+      "_dist-C-ZNjT4P.js",
+      "_worldActorModelAuthority-eiNVjCiT.js",
+      "_worldClient-CsRBXU3D.js",
+      "stoneford.html",
+      "_worldSceneProjection3d-ZMGioNS4.js",
+      "_combatQuality-hj8qGkTn.js",
+      "_skyreachTerrainStrata-BFd4TgFV.js"
+    ]
+  },
+  "src/world/worldScenePlayCanvas.ts": {
+    "file": "assets/worldScenePlayCanvas-Cp2Pe1N3.js",
+    "name": "worldScenePlayCanvas",
+    "src": "src/world/worldScenePlayCanvas.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dist-DOft84xf.js",
+      "_dist-C-ZNjT4P.js",
+      "_worldActorModelAuthority-eiNVjCiT.js",
+      "_worldClient-CsRBXU3D.js",
+      "stoneford.html",
+      "_entity-BcCrbfZz.js",
+      "_env-lighting-BauSjaK_.js",
+      "_mesh-instance-DGtveu5x.js",
+      "_geometry-utils-C_cvllXz.js",
+      "_skyreachPlayCanvasGateCutaway-Dzk1rYPs.js",
+      "_worldMapRoute-CrUgeqO1.js",
+      "src/world/skyreachRegionModule.ts",
+      "_combatQuality-hj8qGkTn.js",
+      "_skyreachTerrainStrata-BFd4TgFV.js"
+    ],
+    "dynamicImports": [
+      "src/world/stonefordPlayCanvasReference.ts",
+      "src/world/moonveilPlayCanvasEnvironment.ts",
+      "src/world/moonveilPlayCanvasArchitecture.ts",
+      "src/world/moonveilPlayCanvasSeals.ts",
+      "src/world/moonveilPlayCanvasLanterns.ts",
+      "src/world/moonveilPlayCanvasLedger.ts",
+      "src/world/emberglassPlayCanvasEnvironment.ts",
+      "src/world/forgePlayCanvasStage.ts"
+    ]
+  },
+  "stoneford.html": {
+    "file": "assets/stoneford-hWFVkDCQ.js",
+    "name": "stoneford",
+    "src": "stoneford.html",
+    "isEntry": true,
+    "imports": [
+      "_dist-DOft84xf.js",
+      "_dist-C-ZNjT4P.js",
+      "_worldActorModelAuthority-eiNVjCiT.js",
+      "_worldClient-CsRBXU3D.js",
+      "_regionGeometry-C-DRJMez.js",
+      "_worldMapNavmeshProjection-IRcpidYT.js"
+    ],
+    "dynamicImports": [
+      "src/world/worldScenePlayCanvas.ts",
+      "src/world/worldScene3d.ts",
+      "src/world/skyreachPopulation.ts",
+      "src/world/worldRegionHybrid3d.ts"
+    ],
+    "css": [
+      "assets/stoneford-BdiLmMXN.css"
+    ]
+  }
+}
