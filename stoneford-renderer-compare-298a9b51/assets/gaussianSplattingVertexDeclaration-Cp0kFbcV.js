@@ -1,0 +1,1 @@
+export{gn as gaussianSplattingVertexDeclarationWGSL}from"./babylon-D9kjsCFN.js";

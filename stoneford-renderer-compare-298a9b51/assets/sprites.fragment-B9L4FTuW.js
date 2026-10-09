@@ -1,0 +1,1 @@
+export{On as spritesPixelShader}from"./babylon-D9kjsCFN.js";

@@ -1,0 +1,1 @@
+export{gi as boundingBoxRendererPixelShader}from"./babylon-D9kjsCFN.js";

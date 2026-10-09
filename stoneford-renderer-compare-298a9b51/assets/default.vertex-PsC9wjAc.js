@@ -1,0 +1,1 @@
+export{Jt as defaultVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

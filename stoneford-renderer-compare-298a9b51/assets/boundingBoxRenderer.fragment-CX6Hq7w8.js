@@ -1,0 +1,1 @@
+export{sn as boundingBoxRendererPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

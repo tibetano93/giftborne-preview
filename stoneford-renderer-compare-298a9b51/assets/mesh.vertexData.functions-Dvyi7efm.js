@@ -1,0 +1,1 @@
+export{Oi as OptimizeIndices}from"./babylon-D9kjsCFN.js";

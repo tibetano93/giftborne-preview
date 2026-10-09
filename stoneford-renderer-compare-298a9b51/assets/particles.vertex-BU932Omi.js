@@ -1,0 +1,1 @@
+export{Kn as particlesVertexShader}from"./babylon-D9kjsCFN.js";

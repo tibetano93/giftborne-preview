@@ -1,0 +1,1 @@
+export{Sn as volumetricLightScatteringPixelShader}from"./babylon-D9kjsCFN.js";

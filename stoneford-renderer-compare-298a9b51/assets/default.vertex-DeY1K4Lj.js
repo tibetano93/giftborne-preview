@@ -1,0 +1,1 @@
+export{ai as defaultVertexShader}from"./babylon-D9kjsCFN.js";

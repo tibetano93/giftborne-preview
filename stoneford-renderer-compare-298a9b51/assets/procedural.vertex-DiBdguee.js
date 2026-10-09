@@ -1,0 +1,1 @@
+export{A as proceduralVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

@@ -1,0 +1,1 @@
+export{V as openpbrPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

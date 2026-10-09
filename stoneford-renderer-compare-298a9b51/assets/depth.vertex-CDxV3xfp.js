@@ -1,0 +1,1 @@
+export{Kt as depthVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

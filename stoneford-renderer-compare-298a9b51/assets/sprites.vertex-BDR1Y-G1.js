@@ -1,0 +1,1 @@
+export{v as spritesVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

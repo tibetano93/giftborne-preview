@@ -1,0 +1,1 @@
+import{s as e}from"./webAudioBaseSubGraph-BfcCi3-h.js";var t=class extends e{constructor(e,t){super(e,t,3)}};export{t};

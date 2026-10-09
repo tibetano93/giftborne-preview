@@ -1,0 +1,1 @@
+export{oi as defaultPixelShader}from"./babylon-D9kjsCFN.js";

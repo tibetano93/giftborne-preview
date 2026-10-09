@@ -1,0 +1,1 @@
+export{di as colorVertexShader}from"./babylon-D9kjsCFN.js";

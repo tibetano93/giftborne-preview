@@ -1,0 +1,1 @@
+export{vn as gaussianSplattingWGSL}from"./babylon-D9kjsCFN.js";

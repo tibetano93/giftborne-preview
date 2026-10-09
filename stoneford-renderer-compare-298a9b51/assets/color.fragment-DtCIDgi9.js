@@ -1,0 +1,1 @@
+export{fi as colorPixelShader}from"./babylon-D9kjsCFN.js";

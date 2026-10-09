@@ -1,0 +1,1 @@
+export{pn as backgroundPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

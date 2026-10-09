@@ -1,0 +1,1 @@
+export{qn as particlesPixelShader}from"./babylon-D9kjsCFN.js";

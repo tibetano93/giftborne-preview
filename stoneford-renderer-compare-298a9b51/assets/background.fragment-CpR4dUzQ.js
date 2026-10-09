@@ -1,0 +1,1 @@
+export{Si as backgroundPixelShader}from"./babylon-D9kjsCFN.js";

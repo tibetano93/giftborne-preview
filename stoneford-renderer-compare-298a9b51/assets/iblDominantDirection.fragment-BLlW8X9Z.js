@@ -1,0 +1,1 @@
+export{ft as iblDominantDirectionPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

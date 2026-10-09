@@ -1,0 +1,1 @@
+export{X as lightProxyPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

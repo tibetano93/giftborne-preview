@@ -1,0 +1,1 @@
+export{Yt as defaultPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

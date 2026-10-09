@@ -1,0 +1,1 @@
+export{Ti as gaussianSplattingVertexDeclaration}from"./babylon-D9kjsCFN.js";

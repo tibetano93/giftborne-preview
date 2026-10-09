@@ -1,0 +1,1 @@
+export{Ui as PBRMaterial,Wi as RegisterPBRMaterial,Gi as RegisterPbrMaterial}from"./babylon-D9kjsCFN.js";

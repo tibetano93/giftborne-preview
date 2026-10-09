@@ -1,0 +1,1 @@
+export{Bn as proceduralVertexShader}from"./babylon-D9kjsCFN.js";

@@ -1,0 +1,1 @@
+export{ar as lightProxyVertexShader}from"./babylon-D9kjsCFN.js";

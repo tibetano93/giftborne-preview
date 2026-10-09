@@ -1,0 +1,1 @@
+export{bn as volumetricLightScatteringPassVertexShader}from"./babylon-D9kjsCFN.js";

@@ -1,0 +1,1 @@
+export{kt as geometryVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

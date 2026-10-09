@@ -1,0 +1,1 @@
+export{fn as backgroundVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

@@ -1,0 +1,1 @@
+export{Sr as iblDominantDirectionPixelShader}from"./babylon-D9kjsCFN.js";

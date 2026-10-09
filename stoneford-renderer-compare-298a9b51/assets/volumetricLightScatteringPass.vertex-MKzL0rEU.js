@@ -1,0 +1,1 @@
+export{d as volumetricLightScatteringPassVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

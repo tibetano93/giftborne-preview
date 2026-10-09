@@ -1,0 +1,1 @@
+export{D as rsmFullGlobalIlluminationPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

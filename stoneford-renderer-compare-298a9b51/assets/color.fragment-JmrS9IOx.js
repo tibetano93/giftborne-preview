@@ -1,0 +1,1 @@
+export{tn as colorPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

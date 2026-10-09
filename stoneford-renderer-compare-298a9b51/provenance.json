@@ -1,0 +1,79 @@
+{
+  "sourceCommit": "298a9b51f25f615e56fc7d8b7041c196717ff944",
+  "sourceTreeDirty": false,
+  "files": [
+    {
+      "source": "apps/miniapp/public/assets/3d/stoneford-reference-v1.glb",
+      "path": "public/assets/stoneford-reference-v1.glb",
+      "bytes": 2354016,
+      "sha256": "3f6b2f9d5d040215e7370963de119e4353a91a376555730dc9c38e9e10f70d0f"
+    },
+    {
+      "source": "apps/miniapp/public/assets/3d/stoneford-wayfarer-v2.glb",
+      "path": "public/assets/stoneford-wayfarer-v2.glb",
+      "bytes": 747040,
+      "sha256": "8bc31f2c34568cf6a65cd05029d1551f7efd63011f565493461e13da321ddd41"
+    },
+    {
+      "source": "apps/miniapp/public/assets/3d/stoneford-smith-v1.glb",
+      "path": "public/assets/stoneford-smith-v1.glb",
+      "bytes": 468368,
+      "sha256": "019fc12d72fa9a34bdce845cf83366363bafbb88d47e9fcaa410401eed1b8f1f"
+    },
+    {
+      "source": "apps/miniapp/public/assets/3d/stoneford-raider-v1.glb",
+      "path": "public/assets/stoneford-raider-v1.glb",
+      "bytes": 787676,
+      "sha256": "a8d557313bb5a9708564eb14a0b0710a3c3486675058bf7285a70addc74b4d8c"
+    },
+    {
+      "source": "apps/miniapp/public/assets/3d/stoneford-lantern-v1.glb",
+      "path": "public/assets/stoneford-lantern-v1.glb",
+      "bytes": 125504,
+      "sha256": "ebd9582adb50a22105a0732bf22eb406fa23db5f59909354eada9d8b44058f07"
+    },
+    {
+      "source": "packages/asset-pipeline/src/playcanvasGlb.mjs",
+      "path": "src/pinned/playcanvasGlb.mjs",
+      "bytes": 6921,
+      "sha256": "22c9bc9b5476b213144303cfaa6307a524cab77675aa68ff666b741857bcce0d"
+    },
+    {
+      "source": "apps/miniapp/src/world/stonefordReferenceLayout.json",
+      "path": "src/pinned/stonefordReferenceLayout.json",
+      "bytes": 2007,
+      "sha256": "82015bc696888697d303a798622f43aafec4f6f1e7bbffcf209b9f49632a075e"
+    },
+    {
+      "source": "apps/miniapp/src/world/stonefordPlayCanvasReference.ts",
+      "path": "reference/stonefordPlayCanvasReference.ts",
+      "bytes": 4494,
+      "sha256": "3434a5864b84f3ce65eab82367b7b50ff35080ae156c8f7948a288b7a106a99f"
+    },
+    {
+      "source": "apps/miniapp/src/world/stonefordSurface.ts",
+      "path": "reference/stonefordSurface.ts",
+      "bytes": 1104,
+      "sha256": "a941f3bdd080dc0ae571de740e22b3cbf34530ba7031449d00142695fbbe8f8a"
+    },
+    {
+      "source": "apps/miniapp/src/world/worldActorModelAuthority.ts",
+      "path": "reference/worldActorModelAuthority.ts",
+      "bytes": 64588,
+      "sha256": "8849462bec202ee15bb2c7b451718edce7982ec240f8cf0b85444906e4e3772f"
+    },
+    {
+      "source": "apps/miniapp/src/world/worldScenePlayCanvas.ts",
+      "path": "reference/worldScenePlayCanvas.ts",
+      "bytes": 161651,
+      "sha256": "e135df625d752c554aca46d549b1ddad00df17c4448e269faccd83764fa31423"
+    },
+    {
+      "source": "apps/miniapp/src/world/skyreachPlayCanvasGrounding.ts",
+      "path": "reference/skyreachPlayCanvasGrounding.ts",
+      "bytes": 6751,
+      "sha256": "7634d1dd681d0af8850beacfa3030bf90aeb66b938a5225a0ee7ea26e214abf2"
+    }
+  ],
+  "scope": "Isolated deterministic renderer comparison; not the game or physical acceptance"
+}

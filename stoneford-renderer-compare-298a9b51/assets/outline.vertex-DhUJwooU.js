@@ -1,0 +1,1 @@
+export{R as outlineVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

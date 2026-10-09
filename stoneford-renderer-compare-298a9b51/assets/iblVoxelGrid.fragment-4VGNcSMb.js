@@ -1,0 +1,1 @@
+export{hr as iblVoxelGridPixelShader}from"./babylon-D9kjsCFN.js";

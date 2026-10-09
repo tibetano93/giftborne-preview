@@ -1,0 +1,1 @@
+export{I as particlesVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

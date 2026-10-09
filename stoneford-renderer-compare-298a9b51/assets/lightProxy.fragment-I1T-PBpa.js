@@ -1,0 +1,1 @@
+export{or as lightProxyPixelShader}from"./babylon-D9kjsCFN.js";

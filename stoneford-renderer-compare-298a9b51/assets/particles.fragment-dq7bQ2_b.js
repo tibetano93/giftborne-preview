@@ -1,0 +1,1 @@
+export{L as particlesPixelShaderWGSL}from"./babylon-D9kjsCFN.js";

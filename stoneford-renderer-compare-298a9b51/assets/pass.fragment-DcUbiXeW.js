@@ -1,0 +1,1 @@
+export{Gn as passPixelShader}from"./babylon-D9kjsCFN.js";

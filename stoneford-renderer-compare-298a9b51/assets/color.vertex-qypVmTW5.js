@@ -1,0 +1,1 @@
+export{en as colorVertexShaderWGSL}from"./babylon-D9kjsCFN.js";

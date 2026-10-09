@@ -1,0 +1,1 @@
+export{hi as boundingBoxRendererVertexShader}from"./babylon-D9kjsCFN.js";

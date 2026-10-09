@@ -1,0 +1,1 @@
+export{_n as gaussianSplattingFragmentDeclarationWGSL}from"./babylon-D9kjsCFN.js";
